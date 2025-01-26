@@ -5,7 +5,7 @@
 [![Code tests & eval](https://github.com/d4rken-org/capod/actions/workflows/code-checks.yml/badge.svg)](https://github.com/d4rken/capod/actions/workflows/code-checks.yml)
 [![Crowdin](https://badges.crowdin.net/capod/localized.svg)](https://crowdin.com/project/capod)
 [![Github Downloads](https://img.shields.io/github/downloads/d4rken-org/capod/total.svg?label=GitHub%20Downloads&logo=github)](https://github.com/d4rken-org/capod/edit/main/README.md#download)
-[![Google Play Downloads](https://img.shields.io/endpoint?color=green&logo=google-play&logoColor=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Deu.darken.capod%26l%3DGoogle%2520Play%26m%3D%24totalinstalls)](https://github.com/d4rken-org/capod/edit/main/README.md#download)
+[![Google Play Downloads](https://img.shields.io/endpoint?color=green&logo=google-play&logoColor=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.screentime.airpod%26l%3DGoogle%2520Play%26m%3D%24totalinstalls)](https://github.com/d4rken-org/capod/edit/main/README.md#download)
 
 A companion app that adds support for AirPod specific features to Android:
 
@@ -50,16 +50,16 @@ Currently supported models:
 
 | Source                                                                       | Status                                                                                                                                                                                                                                                         |
 |------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Google Play](https://play.google.com/store/apps/details?id=eu.darken.capod) | [![](https://img.shields.io/endpoint?color=green&logo=google-play&logoColor=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Deu.darken.capod%26l%3DGoogle%2520Play%26m%3D%24version)](https://play.google.com/store/apps/details?id=eu.darken.capod) |
-| [Google Play Beta](https://play.google.com/apps/testing/eu.darken.capod)     | [![](https://img.shields.io/badge/Google%20Play-Beta-yellowgreen?style=flat&logo=google-play)](https://play.google.com/apps/testing/eu.darken.capod)                                                                                                           |                                                                                                                  |
+| [Google Play](https://play.google.com/store/apps/details?id=com.screentime.airpod) | [![](https://img.shields.io/endpoint?color=green&logo=google-play&logoColor=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.screentime.airpod%26l%3DGoogle%2520Play%26m%3D%24version)](https://play.google.com/store/apps/details?id=com.screentime.airpod) |
+| [Google Play Beta](https://play.google.com/apps/testing/com.screentime.airpod)     | [![](https://img.shields.io/badge/Google%20Play-Beta-yellowgreen?style=flat&logo=google-play)](https://play.google.com/apps/testing/com.screentime.airpod)                                                                                                           |                                                                                                                  |
 | [Github Releases](https://github.com/d4rken-org/capod/releases)              | [![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/d4rken-org/capod?include_prereleases&label=GitHub)](https://github.com/d4rken-org/capod/releases/latest)                                                     |
-| [F-Droid](https://f-droid.org/en/packages/eu.darken.capod/)                  | [![](https://img.shields.io/f-droid/v/eu.darken.capod)](https://f-droid.org/en/packages/eu.darken.capod/)                                                                                                                                                      |
-| [F-Droid (IzzyOnDroid)](https://apt.izzysoft.de/packages/eu.darken.capod/)   | [![](https://img.shields.io/endpoint?url=https://apt.izzysoft.de/fdroid/api/v1/shield/eu.darken.capod)](https://apt.izzysoft.de/packages/eu.darken.capod/)                                                                                                     |
+| [F-Droid](https://f-droid.org/en/packages/com.screentime.airpod/)                  | [![](https://img.shields.io/f-droid/v/com.screentime.airpod)](https://f-droid.org/en/packages/com.screentime.airpod/)                                                                                                                                                      |
+| [F-Droid (IzzyOnDroid)](https://apt.izzysoft.de/packages/com.screentime.airpod/)   | [![](https://img.shields.io/endpoint?url=https://apt.izzysoft.de/fdroid/api/v1/shield/com.screentime.airpod)](https://apt.izzysoft.de/packages/com.screentime.airpod/)                                                                                                     |
 
 
 ## Support the project
 
-* Buy the CAPod Pro In-App purchase on [Google Play](https://play.google.com/store/apps/details?id=eu.darken.capod)
+* Buy the CAPod Pro In-App purchase on [Google Play](https://play.google.com/store/apps/details?id=com.screentime.airpod)
 * [Sponsor development](https://github.com/sponsors/d4rken) on GitHub
 * Help translate CAPod [on Crowdin](https://crowdin.com/project/capod)
 

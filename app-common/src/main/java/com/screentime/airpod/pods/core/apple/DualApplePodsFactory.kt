@@ -1,0 +1,68 @@
+package com.screentime.airpod.pods.core.apple
+
+import com.screentime.airpod.common.debug.logging.Logging.Priority.DEBUG
+import com.screentime.airpod.common.debug.logging.log
+import com.screentime.airpod.pods.core.PodDevice
+
+abstract class DualApplePodsFactory(private val tag: String) : ApplePodsFactory<DualApplePods>(tag) {
+
+    fun DualApplePods.getCaseMatchMarkings() = SplitPodsMarkings(
+        leftPodBattery = batteryLeftPodPercent,
+        rightPodBattery = batteryRightPodPercent,
+        microPhoneLeft = isLeftPodMicrophone,
+        microPhoneRight = isRightPodMicrophone,
+        chargingLeft = isLeftPodCharging,
+        chargingRight = isRightPodCharging,
+        color = rawDeviceColor,
+        model = model
+    )
+
+    /**
+     * Split pods, one in case, one not.
+     */
+    data class SplitPodsMarkings(
+        val leftPodBattery: Float?,
+        val rightPodBattery: Float?,
+        val microPhoneLeft: Boolean,
+        val microPhoneRight: Boolean,
+        val chargingLeft: Boolean,
+        val chargingRight: Boolean,
+        val color: UByte,
+        val model: PodDevice.Model,
+    )
+
+    private fun Collection<KnownDevice>.findSplitPodsMatch(device: DualApplePods): Collection<KnownDevice> {
+        val target = device.getCaseMatchMarkings()
+
+        return filter { known ->
+            known.history
+                .filterIsInstance<DualApplePods>()
+                .any { it.getCaseMatchMarkings() == target }
+        }
+    }
+
+    override fun searchHistory(current: DualApplePods): KnownDevice? {
+        val basicResult = super.searchHistory(current)
+
+        val caseIgnored = knownDevices.values.findSplitPodsMatch(current)
+
+        log(tag, DEBUG) { "searchHistory2: Case ignored matches(${caseIgnored.size}): $caseIgnored" }
+
+        return when (caseIgnored.size) {
+            0 -> basicResult
+            1 -> caseIgnored.single()
+            else -> {
+                log(tag) { "searchHistory2:  More than one result when ignoring case markers." }
+                val oldest = caseIgnored.maxByOrNull { it.history.size } ?: return null
+
+                caseIgnored.minus(oldest).forEach {
+                    log(tag) { "searchHistory2: Removing outlier: $it" }
+                    knownDevices.remove(it.id)
+                }
+
+                oldest
+            }
+        }
+    }
+
+}

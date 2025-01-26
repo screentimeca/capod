@@ -3,24 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <Preference
         android:icon="@drawable/ic_baseline_settings_24"
-        app:fragment="eu.darken.capod.main.ui.settings.general.GeneralSettingsFragment"
+        app:fragment="com.screentime.airpod.main.ui.settings.general.GeneralSettingsFragment"
         app:summary="@string/settings_general_description"
         app:title="@string/settings_general_label" />
 
     <Preference
         android:icon="@drawable/ic_baseline_widgets_24"
-        app:fragment="eu.darken.capod.reaction.ui.ReactionSettingsFragment"
+        app:fragment="com.screentime.airpod.reaction.ui.ReactionSettingsFragment"
         app:summary="@string/settings_reaction_description"
         app:title="@string/settings_reaction_label" />
 
     <Preference
         android:icon="@drawable/ic_baseline_support_agent_24"
-        app:fragment="eu.darken.capod.main.ui.settings.support.SupportFragment"
+        app:fragment="com.screentime.airpod.main.ui.settings.support.SupportFragment"
         app:summary="@string/settings_support_description"
         app:title="@string/settings_support_label" />
 
     <PreferenceCategory android:title="@string/settings_category_other_label">
-        <eu.darken.capod.common.preferences.IntentPreference
+        <com.screentime.airpod.common.preferences.IntentPreference
             android:icon="@drawable/ic_changelog_onsurface"
             android:key="core.changelog"
             android:title="@string/changelog_label"
@@ -28,9 +28,9 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://github.com/d4rken-org/capod/releases/latest" />
-        </eu.darken.capod.common.preferences.IntentPreference>
+        </com.screentime.airpod.common.preferences.IntentPreference>
 
-        <eu.darken.capod.common.preferences.IntentPreference
+        <com.screentime.airpod.common.preferences.IntentPreference
             android:icon="@drawable/ic_baseline_translate_24"
             android:key="core.translation"
             android:title="@string/help_translate_label"
@@ -38,11 +38,11 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://crowdin.com/project/capod" />
-        </eu.darken.capod.common.preferences.IntentPreference>
+        </com.screentime.airpod.common.preferences.IntentPreference>
 
         <Preference
             android:icon="@drawable/ic_heart"
-            app:fragment="eu.darken.capod.main.ui.settings.acks.AcknowledgementsFragment"
+            app:fragment="com.screentime.airpod.main.ui.settings.acks.AcknowledgementsFragment"
             app:summary="@string/general_thank_you_label"
             app:title="@string/settings_acknowledgements_label" />
 

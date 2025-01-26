@@ -1,0 +1,61 @@
+package com.screentime.airpod.pods.core.apple.misc
+
+import android.content.Context
+import com.screentime.airpod.common.R
+import com.screentime.airpod.common.bluetooth.BleScanResult
+import com.screentime.airpod.common.debug.logging.logTag
+import com.screentime.airpod.pods.core.PodDevice
+import com.screentime.airpod.pods.core.apple.ApplePods
+import com.screentime.airpod.pods.core.apple.ApplePodsFactory
+import com.screentime.airpod.pods.core.apple.protocol.ProximityPairing
+import java.time.Instant
+import javax.inject.Inject
+
+data class UnknownAppleDevice(
+    override val identifier: PodDevice.Id = PodDevice.Id(),
+    override val seenLastAt: Instant = Instant.now(),
+    override val seenFirstAt: Instant = Instant.now(),
+    override val seenCounter: Int = 1,
+    override val scanResult: BleScanResult,
+    override val proximityMessage: ProximityPairing.Message,
+    override val reliability: Float = 0f,
+    private val rssiAverage: Int? = null,
+) : ApplePods {
+
+    override val model: PodDevice.Model = PodDevice.Model.UNKNOWN
+
+    override fun getLabel(context: Context): String = context.getString(R.string.pods_unknown_label)
+
+    override val rssi: Int
+        get() = rssiAverage ?: super.rssi
+
+    class Factory @Inject constructor() : ApplePodsFactory<ApplePods>(TAG) {
+        override fun isResponsible(message: ProximityPairing.Message): Boolean = true
+
+        override fun create(
+            scanResult: BleScanResult,
+            message: ProximityPairing.Message,
+        ): ApplePods {
+            var basic = UnknownAppleDevice(scanResult = scanResult, proximityMessage = message)
+            val result = searchHistory(basic)
+
+            if (result != null) basic = basic.copy(identifier = result.id)
+            updateHistory(basic)
+
+            if (result == null) return basic
+
+            return basic.copy(
+                identifier = result.id,
+                seenFirstAt = result.seenFirstAt,
+                seenLastAt = scanResult.receivedAt,
+                seenCounter = result.seenCounter,
+                reliability = result.reliability,
+                rssiAverage = result.rssiSmoothed(basic.rssi),
+            )
+        }
+    }
+
+    companion object {
+        private val TAG = logTag("PodDevice", "Apple", "Unknown")
+    }
+}

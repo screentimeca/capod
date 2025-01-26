@@ -26,7 +26,7 @@ platform :android do
   	supply(
         track: 'beta',
         rollout: '0.10',
-        package_name: 'eu.darken.capod',
+        package_name: 'com.screentime.airpod',
         skip_upload_changelogs: 'false',
         skip_upload_apk: 'true',
         skip_upload_images: 'true',
@@ -44,7 +44,7 @@ platform :android do
   	supply(
         track: 'wear:beta',
         rollout: '0.10',
-        package_name: 'eu.darken.capod',
+        package_name: 'com.screentime.airpod',
         skip_upload_changelogs: 'false',
         skip_upload_apk: 'true',
         skip_upload_images: 'true',
@@ -62,7 +62,7 @@ platform :android do
     supply(
         track: 'beta',
         rollout: '0.10',
-        package_name: 'eu.darken.capod',
+        package_name: 'com.screentime.airpod',
         skip_upload_changelogs: 'false',
         skip_upload_apk: 'true',
         skip_upload_images: 'true',
@@ -80,7 +80,7 @@ platform :android do
     supply(
         track: 'wear:beta',
         rollout: '0.10',
-        package_name: 'eu.darken.capod',
+        package_name: 'com.screentime.airpod',
         skip_upload_changelogs: 'false',
         skip_upload_apk: 'true',
         skip_upload_images: 'true',

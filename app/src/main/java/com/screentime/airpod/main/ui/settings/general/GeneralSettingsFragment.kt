@@ -1,0 +1,90 @@
+package com.screentime.airpod.main.ui.settings.general
+
+import android.os.Bundle
+import android.view.View
+import androidx.annotation.Keep
+import androidx.fragment.app.viewModels
+import androidx.preference.ListPreference
+import androidx.preference.Preference
+import dagger.hilt.android.AndroidEntryPoint
+import com.screentime.airpod.R
+import com.screentime.airpod.common.bluetooth.ScannerMode
+import com.screentime.airpod.common.preferences.PercentSliderPreference
+import com.screentime.airpod.common.uix.PreferenceFragment3
+import com.screentime.airpod.common.upgrade.UpgradeRepo
+import com.screentime.airpod.main.core.GeneralSettings
+import com.screentime.airpod.main.core.MonitorMode
+import com.screentime.airpod.pods.core.PodDevice
+import javax.inject.Inject
+
+@Keep
+@AndroidEntryPoint
+class GeneralSettingsFragment : PreferenceFragment3() {
+
+    override val vm: GeneralSettingsFragmentVM by viewModels()
+
+    @Inject lateinit var generalSettings: GeneralSettings
+    @Inject lateinit var upgradeRepo: UpgradeRepo
+
+    override val settings: GeneralSettings
+        get() = generalSettings
+
+    override val preferenceFile: Int = R.xml.preferences_general
+
+    private val monitorModePref by lazy { findPreference<ListPreference>(generalSettings.monitorMode.key)!! }
+    private val scanModePref by lazy { findPreference<ListPreference>(generalSettings.scannerMode.key)!! }
+    private val mainDeviceAddressPref by lazy { findPreference<Preference>(generalSettings.mainDeviceAddress.key)!! }
+    private val mainDeviceModelPref by lazy { findPreference<Preference>(generalSettings.mainDeviceModel.key)!! }
+
+    override fun onPreferencesCreated() {
+        monitorModePref.apply {
+            entries = MonitorMode.values().map { getString(it.labelRes) }.toTypedArray()
+            entryValues = MonitorMode.values().map { settings.monitorMode.rawWriter(it) as String }.toTypedArray()
+        }
+        scanModePref.apply {
+            entries = ScannerMode.values().map { getString(it.labelRes) }.toTypedArray()
+            entryValues = ScannerMode.values().map { settings.scannerMode.rawWriter(it) as String }.toTypedArray()
+        }
+        super.onPreferencesCreated()
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        vm.bondedDevices.observe2 { devices ->
+            mainDeviceAddressPref.setOnPreferenceClickListener {
+                val dialog = DeviceSelectionDialogFactory(requireContext()).create(
+                    devices,
+                    devices.firstOrNull { it.address == generalSettings.mainDeviceAddress.value }
+                ) { selected ->
+                    generalSettings.mainDeviceAddress.value = selected?.address
+                }
+                dialog.show()
+                true
+            }
+        }
+
+        vm.events.observe2 {
+            when (it) {
+                GeneralSettingsEvents.SelectDeviceAddressEvent -> mainDeviceAddressPref.performClick()
+            }
+        }
+
+        mainDeviceModelPref.setOnPreferenceClickListener {
+            val dialog = ModelSelectionDialogFactory(requireContext()).create(
+                PodDevice.Model.values().toList(),
+                generalSettings.mainDeviceModel.value
+            ) { selected ->
+                generalSettings.mainDeviceModel.value = selected
+            }
+            dialog.show()
+            true
+        }
+
+        super.onViewCreated(view, savedInstanceState)
+    }
+
+    override fun onDisplayPreferenceDialog(preference: Preference) {
+        if (PercentSliderPreference.onDisplayPreferenceDialog(this, preference)) return
+
+        super.onDisplayPreferenceDialog(preference)
+    }
+}

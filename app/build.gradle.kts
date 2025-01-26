@@ -20,7 +20,7 @@ android {
         versionCode = ProjectConfig.Version.code + 0 // Base app
         versionName = ProjectConfig.Version.name
 
-        testInstrumentationRunner = "eu.darken.capod.HiltTestRunner"
+        testInstrumentationRunner = "com.screentime.airpod.HiltTestRunner"
     }
 
     signingConfigs {

@@ -11,7 +11,7 @@ import java.time.Instant
 import java.util.*
 
 object ProjectConfig {
-    const val packageName = "eu.darken.capod"
+    const val packageName = "com.screentime.airpod"
 
     const val minSdk = 26
     const val compileSdk = 34

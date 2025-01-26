@@ -1,6 +1,6 @@
 package testhelpers.coroutine
 
-import eu.darken.capod.common.coroutine.DispatcherProvider
+import com.screentime.airpod.common.coroutine.DispatcherProvider
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlin.coroutines.CoroutineContext

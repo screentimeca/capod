@@ -1,0 +1,92 @@
+package com.screentime.airpod.wear.core
+
+import android.content.Context
+import androidx.hilt.work.HiltWorker
+import androidx.work.CoroutineWorker
+import androidx.work.WorkerParameters
+import dagger.assisted.Assisted
+import dagger.assisted.AssistedInject
+import com.screentime.airpod.common.coroutine.DispatcherProvider
+import com.screentime.airpod.common.debug.Bugs
+import com.screentime.airpod.common.debug.logging.Logging.Priority.VERBOSE
+import com.screentime.airpod.common.debug.logging.Logging.Priority.WARN
+import com.screentime.airpod.common.debug.logging.log
+import com.screentime.airpod.common.debug.logging.logTag
+import com.screentime.airpod.common.flow.setupCommonEventHandlers
+import com.screentime.airpod.main.core.PermissionTool
+import com.screentime.airpod.monitor.core.MonitorCoroutineScope
+import com.screentime.airpod.monitor.core.PodMonitor
+import kotlinx.coroutines.*
+import kotlinx.coroutines.flow.filterNotNull
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.launchIn
+import kotlinx.coroutines.flow.take
+
+
+@HiltWorker
+class MonitorWorker @AssistedInject constructor(
+    @Assisted private val context: Context,
+    @Assisted private val params: WorkerParameters,
+    private val dispatcherProvider: DispatcherProvider,
+    private val permissionTool: PermissionTool,
+    private val podMonitor: PodMonitor,
+) : CoroutineWorker(context, params) {
+
+    private val workerScope = MonitorCoroutineScope()
+
+    private var finishedWithError = false
+
+    init {
+        log(TAG, VERBOSE) { "init(): workerId=$id" }
+    }
+
+    override suspend fun doWork(): Result = try {
+        val start = System.currentTimeMillis()
+        log(TAG, VERBOSE) { "Executing $inputData now (runAttemptCount=$runAttemptCount)" }
+
+        doDoWork()
+
+        val duration = System.currentTimeMillis() - start
+
+        log(TAG, VERBOSE) { "Execution finished after ${duration}ms, $inputData" }
+
+        Result.success(inputData)
+    } catch (e: Throwable) {
+        if (e !is CancellationException) {
+            Bugs.report(tag = TAG, "Execution failed", exception = e)
+            finishedWithError = true
+            Result.failure(inputData)
+        } else {
+            Result.success()
+        }
+    } finally {
+        this.workerScope.cancel("Worker finished (withError?=$finishedWithError).")
+    }
+
+    private suspend fun doDoWork() = withContext(dispatcherProvider.IO) {
+        val permissionsMissingOnStart = permissionTool.missingPermissions.first()
+        if (permissionsMissingOnStart.isNotEmpty()) {
+            log(TAG, WARN) { "Aborting, missing permissions: $permissionsMissingOnStart" }
+            return@withContext
+        }
+
+        val monitorJob = podMonitor.mainDevice
+            .filterNotNull()
+            .take(3)
+            .setupCommonEventHandlers(TAG) { "monitorJob" }
+            .launchIn(workerScope)
+
+        try {
+            withTimeout(15 * 1000) {
+                monitorJob.join()
+            }
+            log(TAG) { "Monitor job quit after a few takes." }
+        } catch (e: TimeoutCancellationException) {
+            log(TAG) { "Monitor job quit after finding nothing." }
+        }
+    }
+
+    companion object {
+        val TAG = logTag("Monitor", "Worker")
+    }
+}

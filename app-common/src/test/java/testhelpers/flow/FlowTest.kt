@@ -1,8 +1,8 @@
 package testhelpers.flow
 
-import eu.darken.capod.common.debug.logging.Logging.Priority.WARN
-import eu.darken.capod.common.debug.logging.asLog
-import eu.darken.capod.common.debug.logging.log
+import com.screentime.airpod.common.debug.logging.Logging.Priority.WARN
+import com.screentime.airpod.common.debug.logging.asLog
+import com.screentime.airpod.common.debug.logging.log
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.flow.*

@@ -1,6 +1,6 @@
 package testhelpers.coroutine
 
-import eu.darken.capod.common.debug.logging.asLog
+import com.screentime.airpod.common.debug.logging.asLog
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.test.TestScope

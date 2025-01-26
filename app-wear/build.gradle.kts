@@ -20,7 +20,7 @@ android {
         versionCode = ProjectConfig.Version.code + 1 // Wear app
         versionName = ProjectConfig.Version.name
 
-        testInstrumentationRunner = "eu.darken.capod.HiltTestRunner"
+        testInstrumentationRunner = "com.screentime.airpod.HiltTestRunner"
 
         buildConfigField("String", "GITSHA", "\"${lastCommitHash()}\"")
         buildConfigField("String", "BUILDTIME", "\"${buildTime()}\"")

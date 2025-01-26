@@ -1,0 +1,95 @@
+package com.screentime.airpod.wear.ui.overview
+
+import android.content.Intent
+import android.net.Uri
+import android.os.Bundle
+import android.provider.Settings
+import android.view.View
+import androidx.activity.result.ActivityResultLauncher
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.fragment.app.viewModels
+import androidx.recyclerview.widget.LinearLayoutManager
+import dagger.hilt.android.AndroidEntryPoint
+import com.screentime.airpod.R
+import com.screentime.airpod.common.debug.logging.log
+import com.screentime.airpod.common.lists.differ.update
+import com.screentime.airpod.common.permissions.Permission
+import com.screentime.airpod.common.uix.Fragment3
+import com.screentime.airpod.common.viewbinding.viewBinding
+import com.screentime.airpod.databinding.MainFragmentBinding
+import javax.inject.Inject
+
+
+@AndroidEntryPoint
+class OverviewFragment : Fragment3(R.layout.main_fragment) {
+
+    override val vm: OverviewFragmentVM by viewModels()
+    override val ui: MainFragmentBinding by viewBinding()
+
+    @Inject
+    lateinit var overviewAdapter: OverviewAdapter
+
+    lateinit var permissionLauncher: ActivityResultLauncher<String>
+    var awaitingPermission = false
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        awaitingPermission = savedInstanceState?.getBoolean("awaitingPermission") ?: false
+
+        permissionLauncher = registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
+            log { "Request for $id was granted=$granted" }
+            vm.onPermissionResult(granted)
+        }
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        ui.list.apply {
+            layoutManager = LinearLayoutManager(context)
+            this.adapter = overviewAdapter
+        }
+
+        vm.listItems.observe2(ui) { overviewAdapter.update(it) }
+
+        vm.requestPermissionEvent.observe2(ui) {
+            when (it) {
+                Permission.IGNORE_BATTERY_OPTIMIZATION -> {
+                    awaitingPermission = true
+                    startActivity(
+                        Intent(
+                            Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,
+                            Uri.parse("package:${requireContext().packageName}")
+                        )
+                    )
+                }
+                Permission.SYSTEM_ALERT_WINDOW -> {
+                    awaitingPermission = true
+                    startActivity(
+                        Intent(
+                            Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                            Uri.parse("package:${requireContext().packageName}")
+                        )
+                    )
+                }
+                else -> {
+                    permissionLauncher.launch(it.permissionId)
+                }
+            }
+        }
+
+        super.onViewCreated(view, savedInstanceState)
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        outState.putBoolean("awaitingPermission", awaitingPermission)
+        super.onSaveInstanceState(outState)
+    }
+
+    override fun onResume() {
+        super.onResume()
+        if (awaitingPermission) {
+            awaitingPermission = false
+            log { "awaitingPermission=true" }
+            vm.onPermissionResult(true)
+        }
+    }
+}

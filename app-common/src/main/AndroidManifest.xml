@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="eu.darken.capod.common">
+    package="com.screentime.airpod.common">
 
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
 
@@ -28,7 +28,7 @@
             android:name=".bluetooth.BleScanResultReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="eu.darken.capod.bluetooth.DELIVER_SCAN_RESULTS" />
+                <action android:name="com.screentime.airpod.bluetooth.DELIVER_SCAN_RESULTS" />
             </intent-filter>
         </receiver>
     </application>
