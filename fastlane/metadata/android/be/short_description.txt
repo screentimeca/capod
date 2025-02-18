@@ -1,1 +1,1 @@
-CAPod — праграма-кампаньён для AirPods на Android.
+AirPods — праграма-кампаньён для AirPods на Android.

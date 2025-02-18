@@ -1,1 +1,1 @@
-CAPod adalah aplikasi pendamping untuk AirPods di Android.
+AirPods adalah aplikasi pendamping untuk AirPods di Android.

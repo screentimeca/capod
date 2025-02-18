@@ -19,7 +19,7 @@ A companion app that adds support for AirPod specific features to Android:
 * Support for Wear OS
 * Widgets
 
-CAPod is ad-free. Some additional features require an in-app purchase.
+AirPods is ad-free. Some additional features require an in-app purchase.
 
 Currently supported models:
 

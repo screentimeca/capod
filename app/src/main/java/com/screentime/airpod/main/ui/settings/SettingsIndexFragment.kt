@@ -25,29 +25,29 @@ class SettingsIndexFragment : PreferenceFragment2() {
     @Inject lateinit var webpageTool: WebpageTool
     @Inject lateinit var upgradeRepo: UpgradeRepo
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        setupMenu(R.menu.menu_settings_index) { item ->
-            when (item.itemId) {
-                R.id.menu_item_twitter -> {
-                    webpageTool.open("https://twitter.com/d4rken")
-                }
-            }
-            when (item.itemId) {
-                R.id.menu_item_sponsor -> {
-                    upgradeRepo.getSponsorUrl()?.let { webpageTool.open(it) }
-                }
-            }
-        }
-        toolbar.menu?.findItem(R.id.menu_item_sponsor)?.isVisible = !upgradeRepo.getSponsorUrl().isNullOrEmpty()
-        super.onViewCreated(view, savedInstanceState)
-    }
+//    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+//        setupMenu(R.menu.menu_settings_index) { item ->
+//            when (item.itemId) {
+//                R.id.menu_item_twitter -> {
+//                    webpageTool.open("https://twitter.com/d4rken")
+//                }
+//            }
+//            when (item.itemId) {
+//                R.id.menu_item_sponsor -> {
+//                    upgradeRepo.getSponsorUrl()?.let { webpageTool.open(it) }
+//                }
+//            }
+//        }
+//        toolbar.menu?.findItem(R.id.menu_item_sponsor)?.isVisible = !upgradeRepo.getSponsorUrl().isNullOrEmpty()
+//        super.onViewCreated(view, savedInstanceState)
+//    }
 
     override fun onPreferencesCreated() {
-        findPreference<Preference>("core.changelog")!!.summary = BuildConfigWrap.VERSION_DESCRIPTION_LONG
-        findPreference<Preference>("core.privacy")!!.setOnPreferenceClickListener {
-            webpageTool.open(PrivacyPolicy.URL)
-            true
-        }
+//        findPreference<Preference>("core.changelog")!!.summary = BuildConfigWrap.VERSION_DESCRIPTION_LONG
+//        findPreference<Preference>("core.privacy")!!.setOnPreferenceClickListener {
+//            webpageTool.open(PrivacyPolicy.URL)
+//            true
+//        }
 
         super.onPreferencesCreated()
     }

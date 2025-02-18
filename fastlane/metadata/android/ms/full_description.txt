@@ -1,4 +1,4 @@
-CAPod ialah aplikasi peneman untuk AirPods.
+AirPods ialah aplikasi peneman untuk AirPods.
 
 Ciri-ciri:
 
@@ -10,7 +10,7 @@ Ciri-ciri:
 * Sambungkan telefon dan AirPod secara automatik.
 * Pamerkan timbul apabila sarung dibuka.
 
-CAPod adalah bebas iklan. Sesetengah ciri memerlukan pembelian dalam aplikasi.
+AirPods adalah bebas iklan. Sesetengah ciri memerlukan pembelian dalam aplikasi.
 
 Kebanyakan peranti AirPods dan Beats yang popular disokong.
 Jika peranti anda serupa dengan AirPods tetapi belum disokong, kirimkan mel ringkas kepada saya.

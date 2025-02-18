@@ -41,7 +41,7 @@ abstract class PreferenceFragment2
         super.onDestroy()
     }
 
-    override fun getCallbackFragment(): Fragment? = parentFragment
+//    override fun getCallbackFragment(): Fragment? = parentFragment
 
     fun refreshPreferenceScreen() {
         if (preferenceScreen != null) preferenceScreen = null
@@ -57,14 +57,14 @@ abstract class PreferenceFragment2
 
     }
 
-    fun setupMenu(@MenuRes menuResId: Int, block: (MenuItem) -> Unit) {
-        toolbar.apply {
-            menu.clear()
-            inflateMenu(menuResId)
-            setOnMenuItemClickListener {
-                block(it)
-                true
-            }
-        }
-    }
+//    fun setupMenu(@MenuRes menuResId: Int, block: (MenuItem) -> Unit) {
+//        toolbar.apply {
+//            menu.clear()
+//            inflateMenu(menuResId)
+//            setOnMenuItemClickListener {
+//                block(it)
+//                true
+//            }
+//        }
+//    }
 }

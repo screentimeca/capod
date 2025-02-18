@@ -1,1 +1,1 @@
-CAPod je pomocná aplikácia pre AirPods na Androide.
+AirPods je pomocná aplikácia pre AirPods na Androide.

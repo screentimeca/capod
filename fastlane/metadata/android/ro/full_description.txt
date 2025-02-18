@@ -1,4 +1,4 @@
-CAPod este o aplicație însoțitoare pentru AirPods.
+AirPods este o aplicație însoțitoare pentru AirPods.
 
 Caracteristici:
 
@@ -10,7 +10,7 @@ Caracteristici:
 * Conectați automat telefonul și AirPod-urile.
 * Afișează pop-up când este deschisă carcasa.
 
-CAPod este fără reclame. Unele funcții necesită o achiziție în aplicație.
+AirPods este fără reclame. Unele funcții necesită o achiziție în aplicație.
 
 Cele mai populare dispozitive AirPods și Beats sunt acceptate.
 Dacă dispozitivul dvs. este similar cu AirPods, dar nu este încă acceptat, trimiteți-mi un scurt e-mail.

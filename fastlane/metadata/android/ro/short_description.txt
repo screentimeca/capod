@@ -1,1 +1,1 @@
-CAPod este o aplicație însoțitoare pentru AirPods pe Android.
+AirPods este o aplicație însoțitoare pentru AirPods pe Android.

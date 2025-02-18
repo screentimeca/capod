@@ -8,7 +8,7 @@
     <string name="general_check_action">Check</string>
     <string name="general_close_action">Close</string>
 
-    <string name="upgrade_capod_label">Upgrade CAPod</string>
+    <string name="upgrade_capod_label">Upgrade</string>
     <string name="upgrade_capod_description">Get additional features and support the developer.</string>
 
     <string name="settings_monitor_mode_label">Monitor mode</string>
@@ -112,24 +112,24 @@
 
     <string name="troubleshooter_title">Troubleshooter</string>
     <string name="troubleshooter_ble_intro_title">Bluetooth Low Energy Broadcasts</string>
-    <string name="troubleshooter_ble_intro_body1">AirPods (and similar headphones) broadcast status information using a BLE technology called \"advertisements\". Some phones don\'t implement this technology correctly. CAPod can attempt to fix this by trying different compatibility options until data is received. Start music playback on your headphones and place them close to your phone, then start the process.</string>
+    <string name="troubleshooter_ble_intro_body1">AirPods (and similar headphones) broadcast status information using a BLE technology called \"advertisements\". Some phones don\'t implement this technology correctly. AirPods can attempt to fix this by trying different compatibility options until data is received. Start music playback on your headphones and place them close to your phone, then start the process.</string>
     <string name="troubleshooter_ble_intro_start_action">Start troubleshooting</string>
     <string name="troubleshooter_ble_process_title">Troubleshoot in progress</string>
     <string name="troubleshooter_ble_process_subtile">Each step takes 5–10 seconds</string>
     <string name="troubleshooter_ble_result_success_title">Success</string>
-    <string name="troubleshooter_ble_result_success_body">BLE advertisement broadcasts are being received by CAPod.</string>
+    <string name="troubleshooter_ble_result_success_body">BLE advertisement broadcasts are being received by AirPods.</string>
     <string name="troubleshooter_ble_result_failure_title">Unsuccessful</string>
     <string name="troubleshooter_ble_result_failure_body">Troubleshooting failed. No combination of compatibility options helped.</string>
     <string name="troubleshooter_ble_result_failure_phone_body">Your phone didn\'t receive any BLE data at all. You can retry this test in a crowded area to see if data sources (other than your headphones) can be received. No data being received points towards an issue with your phone\'s operating system.</string>
-    <string name="troubleshooter_ble_result_failure_phone_headphones">Your phone received BLE data, but the data does not come from any supported device. Are your headphones powered on? Does CAPod support your headphone?</string>
+    <string name="troubleshooter_ble_result_failure_phone_headphones">Your phone received BLE data, but the data does not come from any supported device. Are your headphones powered on? Does AirPods support your headphone?</string>
     <string name="troubleshooter_ble_result_failure_action">Try again</string>
     <string name="troubleshoot_action">Troubleshoot</string>
 
 
     <string name="onboarding_body1">This app adds support for AirPod specific features to Android.</string>
     <string name="onboarding_body2">Not all Android devices fully support the extra AirPod features. Your operating system requires a correctly working Bluetooth-Low-Energy implementation.</string>
-    <string name="onboarding_body3">CAPod has no ads and does not collect your data.</string>
-    <string name="onboarding_body4">You can upgrade to CAPod Pro to gain extra features and support development.</string>
+    <string name="onboarding_body3">Airpod has no ads and does not collect your data.</string>
+    <string name="onboarding_body4">Welcome to scribe monthly member to gain extra features and support development.</string>
 
     <string name="general_continue_action">Continue</string>
 

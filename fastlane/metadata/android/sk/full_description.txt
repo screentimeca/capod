@@ -1,4 +1,4 @@
-CAPod je pomocná aplikácia pre AirPods.
+AirPods je pomocná aplikácia pre AirPods.
 
 Funkcie:
 
@@ -10,7 +10,7 @@ Funkcie:
 * Automatické pripojenie telefónu a AirPods.
 * Zobrazenie vyskakovacieho okna pri otvorení puzdra.
 
-CAPod je bez reklám. Niektoré funkcie vyžadujú nákup v aplikácii.
+AirPods je bez reklám. Niektoré funkcie vyžadujú nákup v aplikácii.
 
 Podporovaná je väčšina obľúbených zariadení AirPods a Beats.
 Ak je vaše zariadenie podobné s AirPods, ale ešte nie je podporované, pošlite mi krátky e-mail.

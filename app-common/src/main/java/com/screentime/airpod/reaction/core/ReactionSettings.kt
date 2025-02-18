@@ -17,23 +17,23 @@ class ReactionSettings @Inject constructor(
     @ApplicationContext private val context: Context,
     moshi: Moshi,
 ) : Settings() {
-
+    private val defaultValue = false
     override val preferences: SharedPreferences =
         context.getSharedPreferences("settings_reaction", Context.MODE_PRIVATE)
 
     val autoPause = preferences.createFlowPreference(
         "reaction.autopause.enabled",
-        false
+        defaultValue
     )
 
     val autoPlay = preferences.createFlowPreference(
         "reaction.autoplay.enabled",
-        false
+        defaultValue
     )
 
     val autoConnect = preferences.createFlowPreference(
         "reaction.autoconnect.enabled",
-        false
+        defaultValue
     )
 
     val autoConnectCondition = preferences.createFlowPreference(
@@ -44,17 +44,17 @@ class ReactionSettings @Inject constructor(
 
     val showPopUpOnCaseOpen = preferences.createFlowPreference(
         "reaction.popup.caseopen",
-        false
+        defaultValue
     )
 
     val showPopUpOnConnection = preferences.createFlowPreference(
         "reaction.popup.connected",
-        false
+        defaultValue
     )
 
     val onePodMode = preferences.createFlowPreference(
         "reaction.onepod.enabled",
-        false
+        defaultValue
     )
 
     override val preferenceDataStore: PreferenceDataStore = PreferenceStoreMapper(

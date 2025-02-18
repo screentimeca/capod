@@ -1,4 +1,4 @@
-CAPod on AirPodsite kasutamist hõlbustav rakendus.
+AirPods on AirPodsite kasutamist hõlbustav rakendus.
 
 Võimalused:
 
@@ -10,7 +10,7 @@ Võimalused:
 * telefon ja AirPodsid ühenduvad ise;
 * hüpikakna näitamine, kui kaas avatud.
 
-CAPodis pole reklaame. Osa võimalusi saab osta rakendusest.
+AirPodsis pole reklaame. Osa võimalusi saab osta rakendusest.
 
 Tuntuimad AirPodsid ja Beatsi seadmed on toetatud.
 AirPodsile sarnaneva seadme puhul kirjutage mulle lühike meil.
