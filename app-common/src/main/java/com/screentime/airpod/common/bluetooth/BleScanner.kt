@@ -115,7 +115,7 @@ class BleScanner @Inject constructor(
                 while (isActive) {
                     log(TAG, VERBOSE) { "Flushing scan results." }
                     // Can undercut the minimum setReportDelay(), e.g. 5000ms on a Pixel5@12
-                    adapter.bluetoothLeScanner.flushPendingScanResults(callback)
+                    adapter.bluetoothLeScanner?.flushPendingScanResults(callback)
                     when (scannerMode) {
                         ScannerMode.LOW_POWER -> break
                         ScannerMode.BALANCED -> delay(2000)

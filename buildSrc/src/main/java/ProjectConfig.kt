@@ -14,8 +14,8 @@ object ProjectConfig {
     const val packageName = "com.screentime.airpod"
 
     const val minSdk = 26
-    const val compileSdk = 34
-    const val targetSdk = 34
+    const val compileSdk = 37
+    const val targetSdk = 37
 
     object Version {
         val versionProperties = Properties().apply {

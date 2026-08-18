@@ -37,7 +37,7 @@ Currently supported models:
 * Power Beats 4
 * Beats Solo 3
 * Beats Studio 3
-* Beats X
+* Beats X[build.gradle.kts](app/build.gradle.kts)
 * Beats Flex
 * Beats Fit Pro
 * Fake AirPods 1. Generation 🎭
