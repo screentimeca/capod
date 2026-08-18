@@ -3,7 +3,6 @@ package com.screentime.airpod.main.ui.overview.cards.pods
 import android.graphics.Typeface
 import android.view.ViewGroup
 import androidx.core.view.isGone
-import androidx.core.view.isInvisible
 import com.screentime.airpod.R
 import com.screentime.airpod.common.lists.binding
 import com.screentime.airpod.databinding.OverviewPodsDualItemBinding
@@ -74,11 +73,11 @@ class DualPodsCardVH(parent: ViewGroup) :
         // Pods charging state
         device.apply {
             if (this is HasChargeDetectionDual) {
-                podLeftChargingIcon.isInvisible = !isLeftPodCharging
-                podLeftChargingLabel.isInvisible = !isLeftPodCharging
+                podLeftChargingIcon.isGone = !isLeftPodCharging
+                podLeftChargingLabel.isGone = !isLeftPodCharging
 
-                podRightChargingIcon.isInvisible = !isRightPodCharging
-                podRightChargingLabel.isInvisible = !isRightPodCharging
+                podRightChargingIcon.isGone = !isRightPodCharging
+                podRightChargingLabel.isGone = !isRightPodCharging
             } else {
                 podLeftChargingIcon.isGone = true
                 podLeftChargingLabel.isGone = true
@@ -91,11 +90,11 @@ class DualPodsCardVH(parent: ViewGroup) :
         // Microphone state
         device.apply {
             if (this is HasDualMicrophone) {
-                podLeftMicrophoneIcon.isInvisible = !isLeftPodMicrophone
-                podLeftMicrophoneLabel.isInvisible = !isLeftPodMicrophone
+                podLeftMicrophoneIcon.isGone = !isLeftPodMicrophone
+                podLeftMicrophoneLabel.isGone = !isLeftPodMicrophone
 
-                podRightMicrophoneIcon.isInvisible = !isRightPodMicrophone
-                podRightMicrophoneLabel.isInvisible = !isRightPodMicrophone
+                podRightMicrophoneIcon.isGone = !isRightPodMicrophone
+                podRightMicrophoneLabel.isGone = !isRightPodMicrophone
             } else {
                 podLeftMicrophoneIcon.isGone = true
                 podLeftMicrophoneLabel.isGone = true
@@ -108,11 +107,11 @@ class DualPodsCardVH(parent: ViewGroup) :
         // Pods wear state
         device.apply {
             if (this is HasEarDetectionDual) {
-                podLeftWearIcon.isInvisible = !isLeftPodInEar
-                podLeftWearLabel.isInvisible = !isLeftPodInEar
+                podLeftWearIcon.isGone = !isLeftPodInEar
+                podLeftWearLabel.isGone = !isLeftPodInEar
 
-                podRightWearIcon.isInvisible = !isRightPodInEar
-                podRightWearLabel.isInvisible = !isRightPodInEar
+                podRightWearIcon.isGone = !isRightPodInEar
+                podRightWearLabel.isGone = !isRightPodInEar
             } else {
                 podLeftWearIcon.isGone = true
                 podLeftWearLabel.isGone = true
@@ -130,8 +129,8 @@ class DualPodsCardVH(parent: ViewGroup) :
                 podCaseBatteryIcon.setImageResource(getBatteryDrawable(batteryCasePercent))
                 podCaseBatteryLabel.text = getBatteryLevelCase(context)
 
-                podCaseChargingIcon.isInvisible = !isCaseCharging
-                podCaseChargingLabel.isInvisible = !isCaseCharging
+                podCaseChargingIcon.isGone = !isCaseCharging
+                podCaseChargingLabel.isGone = !isCaseCharging
             } else {
                 podCaseBatteryIcon.isGone = true
                 podCaseBatteryLabel.isGone = true
@@ -151,8 +150,8 @@ class DualPodsCardVH(parent: ViewGroup) :
                 }
 
                 val hideInfo = !listOf(LidState.OPEN, LidState.CLOSED).contains(caseLidState)
-                podCaseLidIcon.isInvisible = hideInfo
-                podCaseLidLabel.isInvisible = hideInfo
+                podCaseLidIcon.isGone = hideInfo
+                podCaseLidLabel.isGone = hideInfo
             } else {
                 podCaseLidIcon.isGone = true
                 podCaseLidLabel.isGone = true

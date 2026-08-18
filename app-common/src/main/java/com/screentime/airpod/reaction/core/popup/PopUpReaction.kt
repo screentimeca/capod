@@ -18,6 +18,7 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.distinctUntilChangedBy
 import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.coroutines.flow.flatMapLatest
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.mapNotNull
 import kotlinx.coroutines.flow.merge
 import java.time.Duration
@@ -35,11 +36,14 @@ class PopUpReaction @Inject constructor(
 
     private val caseCoolDowns = mutableMapOf<PodDevice.Id, Instant>()
     private val lastDefinitiveLidByDevice = mutableMapOf<PodDevice.Id, DualApplePods.LidState>()
+    private val lastPacketAtByDevice = mutableMapOf<PodDevice.Id, Instant>()
 
     private fun monitorCase(): Flow<Event> = reactionSettings.showPopUpOnCaseOpen.flow
         .flatMapLatest { isEnabled ->
             if (isEnabled) {
-                podMonitor.mainDevice.distinctUntilChangedBy { it?.rawDataHex }
+                podMonitor.devices
+                    .map { devices -> newestMonitoredPods(devices) }
+                    .distinctUntilChangedBy { it?.rawDataHex }
             } else {
                 emptyFlow()
             }
@@ -64,11 +68,15 @@ class PopUpReaction @Inject constructor(
                 forgetDevice(previousPods.identifier)
             }
 
+            val now = Instant.now()
+            val sinceLastPacket = lastPacketAtByDevice[currentPods.identifier]?.let { Duration.between(it, now) }
+            lastPacketAtByDevice[currentPods.identifier] = now
+
             val liveLid = currentPods.liveLidState()
             log(TAG, VERBOSE) {
                 val prev = previousPods?.rawCaseLidState?.let { String.format("%02X", it.toByte()) }
                 val cur = currentPods.rawCaseLidState.let { String.format("%02X", it.toByte()) }
-                "previous=$prev (${previousPods?.liveLidState()}), current=$cur ($liveLid), cached=${currentPods.caseLidState}"
+                "previous=$prev (${previousPods?.liveLidState()}), current=$cur ($liveLid), cached=${currentPods.caseLidState}, gap=$sinceLastPacket"
             }
             log(TAG, VERBOSE) { "previous-id=${previousPods?.identifier}, current-id=${currentPods.identifier}" }
 
@@ -83,10 +91,11 @@ class PopUpReaction @Inject constructor(
                 DualApplePods.LidState.OPEN -> {
                     val last = lastDefinitiveLidByDevice[currentPods.identifier]
                     lastDefinitiveLidByDevice[currentPods.identifier] = liveLid
-                    if (last == DualApplePods.LidState.OPEN) {
+                    val isFreshSighting = sinceLastPacket == null || sinceLastPacket >= POPUP_REDISCOVER_GAP
+                    if (last == DualApplePods.LidState.OPEN && !isFreshSighting) {
                         null
                     } else {
-                        log(TAG) { "Case lid opened for monitored device (was $last)." }
+                        log(TAG) { "Case lid opened for monitored device (was $last, gap=$sinceLastPacket)." }
                         showCasePopUp(currentPods)
                     }
                 }
@@ -100,9 +109,19 @@ class PopUpReaction @Inject constructor(
             }
         }
 
+    private fun newestMonitoredPods(devices: List<PodDevice>): DualApplePods? {
+        val duals = devices.filterIsInstance<DualApplePods>()
+        val preferredModel = generalSettings.mainDeviceModel.value
+        return duals
+            .filter { preferredModel == PodDevice.Model.UNKNOWN || it.model == preferredModel }
+            .maxByOrNull { it.seenLastAt }
+            ?: duals.maxByOrNull { it.seenLastAt }
+    }
+
     private fun forgetDevice(id: PodDevice.Id) {
         lastDefinitiveLidByDevice.remove(id)
         caseCoolDowns.remove(id)
+        lastPacketAtByDevice.remove(id)
     }
 
     private fun DualApplePods.liveLidState(): DualApplePods.LidState {
@@ -119,7 +138,7 @@ class PopUpReaction @Inject constructor(
         val sinceLastPop = Duration.between(lastShown, now)
         log(TAG) { "Time since last case popup: $sinceLastPop" }
 
-        return if (sinceLastPop >= Duration.ofSeconds(10)) {
+        return if (sinceLastPop >= POPUP_COOLDOWN) {
             caseCoolDowns[current.identifier] = now
             Event.PopupShow(device = current)
         } else {
@@ -210,5 +229,7 @@ class PopUpReaction @Inject constructor(
 
     companion object {
         private val TAG = logTag("Reaction", "PopUp")
+        private val POPUP_COOLDOWN = Duration.ofSeconds(2)
+        private val POPUP_REDISCOVER_GAP = Duration.ofSeconds(2)
     }
 }

@@ -3,7 +3,6 @@ package com.screentime.airpod.main.ui.overview.cards.pods
 import android.graphics.Typeface
 import android.view.ViewGroup
 import androidx.core.view.isGone
-import androidx.core.view.isInvisible
 import com.screentime.airpod.R
 import com.screentime.airpod.common.lists.binding
 import com.screentime.airpod.databinding.OverviewPodsSingleItemBinding
@@ -42,8 +41,8 @@ class SinglePodsCardVH(parent: ViewGroup) :
         // Charge state
         device.apply {
             if (this is HasChargeDetection) {
-                chargingIcon.isInvisible = !isHeadsetBeingCharged
-                chargingLabel.isInvisible = !isHeadsetBeingCharged
+                chargingIcon.isGone = !isHeadsetBeingCharged
+                chargingLabel.isGone = !isHeadsetBeingCharged
             } else {
                 chargingIcon.isGone = true
                 chargingLabel.isGone = true
@@ -53,8 +52,8 @@ class SinglePodsCardVH(parent: ViewGroup) :
         // Has ear detection
         device.apply {
             if (this is HasEarDetection) {
-                wearIcon.isInvisible = !isBeingWorn
-                wearLabel.isInvisible = !isBeingWorn
+                wearIcon.isGone = !isBeingWorn
+                wearLabel.isGone = !isBeingWorn
             } else {
                 wearIcon.isGone = true
                 wearLabel.isGone = true

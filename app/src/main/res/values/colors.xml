@@ -60,4 +60,12 @@
     <color name="brand_primary">#3f7aff</color>
     <color name="brand_secondary">#ffd83c</color>
     <color name="brand_tertiary">#41eb8e</color>
+
+    <color name="overview_background">#F0F3F8</color>
+    <color name="overview_card">#FFFFFF</color>
+    <color name="overview_tile">#F4F6FB</color>
+    <color name="overview_hero">#DAE2FF</color>
+    <color name="overview_chip">#E8EEFF</color>
+    <color name="overview_chip_success">#D9F8E7</color>
+    <color name="overview_live">#1DB954</color>
 </resources>

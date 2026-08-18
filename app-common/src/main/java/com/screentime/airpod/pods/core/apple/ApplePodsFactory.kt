@@ -21,7 +21,6 @@ abstract class ApplePodsFactory<PodType : ApplePods>(private val tag: String) {
         val length: UByte,
         val device: UShort,
         val podBatteryData: Set<UShort>,
-        val caseBatteryData: UShort,
         val deviceColor: UByte,
     )
 
@@ -31,7 +30,6 @@ abstract class ApplePodsFactory<PodType : ApplePods>(private val tag: String) {
         device = (((data[1].toInt() and 255) shl 8) or (data[2].toInt() and 255)).toUShort(),
         // Make comparison order independent
         podBatteryData = setOf(data[4].upperNibble, data[4].lowerNibble),
-        caseBatteryData = data[5].lowerNibble,
         deviceColor = data[7]
     )
 
@@ -94,9 +92,9 @@ abstract class ApplePodsFactory<PodType : ApplePods>(private val tag: String) {
     }
 
     internal val knownDevices = mutableMapOf<PodDevice.Id, KnownDevice>()
+    private var stickyCaseBattery: Float? = null
 
-
-    fun KnownDevice.getLatestCaseBattery(): Float? = this.lastCaseBattery
+    fun KnownDevice.getLatestCaseBattery(): Float? = lastCaseBattery ?: stickyCaseBattery
 
     private fun Collection<ApplePods>.determineLatestCaseBattery(): Float? = this
         .filterIsInstance<HasCase>()
@@ -167,21 +165,25 @@ abstract class ApplePodsFactory<PodType : ApplePods>(private val tag: String) {
         knownDevices[device.identifier] = when {
             existing != null -> {
                 val history = existing.history.plus(device)
+                val lastCaseBattery = history.determineLatestCaseBattery() ?: existing.lastCaseBattery
+                lastCaseBattery?.let { stickyCaseBattery = it }
                 existing.copy(
                     seenCounter = existing.seenCounter + 1,
                     history = history,
-                    lastCaseBattery = history.determineLatestCaseBattery() ?: existing.lastCaseBattery
+                    lastCaseBattery = lastCaseBattery
                 )
             }
             else -> {
                 log(tag) { "searchHistory1: Creating new history for $device" }
                 val history = listOf(device)
+                val lastCaseBattery = history.determineLatestCaseBattery()
+                lastCaseBattery?.let { stickyCaseBattery = it }
                 KnownDevice(
                     id = device.identifier,
                     seenFirstAt = device.seenFirstAt,
                     seenCounter = 1,
                     history = history,
-                    lastCaseBattery = history.determineLatestCaseBattery()
+                    lastCaseBattery = lastCaseBattery
                 )
             }
         }

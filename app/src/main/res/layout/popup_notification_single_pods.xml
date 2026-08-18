@@ -3,77 +3,84 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="4dp">
 
     <ImageView
         android:id="@+id/headphones_icon"
-        style="@style/PodInfoItemIcon.Popup"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_overview_hero"
+        android:padding="22dp"
         android:src="@drawable/devic_earbuds_generic_both"
-        app:layout_constraintBottom_toBottomOf="@id/headphones_label"
-        app:layout_constraintEnd_toStartOf="@id/headphones_label"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/headphones_label" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/md_theme_light_onPrimaryContainer" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/headphones_label"
-        style="@style/TextAppearance.Material3.BodyLarge"
+        style="@style/TextAppearance.Material3.HeadlineSmall"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginHorizontal="8dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintEnd_toStartOf="@id/signal"
-        app:layout_constraintStart_toEndOf="@id/headphones_icon"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="12dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="2"
+        android:textColor="@color/md_theme_light_onSurface"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/headphones_icon"
         tools:text="AirPods Max" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/signal"
-        style="@style/TextAppearance.Material3.TitleSmall"
+        style="@style/TextAppearance.Material3.LabelSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableEnd="@drawable/ic_baseline_signal_cellular_alt_24"
-        android:gravity="center"
-        android:minWidth="44dp"
-        app:layout_constraintBottom_toBottomOf="@+id/headphones_label"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/headphones_label"
-        tools:text="-90%" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="73" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/headphones_container"
-        android:layout_width="wrap_content"
+        style="@style/OverviewPodTile"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/headphones_label">
 
         <ImageView
-            android:id="@id/headphones_battery_icon"
-            style="@style/PodInfoItemIcon.Popup"
+            android:id="@+id/headphones_battery_icon"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginEnd="8dp"
             android:src="@drawable/ic_baseline_battery_unknown_24"
             app:layout_constraintBottom_toBottomOf="@id/headphones_battery_label"
             app:layout_constraintEnd_toStartOf="@id/headphones_battery_label"
+            app:layout_constraintHorizontal_chainStyle="packed"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@id/headphones_battery_label" />
+            app:layout_constraintTop_toTopOf="@id/headphones_battery_label"
+            app:tint="@color/md_theme_light_tertiary" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/headphones_battery_label"
-            style="@style/TextAppearance.Material3.BodyLarge"
+            style="@style/TextAppearance.Material3.HeadlineMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="4dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="@string/general_value_not_available_label"
+            android:textColor="@color/md_theme_light_onSurface"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/headphones_battery_icon"
             app:layout_constraintTop_toTopOf="parent"
             tools:text="100%" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

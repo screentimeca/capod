@@ -1,7 +1,6 @@
 package com.screentime.airpod.reaction.ui.popup
 
 import android.content.Context
-import android.graphics.Color
 import android.graphics.SurfaceTexture
 import android.media.AudioAttributes
 import android.media.MediaPlayer
@@ -32,6 +31,7 @@ import com.screentime.airpod.pods.core.getBatteryDrawable
 import com.screentime.airpod.pods.core.getBatteryLevelCase
 import com.screentime.airpod.pods.core.getBatteryLevelHeadset
 import com.screentime.airpod.pods.core.getBatteryLevelLeftPod
+import com.screentime.airpod.pods.core.getBatteryLevelRightPod
 import com.screentime.airpod.pods.core.getSignalQuality
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
@@ -83,19 +83,20 @@ class PopUpPodViewFactory @Inject constructor(
                 )
 
                 podLeftBatteryIcon.setImageResource(getBatteryDrawable(batteryLeftPodPercent))
-                podLeftBatteryIcon.setColorFilter(Color.argb(255, 230, 230, 130))
                 podLeftBatteryLabel.text = getBatteryLevelLeftPod(context)
 
-                podCaseContainer.isVisible = device is HasCase
-                (device as? HasCase)?.let { case ->
+                val caseDevice = this as? HasCase
+                podCaseContainer.isVisible = false
+                caseDevice?.let { case ->
                     podCaseIcon.setImageResource(case.caseIcon)
                     podCaseBatteryIcon.setImageResource(getBatteryDrawable(case.batteryCasePercent))
                     podCaseBatteryLabel.text = case.getBatteryLevelCase(context)
+                    podRightBatteryIcon.setImageResource(getBatteryDrawable(case.batteryCasePercent))
+                    podRightBatteryLabel.text = case.getBatteryLevelCase(context)
+                } ?: run {
+                    podRightBatteryIcon.setImageResource(getBatteryDrawable(batteryRightPodPercent))
+                    podRightBatteryLabel.text = getBatteryLevelRightPod(context)
                 }
-                podCaseContainer.isVisible = false
-
-                podRightBatteryIcon.setImageResource(getBatteryDrawable(batteryRightPodPercent))
-                podRightBatteryLabel.text = (device as? HasCase)?.getBatteryLevelCase(context)
 
                 bindLoopingVideo(
                     view = podRightIcon,

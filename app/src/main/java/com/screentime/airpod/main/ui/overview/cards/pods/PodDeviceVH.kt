@@ -18,7 +18,7 @@ abstract class PodDeviceVH<D : PodDeviceVH.Item, B : ViewBinding>(
 
     fun Item.getReceptionText(): String = device.getSignalQuality(context)
         .let { if (showDebug) "$it ${device.seenCounter}" else it }
-        .let { if (isMainPod) "$it\n(${getString(com.screentime.airpod.common.R.string.pods_yours)})" else it }
+        .let { if (isMainPod) "$it · ${getString(com.screentime.airpod.common.R.string.pods_yours)}" else it }
 
     interface Item : OverviewAdapter.Item {
 

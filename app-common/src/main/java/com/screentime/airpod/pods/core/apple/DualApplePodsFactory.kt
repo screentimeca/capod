@@ -3,6 +3,7 @@ package com.screentime.airpod.pods.core.apple
 import com.screentime.airpod.common.debug.logging.Logging.Priority.DEBUG
 import com.screentime.airpod.common.debug.logging.log
 import com.screentime.airpod.pods.core.PodDevice
+import java.time.Duration
 
 abstract class DualApplePodsFactory(private val tag: String) : ApplePodsFactory<DualApplePods>(tag) {
 
@@ -49,7 +50,7 @@ abstract class DualApplePodsFactory(private val tag: String) : ApplePodsFactory<
         log(tag, DEBUG) { "searchHistory2: Case ignored matches(${caseIgnored.size}): $caseIgnored" }
 
         return when (caseIgnored.size) {
-            0 -> basicResult
+            0 -> basicResult ?: uniqueRecentDevice()
             1 -> caseIgnored.single()
             else -> {
                 log(tag) { "searchHistory2:  More than one result when ignoring case markers." }
@@ -62,6 +63,13 @@ abstract class DualApplePodsFactory(private val tag: String) : ApplePodsFactory<
 
                 oldest
             }
+        }
+    }
+
+    private fun uniqueRecentDevice(): KnownDevice? {
+        val recent = knownDevices.values.filter { !it.isOlderThan(Duration.ofSeconds(30)) }
+        return recent.singleOrNull()?.also {
+            log(tag) { "searchHistory2: Unique recent device fallback: $it" }
         }
     }
 

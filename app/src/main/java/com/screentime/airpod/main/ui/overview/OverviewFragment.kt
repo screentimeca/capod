@@ -8,11 +8,8 @@ import android.text.SpannableStringBuilder
 import android.view.View
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.viewModels
 import dagger.hilt.android.AndroidEntryPoint
-import com.screentime.airpod.BuildConfig
 import com.screentime.airpod.R
 import com.screentime.airpod.common.colorString
 import com.screentime.airpod.common.debug.logging.log
@@ -74,7 +71,6 @@ class OverviewFragment : Fragment3(R.layout.main_fragment) {
         }
 
         vm.listItems.observe2(ui) {
-            if (BuildConfig.DEBUG) toolbar.subtitle = "${it.size} items"
             adapter.update(it)
         }
 
