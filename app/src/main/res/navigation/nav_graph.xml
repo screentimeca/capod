@@ -24,6 +24,16 @@
     </fragment>
 
     <fragment
+        android:id="@+id/upgradeFragment"
+        android:name="com.screentime.airpod.common.upgrade.ui.UpgradeFragment"
+        android:label="@string/upgrade_capod_label"
+        tools:layout="@layout/upgrade_fragment" />
+
+    <action
+        android:id="@+id/action_global_upgradeFragment"
+        app:destination="@id/upgradeFragment" />
+
+    <fragment
         android:id="@+id/settingsFragment"
         android:name="com.screentime.airpod.main.ui.settings.SettingsFragment"
         android:label="SettingsFragment"

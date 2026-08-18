@@ -26,6 +26,7 @@ class PermissionCardVH(parent: ViewGroup) :
         item: Item,
         payloads: List<Any>
     ) -> Unit = binding(payload = true) { item ->
+        permissionIcon.setImageResource(item.permission.iconRes)
         permissionLabel.setText(item.permission.labelRes)
         permissionDescription.setText(item.permission.descriptionRes)
         grantAction.setOnClickListener { item.onRequest(item.permission) }
@@ -53,3 +54,15 @@ class PermissionCardVH(parent: ViewGroup) :
             get() = { old, new -> if (new::class.isInstance(old)) new else null }
     }
 }
+
+private val Permission.iconRes: Int
+    get() = when (this) {
+        Permission.BLUETOOTH,
+        Permission.BLUETOOTH_CONNECT -> R.drawable.ic_baseline_bluetooth_connected_24
+        Permission.BLUETOOTH_SCAN -> R.drawable.ic_baseline_bluetooth_searching_24
+        Permission.ACCESS_FINE_LOCATION,
+        Permission.ACCESS_BACKGROUND_LOCATION -> R.drawable.ic_baseline_visibility_24
+        Permission.IGNORE_BATTERY_OPTIMIZATION -> com.screentime.airpod.common.R.drawable.ic_baseline_power_24
+        Permission.SYSTEM_ALERT_WINDOW -> R.drawable.ic_message_outline_24
+        Permission.POST_NOTIFICATIONS -> R.drawable.ic_baseline_chat_24
+    }

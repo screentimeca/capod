@@ -4,54 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="16dp">
-
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/request_description"
-        style="@style/TextAppearance.Material3.LabelMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="@string/permission_required_title"
-        app:layout_constraintBottom_toTopOf="@+id/permission_label"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    android:padding="16dp">
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/permission_label"
-        style="@style/TextAppearance.Material3.BodyLarge"
-        android:layout_width="match_parent"
+        style="@style/TextAppearance.Material3.TitleMedium"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/permission_description"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/request_description"
-        tools:text="BLUETOOTH_CONNECT" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Connect to AirPods" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/permission_description"
         style="@style/TextAppearance.Material3.BodyMedium"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        app:layout_constraintBottom_toTopOf="@+id/grant_action"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/permission_label"
-        tools:text="Lorem Ipsum" />
+        tools:text="Lets AirPod talk to your paired headphones." />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/grant_action"
-        style="@style/Widget.Material3.Button"
+        style="@style/Widget.Material3.Button.TonalButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_marginTop="12dp"
         android:text="@string/general_grant_permission_action"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/permission_description" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

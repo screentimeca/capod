@@ -151,5 +151,5 @@ dependencies {
 
     addTesting()
 
-    "gplayImplementation"("com.android.billingclient:billing:9.1.0")
+    implementation("com.android.billingclient:billing:9.1.0")
 }

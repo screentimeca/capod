@@ -9,7 +9,12 @@ import com.screentime.airpod.common.debug.logging.log
 import com.screentime.airpod.common.debug.logging.logTag
 import com.screentime.airpod.common.flow.replayingShare
 import com.screentime.airpod.common.flow.setupCommonEventHandlers
-import com.screentime.airpod.common.upgrade.core.client.*
+import com.screentime.airpod.common.upgrade.core.client.BillingClientConnectionProvider
+import com.screentime.airpod.common.upgrade.core.client.BillingException
+import com.screentime.airpod.common.upgrade.core.client.BillingResultException
+import com.screentime.airpod.common.upgrade.core.client.GplayServiceUnavailableException
+import com.screentime.airpod.common.upgrade.core.client.isGplayUnavailablePermanent
+import com.screentime.airpod.common.upgrade.core.client.isGplayUnavailableTemporary
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay
@@ -108,6 +113,13 @@ class BillingDataRepo @Inject constructor(
 
             throw e.tryMapUserFriendly()
         }
+    }
+
+    suspend fun querySku(sku: Sku) = try {
+        val clientConnection = connectionProvider.first()
+        clientConnection.querySku(sku)
+    } catch (e: Exception) {
+        throw e.tryMapUserFriendly()
     }
 
     companion object {

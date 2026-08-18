@@ -1,9 +1,6 @@
 package com.screentime.airpod.common.upgrade.core
 
 import android.app.Activity
-import android.widget.Toast
-import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.screentime.airpod.R
 import com.screentime.airpod.common.WebpageTool
 import com.screentime.airpod.common.upgrade.UpgradeRepo
 import kotlinx.coroutines.flow.Flow
@@ -31,33 +28,21 @@ class UpgradeControlFoss @Inject constructor(
     }
 
     override fun launchBillingFlow(activity: Activity) {
-        MaterialAlertDialogBuilder(activity).apply {
-            setIcon(com.screentime.airpod.common.R.drawable.ic_heart)
-            setTitle(R.string.upgrade_capod_label)
-            setMessage(R.string.upgrade_capod_description)
-            setPositiveButton(R.string.foss_upgrade_donate_label) { _, _ ->
-                fossCache.upgrade.value = FossUpgrade(
-                    upgradedAt = Instant.now(),
-                    reason = FossUpgrade.Reason.DONATED
-                )
-                webpageTool.open("https://github.com")
-                Toast.makeText(activity, R.string.general_thank_you_label, Toast.LENGTH_SHORT).show()
-            }
-            setNegativeButton(R.string.foss_upgrade_alreadydonated_label) { _, _ ->
-                fossCache.upgrade.value = FossUpgrade(
-                    upgradedAt = Instant.now(),
-                    reason = FossUpgrade.Reason.ALREADY_DONATED
-                )
-                Toast.makeText(activity, R.string.general_thank_you_label, Toast.LENGTH_SHORT).show()
-            }
-            setNeutralButton(R.string.foss_upgrade_no_money_label) { _, _ ->
-                fossCache.upgrade.value = FossUpgrade(
-                    upgradedAt = Instant.now(),
-                    reason = FossUpgrade.Reason.NO_MONEY
-                )
-                Toast.makeText(activity, "¯\\_(ツ)_/¯", Toast.LENGTH_SHORT).show()
-            }
-        }.show()
+        val fragmentActivity = activity as? androidx.fragment.app.FragmentActivity ?: return
+        val navController = fragmentActivity.supportFragmentManager
+            .findFragmentById(com.screentime.airpod.R.id.nav_host)
+            ?.let { androidx.navigation.fragment.NavHostFragment.findNavController(it) }
+            ?: return
+        if (navController.currentDestination?.id == com.screentime.airpod.R.id.upgradeFragment) return
+        navController.navigate(com.screentime.airpod.R.id.action_global_upgradeFragment)
+    }
+
+    override fun startMonthlySubscription(activity: Activity) {
+        launchBillingFlow(activity)
+    }
+
+    override fun startYearlySubscription(activity: Activity) {
+        launchBillingFlow(activity)
     }
 
     data class Info(

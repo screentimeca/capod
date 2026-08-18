@@ -5,28 +5,28 @@
 
     <string name="general_value_not_available_label">N/A</string>
     <string name="general_error_label">Error</string>
-    <string name="general_grant_permission_action">Grant permission</string>
+    <string name="general_grant_permission_action">Allow</string>
 
     <string name="overview_nomaindevice_label">Can\'t find your AirPods</string>
     <string name="overview_nomaindevice_description">Nearby headphones don\'t match yours. Open the case next to your phone, or choose your device in Settings.</string>
-    <string name="overview_bluetooth_disabled_label">Bluetooth is disabled</string>
-    <string name="overview_bluetooth_disabled_description">Bluetooth is disabled, enable it ;)</string>
+    <string name="overview_bluetooth_disabled_label">Bluetooth is off</string>
+    <string name="overview_bluetooth_disabled_description">Turn Bluetooth on so AirPod can find your headphones.</string>
 
-    <string name="permission_bluetooth_connect_label">Bluetooth connect</string>
-    <string name="permission_bluetooth_connect_description">This app requires the \"Bluetooth connect\" permission to interact with paired devices and initiate connections.</string>
-    <string name="permission_bluetooth_scan_label">Bluetooth scanning</string>
-    <string name="permission_bluetooth_scan_description">The \"Bluetooth scanning\" permission allows this app to discover and receive Bluetooth data from nearby devices such as your AirPods.</string>
+    <string name="permission_bluetooth_connect_label">Connect to AirPods</string>
+    <string name="permission_bluetooth_connect_description">Lets AirPod talk to your paired headphones and connect them.</string>
+    <string name="permission_bluetooth_scan_label">Find nearby AirPods</string>
+    <string name="permission_bluetooth_scan_description">Lets AirPod see nearby headphones and read their battery status.</string>
     <string name="permission_bluetooth_label">Bluetooth</string>
-    <string name="permission_bluetooth_description">This app requires the \"Bluetooth\" permission to connect to paired bluetooth devices.</string>
-    <string name="permission_access_fine_location_label">Access fine location</string>
-    <string name="permission_access_fine_location_description">AirPod uses the \"fine location\" permission to receive Bluetooth Low Energy data. Your headphones use Bluetooth Low Energy technology to broadcast their status. This app will NOT use Bluetooth data to determine your location.</string>
-    <string name="permission_background_location_label">Background location access</string>
-    <string name="permission_background_location_description">AirPod uses \"background location access\" to enable features like \"Show popup\" and \"AutoConnect\" while the app is closed. Background location access allows the app to receive Bluetooth Low Energy data while it is in the background. This app will NOT use Bluetooth data to determine your location.</string>
-    <string name="permission_ignore_battery_optimizations_label">Disable battery optimizations</string>
-    <string name="permission_ignore_battery_optimizations_description">Battery optimizations prevent this app from reliably receiving Bluetooth data while the app is in the background.</string>
-    <string name="permission_required_title">The following permission is required:</string>
-    <string name="permission_system_alert_window_label">System Alert Window</string>
-    <string name="permission_system_alert_window_description">Allow AirPod to draw over other apps to make the feature \"Show PopUp\" possible.</string>
+    <string name="permission_bluetooth_description">Lets AirPod connect to your paired headphones.</string>
+    <string name="permission_access_fine_location_label">Nearby devices</string>
+    <string name="permission_access_fine_location_description">Android uses this so AirPod can read headphone status over Bluetooth. It isn\'t used to track where you are.</string>
+    <string name="permission_background_location_label">Nearby devices in the background</string>
+    <string name="permission_background_location_description">Needed for popups and auto connect while AirPod is closed. It isn\'t used to track where you are.</string>
+    <string name="permission_ignore_battery_optimizations_label">Unrestricted battery use</string>
+    <string name="permission_ignore_battery_optimizations_description">Keeps AirPod running in the background so status and automations don\'t stop.</string>
+    <string name="permission_required_title">AirPod needs this to continue</string>
+    <string name="permission_system_alert_window_label">Display over other apps</string>
+    <string name="permission_system_alert_window_description">Lets AirPod show a popup when you open the case or connect.</string>
 
     <string name="settings_scanner_mode_lowpower_label">Better battery</string>
     <string name="settings_scanner_mode_balanced_label">Balanced</string>
@@ -66,6 +66,6 @@
 
     <string name="last_seen_x">Last seen: %s</string>
     <string name="first_seen_x">First seen: %s</string>
-    <string name="permission_post_notifications_label">Show notifications</string>
-    <string name="permission_post_notifications_description">"Allow AirPod to show notifications, e.g. their current status while connected."</string>
+    <string name="permission_post_notifications_label">Notifications</string>
+    <string name="permission_post_notifications_description">Shows your AirPods\' battery and status while they\'re connected.</string>
 </resources>

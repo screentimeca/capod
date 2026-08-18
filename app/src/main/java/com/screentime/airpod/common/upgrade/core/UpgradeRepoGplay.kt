@@ -2,7 +2,7 @@ package com.screentime.airpod.common.upgrade.core
 
 import android.app.Activity
 import android.widget.Toast
-import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import androidx.fragment.app.FragmentActivity
 import com.screentime.airpod.R
 import com.screentime.airpod.common.coroutine.AppScope
 import com.screentime.airpod.common.coroutine.DispatcherProvider
@@ -12,6 +12,7 @@ import com.screentime.airpod.common.debug.logging.log
 import com.screentime.airpod.common.debug.logging.logTag
 import com.screentime.airpod.common.error.asErrorDialogBuilder
 import com.screentime.airpod.common.flow.replayingShare
+import com.screentime.airpod.common.navigation.findNavController
 import com.screentime.airpod.common.upgrade.UpgradeRepo
 import com.screentime.airpod.common.upgrade.core.data.BillingData
 import com.screentime.airpod.common.upgrade.core.data.BillingDataRepo
@@ -73,20 +74,18 @@ class UpgradeRepoGplay @Inject constructor(
         .replayingShare(scope)
 
     override fun launchBillingFlow(activity: Activity) {
-        MaterialAlertDialogBuilder(activity).apply {
-            setIcon(com.screentime.airpod.common.R.drawable.ic_heart)
-            setTitle(R.string.upgrade_capod_label)
-            setMessage(R.string.upgrade_capod_description)
-            setPositiveButton(R.string.upgrade_pro_yearly) { _, _ ->
-                startPurchase(activity, CapodSku.PRO_YEARLY.sku)
-            }
-            setNegativeButton(R.string.upgrade_pro_monthly) { _, _ ->
-                startPurchase(activity, CapodSku.PRO_MONTHLY.sku)
-            }
-            setNeutralButton(R.string.general_check_action) { _, _ ->
-                restorePurchases(activity)
-            }
-        }.show()
+        val fragmentActivity = activity as? FragmentActivity ?: return
+        val navController = fragmentActivity.supportFragmentManager.findNavController(R.id.nav_host)
+        if (navController.currentDestination?.id == R.id.upgradeFragment) return
+        navController.navigate(R.id.action_global_upgradeFragment)
+    }
+
+    override fun startMonthlySubscription(activity: Activity) {
+        startPurchase(activity, CapodSku.PRO_MONTHLY.sku)
+    }
+
+    override fun startYearlySubscription(activity: Activity) {
+        startPurchase(activity, CapodSku.PRO_YEARLY.sku)
     }
 
     private fun startPurchase(activity: Activity, sku: Sku) {
@@ -102,7 +101,7 @@ class UpgradeRepoGplay @Inject constructor(
         }
     }
 
-    private fun restorePurchases(activity: Activity) {
+    fun restorePurchases(activity: Activity) {
         log(TAG) { "recheck()" }
         scope.launch {
             try {

@@ -22,6 +22,7 @@
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="16dp"
             android:text="@string/overview_bluetooth_disabled_label"
+            android:textColor="@color/md_theme_light_onSurface"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -34,7 +35,9 @@
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="4dp"
             android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1.2"
             android:text="@string/overview_bluetooth_disabled_description"
+            android:textColor="@color/md_theme_light_onSurfaceVariant"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

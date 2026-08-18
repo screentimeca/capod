@@ -9,6 +9,10 @@ interface UpgradeRepo {
 
     fun launchBillingFlow(activity: Activity)
 
+    fun startMonthlySubscription(activity: Activity)
+
+    fun startYearlySubscription(activity: Activity)
+
     fun getSponsorUrl(): String? = null
 
     interface Info {

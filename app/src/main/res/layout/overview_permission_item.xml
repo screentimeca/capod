@@ -12,68 +12,75 @@
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="16dp">
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="12dp">
 
-        <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/request_description"
-            style="@style/TextAppearance.Material3.LabelMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginHorizontal="16dp"
-            android:text="@string/permission_required_title"
-            app:layout_constraintEnd_toEndOf="parent"
+        <ImageView
+            android:id="@+id/permission_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_overview_hero"
+            android:contentDescription="@null"
+            android:padding="12dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_baseline_bluetooth_connected_24"
+            app:tint="@color/md_theme_light_onPrimaryContainer" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/permission_label"
-            style="@style/TextAppearance.Material3.BodyLarge"
-            android:layout_width="match_parent"
+            style="@style/TextAppearance.Material3.TitleMedium"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="4dp"
+            android:textColor="@color/md_theme_light_onSurface"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/request_description"
-            tools:text="BLUETOOTH_CONNECT" />
+            app:layout_constraintStart_toEndOf="@id/permission_icon"
+            app:layout_constraintTop_toTopOf="@id/permission_icon"
+            tools:text="Connect to AirPods" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/permission_description"
             style="@style/TextAppearance.Material3.BodyMedium"
-            android:layout_width="match_parent"
-            android:layout_marginTop="4dp"
-            android:layout_marginHorizontal="16dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:lineSpacingMultiplier="1.2"
+            android:textColor="@color/md_theme_light_onSurfaceVariant"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="@id/permission_label"
             app:layout_constraintTop_toBottomOf="@id/permission_label"
-            tools:text="Lorem Ipsum" />
+            tools:text="Lets AirPod talk to your paired headphones and connect them." />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/privacy_policy"
-            style="@style/TextAppearance.Material3.BodySmall"
+            style="@style/TextAppearance.Material3.LabelLarge"
             android:layout_width="wrap_content"
-            android:layout_marginHorizontal="16dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
             android:layout_marginTop="4dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
             android:text="@string/settings_privacy_policy_label"
-            app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@color/md_theme_light_primary"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/grant_action"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="@id/permission_description"
             app:layout_constraintTop_toBottomOf="@id/permission_description" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/grant_action"
-            style="@style/Widget.Material3.Button.OutlinedButton"
+            style="@style/Widget.Material3.Button.TonalButton"
             android:layout_width="wrap_content"
-            android:layout_marginHorizontal="16dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="16dp"
             android:text="@string/general_grant_permission_action"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/privacy_policy" />
+            app:layout_constraintTop_toBottomOf="@id/permission_description" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>

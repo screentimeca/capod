@@ -10,8 +10,20 @@
 
     <string name="upgrade_capod_label">AirPod Pro</string>
     <string name="upgrade_capod_description">Unlock auto play, auto pause, auto connect, popups, and the home widget.</string>
+    <string name="upgrade_pro_headline">Get more from your AirPods</string>
+    <string name="upgrade_pro_body">Unlock automations and extras that keep your headphones working the way you want.</string>
     <string name="upgrade_pro_yearly">Yearly</string>
     <string name="upgrade_pro_monthly">Monthly</string>
+    <string name="upgrade_benefit_playback_title">Auto play and pause</string>
+    <string name="upgrade_benefit_playback_body">Start and stop audio when you put AirPods in or take them out.</string>
+    <string name="upgrade_benefit_connect_title">Auto connect</string>
+    <string name="upgrade_benefit_connect_body">Ask Android to connect when your AirPods are nearby, the case opens, or they\'re in your ear.</string>
+    <string name="upgrade_benefit_popups_title">Case and connection popups</string>
+    <string name="upgrade_benefit_popups_body">See battery and status when you open the case or first connect.</string>
+    <string name="upgrade_benefit_widget_title">Home screen widget</string>
+    <string name="upgrade_benefit_widget_body">Check battery and status without opening the app.</string>
+    <string name="upgrades_gplay_unavailable_error">Google Play services are unavailable.</string>
+    <string name="upgrades_no_purchases_found_check_account">No purchases found. Are you using the right account?</string>
 
     <string name="settings_monitor_mode_label">Monitor mode</string>
     <string name="settings_monitor_mode_description">When the app listens for AirPods status.</string>
