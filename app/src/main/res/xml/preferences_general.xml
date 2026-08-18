@@ -2,25 +2,32 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <ListPreference
-        android:icon="@drawable/ic_baseline_disabled_visible_24"
-        android:key="core.monitor.mode"
-        android:summary="@string/settings_monitor_mode_description"
-        android:title="@string/settings_monitor_mode_label" />
+    <PreferenceCategory
+        android:title="@string/settings_category_general_label"
+        app:iconSpaceReserved="false">
 
-    <ListPreference
-        android:icon="@drawable/ic_baseline_settings_bluetooth_24"
-        android:key="core.scanner.mode"
-        android:summary="@string/settings_scanner_mode_description"
-        android:title="@string/settings_scanner_mode_label" />
+        <ListPreference
+            android:icon="@drawable/ic_baseline_visibility_24"
+            android:key="core.monitor.mode"
+            android:summary="@string/settings_monitor_mode_description"
+            android:title="@string/settings_monitor_mode_label" />
 
-    <com.screentime.airpod.common.preferences.MaterialSwitchPreference
-        android:icon="@drawable/ic_baseline_devices_other_24"
-        android:key="core.showall.enabled"
-        android:summary="@string/settings_showall_description"
-        android:title="@string/settings_showall_label" />
+        <ListPreference
+            android:icon="@drawable/ic_baseline_settings_bluetooth_24"
+            android:key="core.scanner.mode"
+            android:summary="@string/settings_scanner_mode_description"
+            android:title="@string/settings_scanner_mode_label" />
 
-    <PreferenceCategory android:title="@string/settings_category_yourdevice_label">
+        <com.screentime.airpod.common.preferences.MaterialSwitchPreference
+            android:icon="@drawable/ic_baseline_devices_other_24"
+            android:key="core.showall.enabled"
+            android:summary="@string/settings_showall_description"
+            android:title="@string/settings_showall_label" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settings_category_yourdevice_label"
+        app:iconSpaceReserved="false">
 
         <com.screentime.airpod.common.preferences.PercentSliderPreference
             android:icon="@drawable/ic_baseline_signal_cellular_alt_24"
@@ -47,7 +54,7 @@
         android:singleLineTitle="false"
         android:summary="@string/settings_category_compatibility_options_description"
         android:title="@string/settings_category_compatibility_options_title"
-        app:icon="@drawable/ic_chip_24">
+        app:iconSpaceReserved="false">
 
         <com.screentime.airpod.common.preferences.MaterialSwitchPreference
             android:icon="@drawable/ic_filter_cog_outline_24"
@@ -69,18 +76,15 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="@string/settings_category_other_label">
+    <PreferenceCategory
+        android:title="@string/settings_category_other_label"
+        app:iconSpaceReserved="false">
         <Preference
             android:fragment="com.screentime.airpod.main.ui.settings.general.debug.DebugSettingsFragment"
             android:icon="@drawable/ic_baseline_bug_report_24"
             android:key="debug.settings"
             android:summary="@string/settings_debug_description"
             android:title="@string/settings_debug_label" />
-
-        <Preference
-            android:summary=""
-            android:title="" />
-
     </PreferenceCategory>
 
 </PreferenceScreen>

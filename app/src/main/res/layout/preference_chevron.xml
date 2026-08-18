@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:contentDescription="@null"
+    android:src="@drawable/ic_baseline_chevron_right_24"
+    android:tint="@color/md_theme_light_outline" />

@@ -7,8 +7,8 @@
     <string name="general_error_label">Error</string>
     <string name="general_grant_permission_action">Grant permission</string>
 
-    <string name="overview_nomaindevice_label">No primary device</string>
-    <string name="overview_nomaindevice_description">All detected devices are unlikely to be yours. Power on and connect your device or adjust the settings.</string>
+    <string name="overview_nomaindevice_label">Can\'t find your AirPods</string>
+    <string name="overview_nomaindevice_description">Nearby headphones don\'t match yours. Open the case next to your phone, or choose your device in Settings.</string>
     <string name="overview_bluetooth_disabled_label">Bluetooth is disabled</string>
     <string name="overview_bluetooth_disabled_description">Bluetooth is disabled, enable it ;)</string>
 
@@ -28,17 +28,17 @@
     <string name="permission_system_alert_window_label">System Alert Window</string>
     <string name="permission_system_alert_window_description">Allow AirPod to draw over other apps to make the feature \"Show PopUp\" possible.</string>
 
-    <string name="settings_scanner_mode_lowpower_label">Low power</string>
+    <string name="settings_scanner_mode_lowpower_label">Better battery</string>
     <string name="settings_scanner_mode_balanced_label">Balanced</string>
-    <string name="settings_scanner_mode_lowlatency_label">Low latency</string>
+    <string name="settings_scanner_mode_lowlatency_label">Faster updates</string>
 
-    <string name="settings_monitor_mode_manual_label">When app is open</string>
-    <string name="settings_monitor_mode_automatic_label">When device is connected</string>
+    <string name="settings_monitor_mode_manual_label">When the app is open</string>
+    <string name="settings_monitor_mode_automatic_label">When AirPods are connected</string>
     <string name="settings_monitor_mode_always_label">Always</string>
 
-    <string name="settings_reaction_autoconnect_whenseen_label">When seen</string>
-    <string name="settings_reaction_autoconnect_caseopen_label">Case is open</string>
-    <string name="settings_reaction_autoconnect_inear_label">In ear</string>
+    <string name="settings_reaction_autoconnect_whenseen_label">Nearby</string>
+    <string name="settings_reaction_autoconnect_caseopen_label">Case opens</string>
+    <string name="settings_reaction_autoconnect_inear_label">In your ear</string>
 
     <string name="pods_dual_left_label">Left pod</string>
     <string name="pods_dual_right_label">Right pod</string>

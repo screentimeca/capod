@@ -44,6 +44,7 @@ class ReactionSettingsFragment : PreferenceFragment3() {
             entries = AutoConnectCondition.values().map { getString(it.labelRes) }.toTypedArray()
             entryValues = AutoConnectCondition.values().map { settings.autoConnectCondition.rawWriter(it) as String }
                 .toTypedArray()
+            summaryProvider = ListPreference.SimpleSummaryProvider.getInstance()
         }
 
         super.onPreferencesCreated()

@@ -12,47 +12,51 @@
     <string name="upgrade_capod_description">Get additional features and support the developer.</string>
 
     <string name="settings_monitor_mode_label">Monitor mode</string>
-    <string name="settings_monitor_mode_description">Under which circumstances this app monitors Bluetooth data.</string>
+    <string name="settings_monitor_mode_description">When the app listens for AirPods status.</string>
     <string name="settings_scanner_mode_label">Scanner mode</string>
-    <string name="settings_scanner_mode_description">Should the Bluetooth Low Energy data scanner prioritize performance or conserve energy?</string>
+    <string name="settings_scanner_mode_description">Faster updates use more battery.</string>
     <string name="settings_autopause_label">Auto pause</string>
-    <string name="settings_autopause_description">Pause audio when removing the device from your ear.</string>
+    <string name="settings_autopause_description">Pause audio when you take an AirPod out.</string>
     <string name="settings_showall_label">Show all devices</string>
-    <string name="settings_showall_description">Show other people\'s devices that are near you.</string>
+    <string name="settings_showall_description">Also show nearby AirPods that aren\'t yours.</string>
     <string name="settings_autopplay_label">Auto play</string>
-    <string name="settings_autoplay_description">Start audio playback when device is worn.</string>
+    <string name="settings_autoplay_description">Start audio when you put your AirPods in.</string>
     <string name="settings_fake_data_label">Fake data</string>
-    <string name="settings_fake_data_description">Show fake data, i.e., simulate devices that don\’t exist.</string>
-    <string name="settings_debug_label">Debug settings</string>
-    <string name="settings_debug_description">Additional settings to help troubleshoot issues with the app.</string>
-    <string name="settings_signal_minimum_label">Minimum signal quality</string>
-    <string name="settings_signal_minimum_description">The minimum signal quality that a device needs to have to be considered yours.</string>
+    <string name="settings_fake_data_description">Simulate AirPods that aren\'t actually nearby.</string>
+    <string name="settings_debug_label">Debug</string>
+    <string name="settings_debug_description">Extra options for diagnosing problems.</string>
+    <string name="settings_signal_minimum_label">Minimum signal</string>
+    <string name="settings_signal_minimum_description">How strong the signal must be to count as yours.</string>
     <string name="settings_autoconnect_label">Auto connect</string>
-    <string name="settings_autoconnect_description">If Android does not automatically connect, we can ask it too. This will set the monitor mode setting to \'Always\'.</string>
-    <string name="settings_autoconnect_condition_label">Auto connect condition</string>
-    <string name="settings_autoconnect_condition_description">When should we try to connect to your device?</string>
+    <string name="settings_autoconnect_description">Ask Android to connect if it doesn\'t on its own. Sets Monitor mode to Always.</string>
+    <string name="settings_autoconnect_condition_label">Connect when</string>
+    <string name="settings_autoconnect_condition_description">When to try connecting to your AirPods.</string>
     <string name="settings_reaction_label">Reactions</string>
-    <string name="settings_reaction_description">React to events and behaviors.</string>
-    <string name="settings_category_yourdevice_label">Your device</string>
+    <string name="settings_reaction_description">Play, pause, connect, and show popups automatically.</string>
+    <string name="settings_category_general_label">General</string>
+    <string name="settings_category_yourdevice_label">Your AirPods</string>
+    <string name="settings_category_playback_label">Playback</string>
+    <string name="settings_category_connection_label">Connection</string>
+    <string name="settings_category_popups_label">Popups</string>
 
-    <string name="settings_category_compatibility_options_title">Compatibility options</string>
-    <string name="settings_category_compatibility_options_description">Don\'t touch if everything works ;)</string>
+    <string name="settings_category_compatibility_options_title">Compatibility</string>
+    <string name="settings_category_compatibility_options_description">Only change these if your AirPods aren\'t showing up.</string>
     <string name="settings_compat_offloaded_filtering_disabled_title">Disable hardware filtering</string>
-    <string name="settings_compat_offloaded_filtering_disabled_summary">Don\'t delegate data filtering to the system, instead get all data and filter within the app.</string>
+    <string name="settings_compat_offloaded_filtering_disabled_summary">Filter Bluetooth data in the app instead of on the phone.</string>
     <string name="settings_compat_offloaded_batching_disabled_title">Disable hardware batching</string>
-    <string name="settings_compat_offloaded_batching_disabled_summary">Don\'t let the system group collected BLE data before forwarding it to us.</string>
+    <string name="settings_compat_offloaded_batching_disabled_summary">Get Bluetooth updates immediately instead of in batches.</string>
 
-    <string name="settings_maindevice_address_label">Your device address</string>
-    <string name="settings_maindevice_address_description">The address of your paired device. The app uses this to determine when it is connected to your phone.</string>
+    <string name="settings_maindevice_address_label">Bluetooth address</string>
+    <string name="settings_maindevice_address_description">The address of your paired AirPods. Used to tell when they\'re connected.</string>
     <string name="settings_maindevice_address_none">None</string>
-    <string name="settings_maindevice_model_label">Your device model</string>
-    <string name="settings_maindevice_model_description">The model of your main device. This helps the app recognize your device when it is not connected to your phone.</string>
+    <string name="settings_maindevice_model_label">Model</string>
+    <string name="settings_maindevice_model_description">Helps recognize your AirPods when they aren\'t connected.</string>
     <string name="settings_onepod_mode_label">One pod mode</string>
-    <string name="settings_onepod_mode_description">Wearing both pods is not required, wearing a single pod is sufficient to trigger reactions.</string>
-    <string name="settings_popup_caseopen_label">Show case popup</string>
-    <string name="settings_popup_caseopen_description">Show a popup when the device case is opened (experimental).</string>
-    <string name="settings_popup_connected_label">Show connection popup</string>
-    <string name="settings_popup_connected_description">Show a popup when the device connects for the first time.</string>
+    <string name="settings_onepod_mode_description">Play and pause with only one AirPod in your ear.</string>
+    <string name="settings_popup_caseopen_label">Case popup</string>
+    <string name="settings_popup_caseopen_description">Show a popup when you open the case.</string>
+    <string name="settings_popup_connected_label">Connection popup</string>
+    <string name="settings_popup_connected_description">Show a popup the first time your AirPods connect.</string>
 
     <string name="notification_channel_device_status_label">Device status</string>
 
@@ -86,16 +90,16 @@
     <string name="settings_licenses_label">Licenses</string>
     <string name="settings_category_other_label">Other</string>
     <string name="settings_general_label">Settings</string>
-    <string name="settings_general_description">General tweaks that affect the whole app.</string>
+    <string name="settings_general_description">How the app finds and tracks your AirPods.</string>
     <string name="settings_acknowledgements_label">Acknowledgements</string>
 
     <string name="settings_debug_autoreports_label">Automatic bug reports</string>
     <string name="settings_debug_autoreports_description">Automatically reports issues, e.g. details on an app crash so I can figure out how to fix it.</string>
     <string name="settings_debug_mode_label">Debug mode</string>
-    <string name="settings_debug_mode_description">Show additional information to troubleshoot issues.</string>
+    <string name="settings_debug_mode_description">Show extra details to help diagnose issues.</string>
 
-    <string name="settings_blescanner_unfiltered_label">Unfiltered BLE data</string>
-    <string name="settings_blescanner_unfiltered_description">Remove any filters from the BLE scanner to show all broadcasted BLE data. Useful to add support for new headphone types.</string>
+    <string name="settings_blescanner_unfiltered_label">Unfiltered Bluetooth data</string>
+    <string name="settings_blescanner_unfiltered_description">Show all nearby Bluetooth broadcasts, including unsupported devices.</string>
 
     <string name="settings_compatibility_mode_label">Compatibility mode</string>
     <string name="settings_compatibility_mode_description">Disable optimizations to improve compatibility. Try this if you are not seeing any data.</string>
@@ -108,20 +112,23 @@
 
     <string name="widget_description">A widget showing the last known device status.</string>
     <string name="settings_compat_indirectcallback_title">Indirect data delivery</string>
-    <string name="settings_compat_indirectcallback_summary">Use an alternative method to receive BLE data from the system (broadcast instead of callback).</string>
+    <string name="settings_compat_indirectcallback_summary">Use a different way to receive Bluetooth data from Android.</string>
 
     <string name="troubleshooter_title">Troubleshooter</string>
-    <string name="troubleshooter_ble_intro_title">Bluetooth Low Energy Broadcasts</string>
-    <string name="troubleshooter_ble_intro_body1">AirPods (and similar headphones) broadcast status information using a BLE technology called \"advertisements\". Some phones don\'t implement this technology correctly. AirPods can attempt to fix this by trying different compatibility options until data is received. Start music playback on your headphones and place them close to your phone, then start the process.</string>
-    <string name="troubleshooter_ble_intro_start_action">Start troubleshooting</string>
-    <string name="troubleshooter_ble_process_title">Troubleshoot in progress</string>
-    <string name="troubleshooter_ble_process_subtile">Each step takes 5–10 seconds</string>
-    <string name="troubleshooter_ble_result_success_title">Success</string>
-    <string name="troubleshooter_ble_result_success_body">BLE advertisement broadcasts are being received by AirPods.</string>
-    <string name="troubleshooter_ble_result_failure_title">Unsuccessful</string>
-    <string name="troubleshooter_ble_result_failure_body">Troubleshooting failed. No combination of compatibility options helped.</string>
-    <string name="troubleshooter_ble_result_failure_phone_body">Your phone didn\'t receive any BLE data at all. You can retry this test in a crowded area to see if data sources (other than your headphones) can be received. No data being received points towards an issue with your phone\'s operating system.</string>
-    <string name="troubleshooter_ble_result_failure_phone_headphones">Your phone received BLE data, but the data does not come from any supported device. Are your headphones powered on? Does AirPods support your headphone?</string>
+    <string name="troubleshooter_ble_intro_title">Help your phone find your AirPods</string>
+    <string name="troubleshooter_ble_intro_body1">AirPods send battery and status over Bluetooth. Some phones don\'t receive that data correctly. This app will try different settings until it finds one that works.</string>
+    <string name="troubleshooter_ble_intro_steps_title">Before you start</string>
+    <string name="troubleshooter_ble_intro_step1">Play audio on your AirPods</string>
+    <string name="troubleshooter_ble_intro_step2">Keep them next to your phone</string>
+    <string name="troubleshooter_ble_intro_start_action">Start</string>
+    <string name="troubleshooter_ble_process_title">Checking your connection</string>
+    <string name="troubleshooter_ble_process_subtile">Each step takes about 5–10 seconds. Keep your AirPods nearby.</string>
+    <string name="troubleshooter_ble_result_success_title">You\'re all set</string>
+    <string name="troubleshooter_ble_result_success_body">Your phone is receiving status from your AirPods.</string>
+    <string name="troubleshooter_ble_result_failure_title">Couldn\'t find a fix</string>
+    <string name="troubleshooter_ble_result_failure_body">None of the compatibility options helped.</string>
+    <string name="troubleshooter_ble_result_failure_phone_body">Your phone didn\'t receive any Bluetooth data. Try again somewhere with more nearby devices. If nothing shows up, the issue is likely with this phone.</string>
+    <string name="troubleshooter_ble_result_failure_phone_headphones">Your phone is receiving Bluetooth data, but not from a supported headset. Make sure your AirPods are on and nearby.</string>
     <string name="troubleshooter_ble_result_failure_action">Try again</string>
     <string name="troubleshoot_action">Troubleshoot</string>
 

@@ -18,6 +18,68 @@
         <item name="android:background">@android:color/transparent</item>
     </style>
 
+    <style name="SettingsToolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.Material3.TitleLarge</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="navigationIconTint">@color/md_theme_light_onSurface</item>
+    </style>
+
+    <style name="SettingsPreferenceCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="cardBackgroundColor">@color/overview_card</item>
+        <item name="rippleColor">@color/md_theme_light_primaryContainer</item>
+    </style>
+
+    <style name="AppPreferenceTheme" parent="PreferenceThemeOverlay.v14.Material">
+        <item name="preferenceStyle">@style/AppPreference</item>
+        <item name="preferenceCategoryStyle">@style/AppPreferenceCategory</item>
+        <item name="switchPreferenceCompatStyle">@style/AppSwitchPreference</item>
+        <item name="switchPreferenceStyle">@style/AppSwitchPreference</item>
+        <item name="dialogPreferenceStyle">@style/AppDialogPreference</item>
+        <item name="preferenceFragmentCompatStyle">@style/AppPreferenceFragment</item>
+        <item name="preferenceFragmentStyle">@style/AppPreferenceFragment</item>
+        <item name="preferenceCategoryTitleTextColor">@color/md_theme_light_primary</item>
+        <item name="preferenceCategoryTitleTextAppearance">@style/TextAppearance.Material3.TitleSmall</item>
+    </style>
+
+    <style name="AppPreference" parent="Preference.Material">
+        <item name="android:layout">@layout/preference_settings</item>
+        <item name="iconSpaceReserved">false</item>
+        <item name="allowDividerAbove">false</item>
+        <item name="allowDividerBelow">false</item>
+        <item name="singleLineTitle">false</item>
+    </style>
+
+    <style name="AppSwitchPreference" parent="Preference.SwitchPreferenceCompat.Material">
+        <item name="android:layout">@layout/preference_settings</item>
+        <item name="iconSpaceReserved">false</item>
+        <item name="allowDividerAbove">false</item>
+        <item name="allowDividerBelow">false</item>
+        <item name="singleLineTitle">false</item>
+    </style>
+
+    <style name="AppDialogPreference" parent="Preference.DialogPreference.Material">
+        <item name="android:layout">@layout/preference_settings</item>
+        <item name="iconSpaceReserved">false</item>
+        <item name="allowDividerAbove">false</item>
+        <item name="allowDividerBelow">false</item>
+        <item name="singleLineTitle">false</item>
+    </style>
+
+    <style name="AppPreferenceCategory" parent="Preference.Category.Material">
+        <item name="android:layout">@layout/preference_settings_category</item>
+        <item name="iconSpaceReserved">false</item>
+        <item name="allowDividerAbove">false</item>
+        <item name="allowDividerBelow">false</item>
+    </style>
+
+    <style name="AppPreferenceFragment" parent="PreferenceFragment.Material">
+        <item name="android:divider">@null</item>
+        <item name="allowDividerAfterLastItem">false</item>
+    </style>
+
     <style name="OverviewPodTile">
         <item name="android:background">@drawable/bg_overview_tile</item>
         <item name="android:paddingStart">12dp</item>

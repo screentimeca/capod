@@ -128,9 +128,12 @@ class OverviewFragmentVM @Inject constructor(
             if (!isBluetoothEnabled) {
                 items.add(0, BluetoothDisabledVH.Item)
             } else if (mainPod == null) {
-                items.add(0, MissingMainDeviceVH.Item {
-                    OverviewFragmentDirections.actionOverviewFragmentToTroubleShooterFragment().navigate()
-                })
+                items.add(0, MissingMainDeviceVH.Item(
+                    onTroubleShoot = {
+                        OverviewFragmentDirections.actionOverviewFragmentToTroubleShooterFragment().navigate()
+                    },
+                    onSettings = { goToSettings() },
+                ))
             }
         }
 

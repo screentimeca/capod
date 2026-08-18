@@ -4,12 +4,14 @@
     <Preference
         android:icon="@drawable/ic_baseline_settings_24"
         app:fragment="com.screentime.airpod.main.ui.settings.general.GeneralSettingsFragment"
+        app:iconSpaceReserved="false"
         app:summary="@string/settings_general_description"
-        app:title="@string/settings_general_label" />
+        app:title="@string/settings_category_general_label" />
 
     <Preference
         android:icon="@drawable/ic_baseline_widgets_24"
         app:fragment="com.screentime.airpod.reaction.ui.ReactionSettingsFragment"
+        app:iconSpaceReserved="false"
         app:summary="@string/settings_reaction_description"
         app:title="@string/settings_reaction_label" />
 
