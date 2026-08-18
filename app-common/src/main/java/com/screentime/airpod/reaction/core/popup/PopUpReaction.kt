@@ -7,6 +7,7 @@ import com.screentime.airpod.common.debug.logging.log
 import com.screentime.airpod.common.debug.logging.logTag
 import com.screentime.airpod.common.flow.setupCommonEventHandlers
 import com.screentime.airpod.common.flow.withPrevious
+import com.screentime.airpod.common.upgrade.UpgradeRepo
 import com.screentime.airpod.main.core.GeneralSettings
 import com.screentime.airpod.monitor.core.PodMonitor
 import com.screentime.airpod.pods.core.PodDevice
@@ -32,13 +33,17 @@ class PopUpReaction @Inject constructor(
     private val reactionSettings: ReactionSettings,
     private val generalSettings: GeneralSettings,
     private val bluetoothManager: BluetoothManager2,
+    private val upgradeRepo: UpgradeRepo,
 ) {
 
     private val caseCoolDowns = mutableMapOf<PodDevice.Id, Instant>()
     private val lastDefinitiveLidByDevice = mutableMapOf<PodDevice.Id, DualApplePods.LidState>()
     private val lastPacketAtByDevice = mutableMapOf<PodDevice.Id, Instant>()
 
-    private fun monitorCase(): Flow<Event> = reactionSettings.showPopUpOnCaseOpen.flow
+    private fun monitorCase(): Flow<Event> = combine(
+        reactionSettings.showPopUpOnCaseOpen.flow,
+        upgradeRepo.upgradeInfo.map { it.isPro },
+    ) { enabled, isPro -> enabled && isPro }
         .flatMapLatest { isEnabled ->
             if (isEnabled) {
                 podMonitor.devices
@@ -149,7 +154,10 @@ class PopUpReaction @Inject constructor(
 
     private val connectionCoolDowns = mutableMapOf<String, Instant>()
 
-    private fun monitorConnection(): Flow<Event> = reactionSettings.showPopUpOnConnection.flow
+    private fun monitorConnection(): Flow<Event> = combine(
+        reactionSettings.showPopUpOnConnection.flow,
+        upgradeRepo.upgradeInfo.map { it.isPro },
+    ) { enabled, isPro -> enabled && isPro }
         .flatMapLatest { isEnabled ->
             if (!isEnabled) return@flatMapLatest emptyFlow()
 

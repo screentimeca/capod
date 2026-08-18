@@ -35,7 +35,7 @@ class ReactionSettingsFragment : PreferenceFragment3() {
 
     override val preferenceFile: Int = R.xml.preferences_reactions
 
-    private var isPro: Boolean = true
+    private var isPro: Boolean = false
     private var bondedDevices: List<BluetoothDevice2> = emptyList()
     private val autoConnectConditionPref by lazy { findPreference<ListPreference>(settings.autoConnectCondition.key)!! }
 
@@ -105,7 +105,7 @@ class ReactionSettingsFragment : PreferenceFragment3() {
             autoConnectConditionPref.isEnabled = isEnabled
         }
 
-        vm.isPro.observe2 { isPro = true }
+        vm.isPro.observe2 { isPro = it }
 
         vm.bondedDevices.observe2 { bondedDevices = it }
 

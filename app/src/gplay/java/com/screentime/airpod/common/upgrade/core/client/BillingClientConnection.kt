@@ -40,8 +40,19 @@ data class BillingClientConnection(
         .setupCommonEventHandlers(TAG) { "purchases" }
 
     suspend fun queryPurchases(): Collection<Purchase> {
+        val inapp = queryPurchases(BillingClient.ProductType.INAPP)
+        val subs = queryPurchases(BillingClient.ProductType.SUBS)
+        val purchases = (inapp + subs)
+            .filter { it.purchaseState == Purchase.PurchaseState.PURCHASED }
+            .distinctBy { it.purchaseToken }
+
+        purchasesLocal.value = purchases
+        return purchases
+    }
+
+    private suspend fun queryPurchases(productType: String): Collection<Purchase> {
         val params = QueryPurchasesParams.newBuilder()
-            .setProductType(BillingClient.ProductType.INAPP)
+            .setProductType(productType)
             .build()
         val (result: BillingResult, purchases) = suspendCoroutine<Pair<BillingResult, Collection<Purchase>?>> { continuation ->
             client.queryPurchasesAsync(params) { result, purchases ->
@@ -49,17 +60,16 @@ data class BillingClientConnection(
             }
         }
 
-        log(TAG) { "queryPurchases(): code=${result.responseCode}, message=${result.debugMessage}, purchases=$purchases" }
-
-        if (!result.isSuccess) {
-            log(TAG, WARN) { "queryPurchases() failed" }
-            throw  BillingResultException(result)
-        } else {
-            requireNotNull(purchases)
+        log(TAG) {
+            "queryPurchases(type=$productType): code=${result.responseCode}, message=${result.debugMessage}, purchases=$purchases"
         }
 
-        purchasesLocal.value = purchases
-        return purchases
+        if (!result.isSuccess) {
+            log(TAG, WARN) { "queryPurchases(type=$productType) failed" }
+            throw BillingResultException(result)
+        }
+
+        return requireNotNull(purchases)
     }
 
     suspend fun acknowledgePurchase(purchase: Purchase) {
@@ -78,7 +88,7 @@ data class BillingClientConnection(
 
     suspend fun querySku(sku: Sku): Sku.Details {
         val productDetails = QueryProductDetailsParams.Product.newBuilder().apply {
-            setProductType(BillingClient.ProductType.INAPP)
+            setProductType(sku.type)
             setProductId(sku.id)
         }.build()
 
@@ -114,8 +124,17 @@ data class BillingClientConnection(
     suspend fun launchBillingFlow(activity: Activity, skuDetails: Sku.Details): BillingResult {
         log(TAG) { "launchBillingFlow(activity=$activity, skuDetails=$skuDetails)" }
 
+        val productDetails = skuDetails.details.first()
         val productParams = BillingFlowParams.ProductDetailsParams.newBuilder().apply {
-            setProductDetails(skuDetails.details.first())
+            setProductDetails(productDetails)
+            if (productDetails.productType == BillingClient.ProductType.SUBS) {
+                val offerToken = productDetails.subscriptionOfferDetails
+                    ?.firstOrNull { it.offerId.isNullOrEmpty() }
+                    ?.offerToken
+                    ?: productDetails.subscriptionOfferDetails?.firstOrNull()?.offerToken
+                    ?: throw IllegalStateException("No subscription offer for ${skuDetails.sku.id}")
+                setOfferToken(offerToken)
+            }
         }.build()
 
         val billingFlowParams = BillingFlowParams.newBuilder().apply {

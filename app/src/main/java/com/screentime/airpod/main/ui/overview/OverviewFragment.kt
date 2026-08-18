@@ -57,14 +57,14 @@ class OverviewFragment : Fragment3(R.layout.main_fragment) {
                         vm.goToSettings()
                         true
                     }
-//                    R.id.menu_item_donate -> {
-//                        vm.onUpgrade()
-//                        true
-//                    }
-//                    R.id.menu_item_upgrade -> {
-//                        vm.onUpgrade()
-//                        true
-//                    }
+                    R.id.menu_item_donate -> {
+                        vm.onUpgrade()
+                        true
+                    }
+                    R.id.menu_item_upgrade -> {
+                        vm.onUpgrade()
+                        true
+                    }
                     else -> false
                 }
             }
@@ -105,17 +105,17 @@ class OverviewFragment : Fragment3(R.layout.main_fragment) {
         }
 
         vm.upgradeState.observe2(ui) { info ->
-//            val gplay = toolbar.menu.findItem(R.id.menu_item_upgrade)
-//            val donate = toolbar.menu.findItem(R.id.menu_item_donate)
-//            gplay.isVisible = false
-//            donate.isVisible = false
+            val gplay = toolbar.menu.findItem(R.id.menu_item_upgrade)
+            val donate = toolbar.menu.findItem(R.id.menu_item_donate)
+            gplay.isVisible = false
+            donate.isVisible = false
 
             val baseTitle = when (info.type) {
                 UpgradeRepo.Type.GPLAY -> {
                     if (info.isPro) {
                         getString(com.screentime.airpod.common.R.string.app_name_pro)
                     } else {
-//                        gplay.isVisible = true
+                        gplay.isVisible = true
                         getString(com.screentime.airpod.common.R.string.app_name)
                     }
                 }
@@ -123,7 +123,7 @@ class OverviewFragment : Fragment3(R.layout.main_fragment) {
                     if (info.isPro) {
                         getString(com.screentime.airpod.common.R.string.app_name_foss)
                     } else {
-//                        donate.isVisible = true
+                        donate.isVisible = true
                         getString(com.screentime.airpod.common.R.string.app_name)
                     }
                 }

@@ -8,8 +8,10 @@
     <string name="general_check_action">Check</string>
     <string name="general_close_action">Close</string>
 
-    <string name="upgrade_capod_label">Upgrade</string>
-    <string name="upgrade_capod_description">Get additional features and support the developer.</string>
+    <string name="upgrade_capod_label">AirPod Pro</string>
+    <string name="upgrade_capod_description">Unlock auto play, auto pause, auto connect, popups, and the home widget.</string>
+    <string name="upgrade_pro_yearly">Yearly</string>
+    <string name="upgrade_pro_monthly">Monthly</string>
 
     <string name="settings_monitor_mode_label">Monitor mode</string>
     <string name="settings_monitor_mode_description">When the app listens for AirPods status.</string>

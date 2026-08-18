@@ -8,6 +8,7 @@ import com.screentime.airpod.common.debug.logging.log
 import com.screentime.airpod.common.debug.logging.logTag
 import com.screentime.airpod.common.flow.setupCommonEventHandlers
 import com.screentime.airpod.common.flow.withPrevious
+import com.screentime.airpod.common.upgrade.UpgradeRepo
 import com.screentime.airpod.monitor.core.PodMonitor
 import com.screentime.airpod.pods.core.HasEarDetection
 import com.screentime.airpod.pods.core.HasEarDetectionDual
@@ -22,13 +23,15 @@ class PlayPause @Inject constructor(
     private val bluetoothManager: BluetoothManager2,
     private val reactionSettings: ReactionSettings,
     private val mediaControl: MediaControl,
+    private val upgradeRepo: UpgradeRepo,
 ) {
 
     fun monitor() = combine(
         reactionSettings.autoPlay.flow,
         reactionSettings.autoPause.flow,
         reactionSettings.onePodMode.flow,
-    ) { play, pause, _ -> play || pause }
+        upgradeRepo.upgradeInfo.map { it.isPro },
+    ) { play, pause, _, isPro -> isPro && (play || pause) }
         .flatMapLatest { if (it) bluetoothManager.connectedDevices() else emptyFlow() }
         .flatMapLatest {
             if (it.isEmpty()) {

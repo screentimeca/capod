@@ -16,6 +16,7 @@ import com.screentime.airpod.common.upgrade.UpgradeRepo
 import com.screentime.airpod.common.upgrade.core.data.BillingData
 import com.screentime.airpod.common.upgrade.core.data.BillingDataRepo
 import com.screentime.airpod.common.upgrade.core.data.PurchasedSku
+import com.screentime.airpod.common.upgrade.core.data.Sku
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch
@@ -76,42 +77,53 @@ class UpgradeRepoGplay @Inject constructor(
             setIcon(com.screentime.airpod.common.R.drawable.ic_heart)
             setTitle(R.string.upgrade_capod_label)
             setMessage(R.string.upgrade_capod_description)
-            setPositiveButton(R.string.general_upgrade_action) { _, _ ->
-                scope.launch {
-                    try {
-                        billingDataRepo.startIapFlow(activity, CapodSku.PRO_UPGRADE.sku)
-                    } catch (e: Exception) {
-                        log(TAG) { "startIapFlow failed:${e.asLog()}" }
-                        withContext(dispatcherProvider.Main) {
-                            e.asErrorDialogBuilder(activity).show()
-                        }
-                    }
-                }
+            setPositiveButton(R.string.upgrade_pro_yearly) { _, _ ->
+                startPurchase(activity, CapodSku.PRO_YEARLY.sku)
             }
-            setNeutralButton(R.string.general_check_action) { dialog, _ ->
-                log(TAG) { "recheck()" }
-                scope.launch {
-                    try {
-                        val data = billingDataRepo.getIapData()
-                        log(TAG) { "Recheck successful: $data" }
-                        withContext(dispatcherProvider.Main) {
-                            if (data.purchases.isEmpty()) {
-                                Toast.makeText(
-                                    activity,
-                                    R.string.upgrades_no_purchases_found_check_account,
-                                    Toast.LENGTH_LONG
-                                ).show()
-                            }
-                        }
-                    } catch (e: Exception) {
-                        log(TAG) { "Recheck failed:${e.asLog()}" }
-                        withContext(dispatcherProvider.Main) {
-                            e.asErrorDialogBuilder(activity).show()
-                        }
-                    }
-                }
+            setNegativeButton(R.string.upgrade_pro_monthly) { _, _ ->
+                startPurchase(activity, CapodSku.PRO_MONTHLY.sku)
+            }
+            setNeutralButton(R.string.general_check_action) { _, _ ->
+                restorePurchases(activity)
             }
         }.show()
+    }
+
+    private fun startPurchase(activity: Activity, sku: Sku) {
+        scope.launch {
+            try {
+                billingDataRepo.startIapFlow(activity, sku)
+            } catch (e: Exception) {
+                log(TAG) { "startIapFlow failed:${e.asLog()}" }
+                withContext(dispatcherProvider.Main) {
+                    e.asErrorDialogBuilder(activity).show()
+                }
+            }
+        }
+    }
+
+    private fun restorePurchases(activity: Activity) {
+        log(TAG) { "recheck()" }
+        scope.launch {
+            try {
+                val data = billingDataRepo.getIapData()
+                log(TAG) { "Recheck successful: $data" }
+                withContext(dispatcherProvider.Main) {
+                    if (data.purchases.isEmpty()) {
+                        Toast.makeText(
+                            activity,
+                            R.string.upgrades_no_purchases_found_check_account,
+                            Toast.LENGTH_LONG
+                        ).show()
+                    }
+                }
+            } catch (e: Exception) {
+                log(TAG) { "Recheck failed:${e.asLog()}" }
+                withContext(dispatcherProvider.Main) {
+                    e.asErrorDialogBuilder(activity).show()
+                }
+            }
+        }
     }
 
     data class Info(
@@ -134,7 +146,7 @@ class UpgradeRepoGplay @Inject constructor(
 
     companion object {
         private fun BillingData.getProSku(): PurchasedSku? = purchasedSkus
-            .firstOrNull { it.sku == CapodSku.PRO_UPGRADE.sku }
+            .firstOrNull { it.sku.id in CapodSku.PRO_IDS }
 
         val TAG: String = logTag("Upgrade", "Gplay", "Control")
     }

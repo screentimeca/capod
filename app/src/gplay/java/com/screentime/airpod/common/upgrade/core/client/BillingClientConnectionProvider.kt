@@ -37,6 +37,7 @@ class BillingClientConnectionProvider @Inject constructor(
             enablePendingPurchases(
                 PendingPurchasesParams.newBuilder()
                     .enableOneTimeProducts()
+                    .enablePrepaidPlans()
                     .build()
             )
             enableAutoServiceReconnection()

@@ -6,6 +6,7 @@ import com.screentime.airpod.common.debug.logging.Logging.Priority.WARN
 import com.screentime.airpod.common.debug.logging.log
 import com.screentime.airpod.common.debug.logging.logTag
 import com.screentime.airpod.common.flow.setupCommonEventHandlers
+import com.screentime.airpod.common.upgrade.UpgradeRepo
 import com.screentime.airpod.main.core.GeneralSettings
 import com.screentime.airpod.monitor.core.PodMonitor
 import com.screentime.airpod.pods.core.HasEarDetection
@@ -21,10 +22,14 @@ class AutoConnect @Inject constructor(
     private val bluetoothManager: BluetoothManager2,
     private val podMonitor: PodMonitor,
     private val generalSettings: GeneralSettings,
-    private val reactionSettings: ReactionSettings
+    private val reactionSettings: ReactionSettings,
+    private val upgradeRepo: UpgradeRepo,
 ) {
 
-    fun monitor(): Flow<Unit> = reactionSettings.autoConnect.flow
+    fun monitor(): Flow<Unit> = combine(
+        reactionSettings.autoConnect.flow,
+        upgradeRepo.upgradeInfo.map { it.isPro },
+    ) { enabled, isPro -> enabled && isPro }
         .flatMapLatest { isAutoConnectEnabled ->
             if (isAutoConnectEnabled) {
                 combine(
