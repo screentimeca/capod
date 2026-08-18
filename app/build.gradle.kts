@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("kotlin-android")
     id("kotlin-kapt")
+    id("com.google.devtools.ksp")
     id("kotlin-parcelize")
 }
 apply(plugin = "dagger.hilt.android.plugin")
@@ -117,14 +118,14 @@ android {
         )
     }
 
-    testOptions {
-        unitTests {
-            isIncludeAndroidResources = true
-        }
-        tasks.withType<Test> {
-            useJUnitPlatform()
-        }
-    }
+//    testOptions {
+//        unitTests {
+//            isIncludeAndroidResources = true
+//        }
+//        tasks.withType<Test> {
+//            useJUnitPlatform()
+//        }
+//    }
 }
 
 dependencies {

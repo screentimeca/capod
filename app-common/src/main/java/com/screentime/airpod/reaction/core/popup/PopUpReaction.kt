@@ -3,7 +3,6 @@ package com.screentime.airpod.reaction.core.popup
 import com.screentime.airpod.common.bluetooth.BluetoothManager2
 import com.screentime.airpod.common.debug.logging.Logging.Priority.INFO
 import com.screentime.airpod.common.debug.logging.Logging.Priority.VERBOSE
-import com.screentime.airpod.common.debug.logging.Logging.Priority.WARN
 import com.screentime.airpod.common.debug.logging.log
 import com.screentime.airpod.common.debug.logging.logTag
 import com.screentime.airpod.common.flow.setupCommonEventHandlers
@@ -35,6 +34,7 @@ class PopUpReaction @Inject constructor(
 ) {
 
     private val caseCoolDowns = mutableMapOf<PodDevice.Id, Instant>()
+    private val lastDefinitiveLidByDevice = mutableMapOf<PodDevice.Id, DualApplePods.LidState>()
 
     private fun monitorCase(): Flow<Event> = reactionSettings.showPopUpOnCaseOpen.flow
         .flatMapLatest { isEnabled ->
@@ -47,66 +47,85 @@ class PopUpReaction @Inject constructor(
         .withPrevious()
         .setupCommonEventHandlers(TAG) { "popUpCase" }
         .mapNotNull { (previous, current) ->
-            if (previous !is DualApplePods? || current !is DualApplePods) {
-                return@mapNotNull null
+            val previousPods = previous as? DualApplePods
+            val currentPods = current as? DualApplePods
+
+            if (currentPods == null) {
+                previousPods?.identifier?.let { forgetDevice(it) }
+                return@mapNotNull if (previousPods != null) {
+                    log(TAG, INFO) { "Hide popup, monitored device disappeared." }
+                    Event.PopupHide()
+                } else {
+                    null
+                }
             }
+
+            if (previousPods != null && previousPods.identifier != currentPods.identifier) {
+                forgetDevice(previousPods.identifier)
+            }
+
+            val liveLid = currentPods.liveLidState()
             log(TAG, VERBOSE) {
-                val prev = previous?.rawCaseLidState?.let { String.format("%02X", it.toByte()) }
-                val cur = current.rawCaseLidState.let { String.format("%02X", it.toByte()) }
-                "previous=$prev (${previous?.caseLidState}), current=$cur (${current.caseLidState})"
+                val prev = previousPods?.rawCaseLidState?.let { String.format("%02X", it.toByte()) }
+                val cur = currentPods.rawCaseLidState.let { String.format("%02X", it.toByte()) }
+                "previous=$prev (${previousPods?.liveLidState()}), current=$cur ($liveLid), cached=${currentPods.caseLidState}"
             }
-            log(TAG, VERBOSE) { "previous-id=${previous?.identifier}, current-id=${current.identifier}" }
+            log(TAG, VERBOSE) { "previous-id=${previousPods?.identifier}, current-id=${currentPods.identifier}" }
 
-            val isSameDeviceWithCaseNowOpen =
-                previous?.identifier == current.identifier && previous.caseLidState != current.caseLidState
-            val isNewDeviceWithJustOpenedCase =
-                previous?.identifier != current.identifier && previous?.caseLidState != current.caseLidState
+            when (liveLid) {
+                DualApplePods.LidState.UNKNOWN,
+                DualApplePods.LidState.NOT_IN_CASE -> {
+                    // BLE lid bytes flicker while the case stays open. Do not hide
+                    // the popup or refresh cooldown, or the next OPEN is dropped.
+                    null
+                }
 
-            if (!isSameDeviceWithCaseNowOpen && !isNewDeviceWithJustOpenedCase) {
-                return@mapNotNull null
-            }
-            log(TAG) { "Case lid status changed for monitored device." }
+                DualApplePods.LidState.OPEN -> {
+                    val last = lastDefinitiveLidByDevice[currentPods.identifier]
+                    lastDefinitiveLidByDevice[currentPods.identifier] = liveLid
+                    if (last == DualApplePods.LidState.OPEN) {
+                        null
+                    } else {
+                        log(TAG) { "Case lid opened for monitored device (was $last)." }
+                        showCasePopUp(currentPods)
+                    }
+                }
 
-            throttleCasePopUps(current)
-        }
-
-    private fun throttleCasePopUps(current: DualApplePods): Event? = when {
-        current.caseLidState == DualApplePods.LidState.OPEN -> {
-            log(TAG, INFO) { "Show popup" }
-
-            val now = Instant.now()
-            val lastShown = caseCoolDowns[current.identifier] ?: Instant.MIN
-            val sinceLastPop = Duration.between(lastShown, now)
-            log(TAG) { "Time since last case popup: $sinceLastPop" }
-
-            if (sinceLastPop >= Duration.ofSeconds(10)) {
-                caseCoolDowns[current.identifier] = Instant.now()
-                Event.PopupShow(device = current)
-            } else {
-                log(TAG, INFO) { "Case popup is still on cooldown: $sinceLastPop" }
-                null
-            }
-        }
-
-        current.caseLidState != DualApplePods.LidState.OPEN -> {
-            when (current.caseLidState) {
                 DualApplePods.LidState.CLOSED -> {
+                    lastDefinitiveLidByDevice[currentPods.identifier] = liveLid
                     log(TAG, INFO) { "Lid was actively closed, resetting cooldown." }
-                    caseCoolDowns.remove(current.identifier)
-                }
-
-                else -> {
-                    log(TAG, WARN) { "Lid was was not actively closed, refreshing cooldown." }
-                    caseCoolDowns[current.identifier] = Instant.now()
+                    caseCoolDowns.remove(currentPods.identifier)
+                    Event.PopupHide()
                 }
             }
-
-            log(TAG, INFO) { "Hide popup" }
-
-            Event.PopupHide()
         }
 
-        else -> null
+    private fun forgetDevice(id: PodDevice.Id) {
+        lastDefinitiveLidByDevice.remove(id)
+        caseCoolDowns.remove(id)
+    }
+
+    private fun DualApplePods.liveLidState(): DualApplePods.LidState {
+        val raw = rawCaseLidState.toInt()
+        return DualApplePods.LidState.values().firstOrNull { it.rawRange.contains(raw) }
+            ?: DualApplePods.LidState.UNKNOWN
+    }
+
+    private fun showCasePopUp(current: DualApplePods): Event? {
+        log(TAG, INFO) { "Show popup" }
+
+        val now = Instant.now()
+        val lastShown = caseCoolDowns[current.identifier] ?: Instant.MIN
+        val sinceLastPop = Duration.between(lastShown, now)
+        log(TAG) { "Time since last case popup: $sinceLastPop" }
+
+        return if (sinceLastPop >= Duration.ofSeconds(10)) {
+            caseCoolDowns[current.identifier] = now
+            Event.PopupShow(device = current)
+        } else {
+            log(TAG, INFO) { "Case popup is still on cooldown: $sinceLastPop" }
+            null
+        }
     }
 
     private val connectionCoolDowns = mutableMapOf<String, Instant>()

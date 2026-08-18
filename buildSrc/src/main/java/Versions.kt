@@ -1,7 +1,7 @@
 object Versions {
     object Kotlin {
-        const val core = "1.9.10"
-        const val coroutines = "1.7.3"
+        const val core = "2.0.21"
+        const val coroutines = "1.8.0"
     }
 
     object Dokka {
@@ -9,7 +9,7 @@ object Versions {
     }
 
     object Dagger {
-        const val core = "2.48.1"
+        const val core = "2.53.1"
     }
 
     object Moshi {

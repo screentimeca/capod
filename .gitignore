@@ -1,8 +1,8 @@
 *.iml
-.gradle
-/local.properties
+.gradle/
+local.properties
 .DS_Store
-/build
+build/
 /captures
 .externalNativeBuild
 .cxx
@@ -13,3 +13,11 @@
 .local/*
 /fastlane/report.xml
 /fastlane/Appfile
+
+# Android/Gradle build artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+output-metadata.json

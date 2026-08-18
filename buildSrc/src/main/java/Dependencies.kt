@@ -20,6 +20,9 @@ private fun DependencyHandler.androidTestImplementation(dependencyNotation: Any)
 private fun DependencyHandler.kaptAndroidTest(dependencyNotation: Any): Dependency? =
     add("kaptAndroidTest", dependencyNotation)
 
+private fun DependencyHandler.ksp(dependencyNotation: Any): Dependency? =
+    add("ksp", dependencyNotation)
+
 private fun DependencyHandler.`testRuntimeOnly`(dependencyNotation: Any): Dependency? =
     add("testRuntimeOnly", dependencyNotation)
 
@@ -63,7 +66,7 @@ fun DependencyHandlerScope.addDagger() {
 fun DependencyHandlerScope.addMoshi() {
     implementation("com.squareup.moshi:moshi:${Versions.Moshi.core}")
     implementation("com.squareup.moshi:moshi-adapters:${Versions.Moshi.core}")
-    kapt("com.squareup.moshi:moshi-kotlin-codegen:${Versions.Moshi.core}")
+    ksp("com.squareup.moshi:moshi-kotlin-codegen:${Versions.Moshi.core}")
 }
 
 fun DependencyHandlerScope.addOkio() {
