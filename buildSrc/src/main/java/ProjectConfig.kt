@@ -17,17 +17,41 @@ object ProjectConfig {
     const val compileSdk = 37
     const val targetSdk = 37
 
-    object Version {
-        val versionProperties = Properties().apply {
-            load(FileInputStream(File("version.properties")))
-        }
-        val major = versionProperties.getProperty("project.versioning.major").toInt()
-        val minor = versionProperties.getProperty("project.versioning.minor").toInt()
-        val patch = versionProperties.getProperty("project.versioning.patch").toInt()
-        val build = versionProperties.getProperty("project.versioning.build").toInt()
+    data class VersionInfo(
+        val major: Int,
+        val minor: Int,
+        val patch: Int,
+        val build: Int,
+    ) {
+        val name: String = "${major}.${minor}.${patch}-rc${build}"
+        val code: Int = major * 10000000 + minor * 100000 + patch * 1000 + build * 10
+    }
 
-        val name = "${major}.${minor}.${patch}-rc${build}"
-        val code = major * 10000000 + minor * 100000 + patch * 1000 + build * 10
+    fun versionFrom(propertiesFile: File): VersionInfo {
+        val versionProperties = Properties().apply {
+            propertiesFile.inputStream().use { load(it) }
+        }
+        return VersionInfo(
+            major = versionProperties.getProperty("project.versioning.major").toInt(),
+            minor = versionProperties.getProperty("project.versioning.minor").toInt(),
+            patch = versionProperties.getProperty("project.versioning.patch").toInt(),
+            build = versionProperties.getProperty("project.versioning.build").toInt(),
+        )
+    }
+
+    object Version {
+        private val info = versionFrom(
+            listOf(
+                File("version.properties"),
+                File(System.getProperty("user.dir"), "version.properties"),
+            ).first { it.isFile }
+        )
+        val major = info.major
+        val minor = info.minor
+        val patch = info.patch
+        val build = info.build
+        val name = info.name
+        val code = info.code
     }
 }
 

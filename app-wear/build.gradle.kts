@@ -17,8 +17,9 @@ android {
         minSdk = ProjectConfig.minSdk
         targetSdk = ProjectConfig.targetSdk
 
-        versionCode = ProjectConfig.Version.code + 1 // Wear app
-        versionName = ProjectConfig.Version.name
+        val appVersion = ProjectConfig.versionFrom(rootProject.file("version.properties"))
+        versionCode = appVersion.code + 1 // Wear app
+        versionName = appVersion.name
 
         testInstrumentationRunner = "com.screentime.airpod.HiltTestRunner"
 

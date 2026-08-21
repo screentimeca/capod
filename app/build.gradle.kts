@@ -18,8 +18,10 @@ android {
         minSdk = ProjectConfig.minSdk
         targetSdk = ProjectConfig.targetSdk
 
-        versionCode = ProjectConfig.Version.code + 0 // Base app
-        versionName = ProjectConfig.Version.name
+        val appVersion = ProjectConfig.versionFrom(rootProject.file("version.properties"))
+        versionCode = appVersion.code
+        versionName = appVersion.name
+        println("AirPod gplay versionName=${appVersion.name} versionCode=${appVersion.code}")
 
         testInstrumentationRunner = "com.screentime.airpod.HiltTestRunner"
     }

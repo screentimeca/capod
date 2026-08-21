@@ -18,8 +18,8 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
 
-        buildConfigField("Long", "VERSION_CODE", "${ProjectConfig.Version.code}L")
-        buildConfigField("String", "VERSION_NAME", "\"${ProjectConfig.Version.name}\"")
+        buildConfigField("Long", "VERSION_CODE", "${ProjectConfig.versionFrom(rootProject.file("version.properties")).code}L")
+        buildConfigField("String", "VERSION_NAME", "\"${ProjectConfig.versionFrom(rootProject.file("version.properties")).name}\"")
         buildConfigField("String", "APPLICATION_ID", "\"${ProjectConfig.packageName}\"")
         buildConfigField("String", "GITSHA", "\"${lastCommitHash()}\"")
         buildConfigField("String", "BUILDTIME", "\"${buildTime()}\"")
