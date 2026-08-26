@@ -1,5 +1,5 @@
 package com.screentime.airpod.common
 
 object PrivacyPolicy {
-    const val URL = "https://github.com/screentimeca/airpod/wiki/privacy"
+    const val URL = "https://whisperflow.org/airpod/privacy.html"
 }
