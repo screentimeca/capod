@@ -20,8 +20,6 @@
     <string name="permission_bluetooth_description">Lets AirPod connect to your paired headphones.</string>
     <string name="permission_access_fine_location_label">Nearby devices</string>
     <string name="permission_access_fine_location_description">Android uses this so AirPod can read headphone status over Bluetooth. It isn\'t used to track where you are.</string>
-    <string name="permission_background_location_label">Nearby devices in the background</string>
-    <string name="permission_background_location_description">Needed for popups and auto connect while AirPod is closed. It isn\'t used to track where you are.</string>
     <string name="permission_ignore_battery_optimizations_label">Unrestricted battery use</string>
     <string name="permission_ignore_battery_optimizations_description">Keeps AirPod running in the background so status and automations don\'t stop.</string>
     <string name="permission_required_title">AirPod needs this to continue</string>

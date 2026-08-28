@@ -37,7 +37,6 @@ class PermissionCardVH(parent: ViewGroup) :
             text = Html.fromHtml("<html><a href=\"$ppLink\">$ppText</a></html>", 0)
             val ppp = setOf(
                 Permission.ACCESS_FINE_LOCATION,
-                Permission.ACCESS_BACKGROUND_LOCATION,
                 Permission.BLUETOOTH_SCAN
             )
             isGone = !ppp.contains(item.permission)
@@ -60,8 +59,7 @@ private val Permission.iconRes: Int
         Permission.BLUETOOTH,
         Permission.BLUETOOTH_CONNECT -> R.drawable.ic_baseline_bluetooth_connected_24
         Permission.BLUETOOTH_SCAN -> R.drawable.ic_baseline_bluetooth_searching_24
-        Permission.ACCESS_FINE_LOCATION,
-        Permission.ACCESS_BACKGROUND_LOCATION -> R.drawable.ic_baseline_visibility_24
+        Permission.ACCESS_FINE_LOCATION -> R.drawable.ic_baseline_visibility_24
         Permission.IGNORE_BATTERY_OPTIMIZATION -> com.screentime.airpod.common.R.drawable.ic_baseline_power_24
         Permission.SYSTEM_ALERT_WINDOW -> R.drawable.ic_message_outline_24
         Permission.POST_NOTIFICATIONS -> R.drawable.ic_baseline_chat_24
