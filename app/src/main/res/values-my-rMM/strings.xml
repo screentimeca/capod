@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">အလိုအလျောက် ဖွင့်/ရပ်၊ အလိုအလျောက် ချိတ်ဆက်၊ ပေါ့ပ်အပ်များနှင့် ပင်မ ဝစ်ဂျက်ကို ဖွင့်ပါ။</string>
+    <string name="upgrade_pro_headline">သင့် AirPods မှ ပိုမိုရယူပါ</string>
+    <string name="upgrade_pro_body">နားကြပ်များ သင်လိုသလို အလုပ်လုပ်ရန် အလိုအလျောက်လုပ်ဆောင်ချက်နှင့် အပိုအင်္ဂါရပ်များကို ဖွင့်ပါ။</string>
+    <string name="upgrade_pro_yearly">နှစ်စဉ်</string>
+    <string name="upgrade_pro_monthly">လစဉ်</string>
+    <string name="upgrade_benefit_playback_title">အလိုအလျောက် ဖွင့်နှင့် ရပ်</string>
+    <string name="upgrade_benefit_playback_body">AirPods တပ်သည့်အခါ သို့မဟုတ် ဖြုတ်သည့်အခါ အသံ စတင်ပြီး ရပ်သည်။</string>
+    <string name="upgrade_benefit_connect_title">အလိုအလျောက် ချိတ်ဆက်</string>
+    <string name="upgrade_benefit_connect_body">AirPods နီးပါက၊ အံဖွင့်ပါက သို့မဟုတ် နားထဲရှိပါက Android ချိတ်ဆက်ပါ။</string>
+    <string name="upgrade_benefit_popups_title">အံနှင့် ချိတ်ဆက် ပေါ့ပ်အပ်များ</string>
+    <string name="upgrade_benefit_popups_body">အံဖွင့်သည့်အခါ ပေါ့ပ်အပ် ပြပါ။</string>
+    <string name="upgrade_benefit_widget_title">ပင်မ မျက်နှာပြင် ဝစ်ဂျက်</string>
+    <string name="upgrade_benefit_widget_body">အက်ပ်မဖွင့်ဘဲ ဘက်ထရီနှင့် အခြေအနေ စစ်ပါ။</string>
+</resources>

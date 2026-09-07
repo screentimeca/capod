@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Отклучете автоматско пуштање/пауза, автоматско поврзување, скокачки прозорци и виџетот на почетниот екран.</string>
+    <string name="upgrade_pro_headline">Извлечете повеќе од вашите AirPods</string>
+    <string name="upgrade_pro_body">Отклучете автоматизација и додатоци за слушалките да работат како што сакате.</string>
+    <string name="upgrade_pro_yearly">Годишно</string>
+    <string name="upgrade_pro_monthly">Месечно</string>
+    <string name="upgrade_benefit_playback_title">Автоматско пуштање и пауза</string>
+    <string name="upgrade_benefit_playback_body">Почнува и запира звук кога ќе ги ставите или извадите AirPods.</string>
+    <string name="upgrade_benefit_connect_title">Автоматско поврзување</string>
+    <string name="upgrade_benefit_connect_body">Побарајте Android да се поврзе кога AirPods се блиску, се отвора кутијата или се во ушите.</string>
+    <string name="upgrade_benefit_popups_title">Скокачки прозорци за кутија и врска</string>
+    <string name="upgrade_benefit_popups_body">Прикажи скокачки прозорец кога ќе ја отвориш кутијата.</string>
+    <string name="upgrade_benefit_widget_title">Виџет на почетниот екран</string>
+    <string name="upgrade_benefit_widget_body">Проверете батерија и статус без да ја отворите апликацијата.</string>
+</resources>

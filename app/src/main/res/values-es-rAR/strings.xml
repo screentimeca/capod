@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Desbloquea la reproducción/pausa automática, la conexión automática, las ventanas emergentes y el widget de inicio.</string>
+    <string name="upgrade_pro_headline">Sácale más partido a tus AirPods</string>
+    <string name="upgrade_pro_body">Desbloquea automatizaciones y extras para que tus auriculares funcionen como quieres.</string>
+    <string name="upgrade_pro_yearly">Anual</string>
+    <string name="upgrade_pro_monthly">Mensual</string>
+    <string name="upgrade_benefit_playback_title">Reproducción y pausa automáticas</string>
+    <string name="upgrade_benefit_playback_body">Inicia y detiene el audio al ponerte o quitarte los AirPods.</string>
+    <string name="upgrade_benefit_connect_title">Conexión automática</string>
+    <string name="upgrade_benefit_connect_body">Pide a Android que se conecte cuando tus AirPods estén cerca, se abra el estuche o los lleves puestos.</string>
+    <string name="upgrade_benefit_popups_title">Ventanas del estuche y de conexión</string>
+    <string name="upgrade_benefit_popups_body">Muestra una ventana emergente al abrir el estuche.</string>
+    <string name="upgrade_benefit_widget_title">Widget de la pantalla de inicio</string>
+    <string name="upgrade_benefit_widget_body">Consulta la batería y el estado sin abrir la app.</string>
+    <string name="onboarding_body1">Esta aplicación agrega soporte para funciones específicas de los AirPods para Android.</string>
+    <string name="onboarding_body2">No todos los dispositivos Android son totalmente compatibles con las funciones adicionales de los AirPods. Tu sistema operativo requiere una implementación de un Bluetooth de baja energía que funcione correctamente.</string>
+    <string name="onboarding_body3">AirPod no contiene anuncios y no recopila tus datos.</string>
+    <string name="onboarding_body4">Puedes actualizar a AirPod Pro para obtener funciones adicionales y apoyar el desarrollo.</string>
+    <string name="general_continue_action">Sigue</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Fungua uchezaji/sitisha otomatiki, muunganisho otomatiki, dirisha ibukizi na wijeti ya skrini kuu.</string>
+    <string name="upgrade_pro_headline">Pata zaidi kutoka kwa AirPods zako</string>
+    <string name="upgrade_pro_body">Fungua otomatiki na vipengele vya ziada ili spoona zifanye kazi unavyotaka.</string>
+    <string name="upgrade_pro_yearly">Kila mwaka</string>
+    <string name="upgrade_pro_monthly">Kila mwezi</string>
+    <string name="upgrade_benefit_playback_title">Uchezaji na sitisha otomatiki</string>
+    <string name="upgrade_benefit_playback_body">Inaanza na kusimamisha sauti unapovaa au kuvua AirPods.</string>
+    <string name="upgrade_benefit_connect_title">Unganisha otomatiki</string>
+    <string name="upgrade_benefit_connect_body">Omba Android iunganishe AirPods zikiwa karibu, kesi ikifunguliwa au zikiwa masikioni.</string>
+    <string name="upgrade_benefit_popups_title">Dirisha za kesi na muunganisho</string>
+    <string name="upgrade_benefit_popups_body">Onyesha dirisha ibukizi unapofungua kesi.</string>
+    <string name="upgrade_benefit_widget_title">Wijeti ya skrini kuu</string>
+    <string name="upgrade_benefit_widget_body">Angalia betri na hali bila kufungua programu.</string>
+</resources>

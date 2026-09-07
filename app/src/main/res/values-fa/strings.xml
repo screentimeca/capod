@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">پخش/مکث خودکار، اتصال خودکار، پنجره‌های بازشو و ویجت صفحه اصلی را فعال کنید.</string>
+    <string name="upgrade_pro_headline">از AirPods بیشتر بهره ببرید</string>
+    <string name="upgrade_pro_body">خودکارسازی و امکانات اضافه را باز کنید تا هدفون همان‌طور که می‌خواهید کار کند.</string>
+    <string name="upgrade_pro_yearly">سالانه</string>
+    <string name="upgrade_pro_monthly">ماهانه</string>
+    <string name="upgrade_benefit_playback_title">پخش و مکث خودکار</string>
+    <string name="upgrade_benefit_playback_body">با گذاشتن یا درآوردن AirPods صدا شروع و متوقف می‌شود.</string>
+    <string name="upgrade_benefit_connect_title">اتصال خودکار</string>
+    <string name="upgrade_benefit_connect_body">از Android بخواهید وقتی AirPods نزدیک است، جعبه باز می‌شود یا در گوش است وصل شود.</string>
+    <string name="upgrade_benefit_popups_title">پنجره‌های جعبه و اتصال</string>
+    <string name="upgrade_benefit_popups_body">هنگام باز کردن جعبه یک پنجره بازشو نشان بده.</string>
+    <string name="upgrade_benefit_widget_title">ویجت صفحه اصلی</string>
+    <string name="upgrade_benefit_widget_body">باتری و وضعیت را بدون باز کردن برنامه ببینید.</string>
+</resources>

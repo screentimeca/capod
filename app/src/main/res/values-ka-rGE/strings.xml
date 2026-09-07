@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">გახსენით ავტოძახება/პაუზა, ავტოკავშირი, ამომხტარი ფანჯრები და მთავარი ეკრანის ვიჯეტი.</string>
+    <string name="upgrade_pro_headline">მიიღეთ მეტი თქვენი AirPods-იდან</string>
+    <string name="upgrade_pro_body">გახსენით ავტომატიზაცია და დამატებითი ფუნქციები, რომ ყურსასმენები იმუშაოს ისე, როგორც გსურთ.</string>
+    <string name="upgrade_pro_yearly">წლიური</string>
+    <string name="upgrade_pro_monthly">თვიური</string>
+    <string name="upgrade_benefit_playback_title">ავტოძახება და პაუზა</string>
+    <string name="upgrade_benefit_playback_body">იწყებს და აჩერებს აუდიოს AirPods-ის ჩადგმის ან ამოღებისას.</string>
+    <string name="upgrade_benefit_connect_title">ავტოკავშირი</string>
+    <string name="upgrade_benefit_connect_body">სთხოვეთ Android-ს დაკავშირება, როცა AirPods ახლოსაა, ქეისი იხსნება ან ყურშია.</string>
+    <string name="upgrade_benefit_popups_title">ქეისისა და კავშირის ფანჯრები</string>
+    <string name="upgrade_benefit_popups_body">აჩვენე ამომხტარი ფანჯარა ქეისის გახსნისას.</string>
+    <string name="upgrade_benefit_widget_title">მთავარი ეკრანის ვიჯეტი</string>
+    <string name="upgrade_benefit_widget_body">შეამოწმეთ ბატარეა და სტატუსი აპის გახსნის გარეშე.</string>
+</resources>

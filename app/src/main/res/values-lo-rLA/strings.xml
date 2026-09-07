@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">ປົດລ็อกການຫຼິ້ນ/ຢຸດອັດຕະໂນມັດ, ເຊື່ອມຕໍ່ອັດຕະໂນມັດ, ປັອບອັບ ແລະວິດເຈັດໜ້າຈໍຫຼັກ.</string>
+    <string name="upgrade_pro_headline">ໄດ້ຮັບຫຼາຍຂຶ້ນຈາກ AirPods ຂອງທ່ານ</string>
+    <string name="upgrade_pro_body">ປົດລ็อกອັດຕະໂນມັດ ແລະຟີເຈີເພີ່ມເຕີມ ໃຫ້ຫູຟັງເຮັດວຽກຕາມທີ່ທ່ານຕ້ອງການ.</string>
+    <string name="upgrade_pro_yearly">ລາຍປີ</string>
+    <string name="upgrade_pro_monthly">ລາຍເດືອນ</string>
+    <string name="upgrade_benefit_playback_title">ຫຼິ້ນ ແລະຢຸດອັດຕະໂນມັດ</string>
+    <string name="upgrade_benefit_playback_body">ເລີ່ມ ແລະຢຸດສຽງເມື່ອທ່ານໃສ່ ຫຼືຖອດ AirPods.</string>
+    <string name="upgrade_benefit_connect_title">ເຊື່ອມຕໍ່ອັດຕະໂນມັດ</string>
+    <string name="upgrade_benefit_connect_body">ໃຫ້ Android ເຊື່ອມຕໍ່ເມື່ອ AirPods ຢູ່ໃກ້, ເປີດກ່ອງ ຫຼືຢູ່ໃນຫູ.</string>
+    <string name="upgrade_benefit_popups_title">ປັອບອັບກ່ອງ ແລະການເຊື່ອມຕໍ່</string>
+    <string name="upgrade_benefit_popups_body">ສະແດງປັອບອັບເມື່ອທ່ານເປີດກ່ອງ.</string>
+    <string name="upgrade_benefit_widget_title">ວິດເຈັດໜ້າຈໍຫຼັກ</string>
+    <string name="upgrade_benefit_widget_body">ເບິ່ງແບັດເຕີຣີ ແລະສະຖານະໂດຍບໍ່ຕ້ອງເປີດແອັບ.</string>
+</resources>

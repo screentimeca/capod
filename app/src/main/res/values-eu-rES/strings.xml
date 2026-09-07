@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Desblokeatu erreprodukzio/pausa automatikoa, konexio automatikoa, leiho gainerakorrak eta hasierako widgeta.</string>
+    <string name="upgrade_pro_headline">Atera gehiago zure AirPods-etatik</string>
+    <string name="upgrade_pro_body">Desblokeatu automatizazioak eta gehigarriak entzungailuek nahi duzun bezala funtziona dezaten.</string>
+    <string name="upgrade_pro_yearly">Urtekoa</string>
+    <string name="upgrade_pro_monthly">Hilekoa</string>
+    <string name="upgrade_benefit_playback_title">Erreprodukzio eta pausa automatikoak</string>
+    <string name="upgrade_benefit_playback_body">Audioa abiarazi eta gelditzen du AirPods jartzean edo kentzean.</string>
+    <string name="upgrade_benefit_connect_title">Konexio automatikoa</string>
+    <string name="upgrade_benefit_connect_body">Eskatu Android-i konektatzeko AirPods gertu daudenean, kutxa irekitzean edo belarrian daudenean.</string>
+    <string name="upgrade_benefit_popups_title">Kutxa eta konexio leihoak</string>
+    <string name="upgrade_benefit_popups_body">Erakutsi leiho gainerakor bat kutxa irekitzean.</string>
+    <string name="upgrade_benefit_widget_title">Hasierako pantailako widgeta</string>
+    <string name="upgrade_benefit_widget_body">Egiaztatu bateria eta egoera aplikazioa ireki gabe.</string>
+</resources>

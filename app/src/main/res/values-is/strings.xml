@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Opnaðu sjálfvirka spilun/pásu, sjálfvirka tengingu, sprettiglugga og heimasíðu-græju.</string>
+    <string name="upgrade_pro_headline">Fáðu meira út úr AirPods</string>
+    <string name="upgrade_pro_body">Opnaðu sjálfvirkni og aukahluti svo heyrnartólin virki eins og þú vilt.</string>
+    <string name="upgrade_pro_yearly">Árlega</string>
+    <string name="upgrade_pro_monthly">Mánaðarlega</string>
+    <string name="upgrade_benefit_playback_title">Sjálfvirk spilun og pásu</string>
+    <string name="upgrade_benefit_playback_body">Byrjar og stöðvar hljóð þegar þú setur AirPods í eða tekur þau úr.</string>
+    <string name="upgrade_benefit_connect_title">Sjálfvirk tenging</string>
+    <string name="upgrade_benefit_connect_body">Biddu Android um að tengjast þegar AirPods eru nálægt, hulstrið opnast eða þau eru í eyrunum.</string>
+    <string name="upgrade_benefit_popups_title">Sprettigluggar hulsturs og tengingar</string>
+    <string name="upgrade_benefit_popups_body">Sýna sprettiglugga þegar þú opnar hulstrið.</string>
+    <string name="upgrade_benefit_widget_title">Græja á heimasíðu</string>
+    <string name="upgrade_benefit_widget_body">Skoðaðu rafhlöðu og stöðu án þess að opna appið.</string>
+</resources>

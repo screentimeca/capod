@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Sbloca riprodutzione/pausa automàtica, connessione automàtica, pop-up e su widget de s’ischeda printzipale.</string>
+    <string name="upgrade_pro_headline">Otene de prus dae is AirPods tuos</string>
+    <string name="upgrade_pro_body">Sbloca automatizatziones e extras pro chi is auriculares funtzionent comente cheres.</string>
+    <string name="upgrade_pro_yearly">Annuale</string>
+    <string name="upgrade_pro_monthly">Mensile</string>
+    <string name="upgrade_benefit_playback_title">Riprodutzione e pausa automàticas</string>
+    <string name="upgrade_benefit_playback_body">Aviada e firma s’àudio cando pones o bogas is AirPods.</string>
+    <string name="upgrade_benefit_connect_title">Connessione automàtica</string>
+    <string name="upgrade_benefit_connect_body">Prega a Android de si connètere cando is AirPods sunt a curtzu, s’aberit sa cascia o sunt in is origras.</string>
+    <string name="upgrade_benefit_popups_title">Pop-up de cascia e connessione</string>
+    <string name="upgrade_benefit_popups_body">Mustra unu pop-up cando aberis sa cascia.</string>
+    <string name="upgrade_benefit_widget_title">Widget de s’ischeda printzipale</string>
+    <string name="upgrade_benefit_widget_body">Controlla bateria e istadu chene abèrrere s’aplicatzione.</string>
+</resources>

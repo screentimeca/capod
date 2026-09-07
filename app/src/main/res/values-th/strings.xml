@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">ปลดล็อกเล่น/หยุดอัตโนมัติ เชื่อมต่ออัตโนมัติ ป๊อปอัป และวิดเจ็ตหน้าจอหลัก</string>
+    <string name="upgrade_pro_headline">ใช้ AirPods ให้คุ้มกว่า</string>
+    <string name="upgrade_pro_body">ปลดล็อกระบบอัตโนมัติและฟีเจอร์เพิ่มเติมให้หูฟังทำงานอย่างที่คุณต้องการ</string>
+    <string name="upgrade_pro_yearly">รายปี</string>
+    <string name="upgrade_pro_monthly">รายเดือน</string>
+    <string name="upgrade_benefit_playback_title">เล่นและหยุดอัตโนมัติ</string>
+    <string name="upgrade_benefit_playback_body">เริ่มและหยุดเสียงเมื่อใส่หรือถอด AirPods</string>
+    <string name="upgrade_benefit_connect_title">เชื่อมต่ออัตโนมัติ</string>
+    <string name="upgrade_benefit_connect_body">ให้ Android เชื่อมต่อเมื่อ AirPods อยู่ใกล้ๆ เปิดเคส หรือใส่ในหู</string>
+    <string name="upgrade_benefit_popups_title">ป๊อปอัปเคสและการเชื่อมต่อ</string>
+    <string name="upgrade_benefit_popups_body">แสดงป๊อปอัปเมื่อคุณเปิดเคส</string>
+    <string name="upgrade_benefit_widget_title">วิดเจ็ตหน้าจอหลัก</string>
+    <string name="upgrade_benefit_widget_body">ดูแบตเตอรี่และสถานะโดยไม่ต้องเปิดแอป</string>
+</resources>

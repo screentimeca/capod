@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Otključajte automatsku reprodukciju/pauzu, automatsko povezivanje, skočne prozore i widget na početnom zaslonu.</string>
+    <string name="upgrade_pro_headline">Iskoristite AirPods još više</string>
+    <string name="upgrade_pro_body">Otključajte automatizacije i dodatke kako bi slušalice radile kako želite.</string>
+    <string name="upgrade_pro_yearly">Godišnje</string>
+    <string name="upgrade_pro_monthly">Mjesečno</string>
+    <string name="upgrade_benefit_playback_title">Automatska reprodukcija i pauza</string>
+    <string name="upgrade_benefit_playback_body">Pokreće i zaustavlja zvuk kad stavite ili izvadite AirPods.</string>
+    <string name="upgrade_benefit_connect_title">Automatsko povezivanje</string>
+    <string name="upgrade_benefit_connect_body">Zatražite da se Android poveže kad su AirPods u blizini, otvori se kutijica ili su u ušima.</string>
+    <string name="upgrade_benefit_popups_title">Skočni prozori kutijice i veze</string>
+    <string name="upgrade_benefit_popups_body">Prikaži skočni prozor kad otvoriš kutijicu.</string>
+    <string name="upgrade_benefit_widget_title">Widget početnog zaslona</string>
+    <string name="upgrade_benefit_widget_body">Provjerite bateriju i status bez otvaranja aplikacije.</string>
+</resources>

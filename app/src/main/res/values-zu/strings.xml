@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Vula ukudlala/ukuma okuzenzakalelayo, ukuxhuma okuzenzakalelayo, ama-popup newijethi yesikrini sasekhaya.</string>
+    <string name="upgrade_pro_headline">Thola okuningi kuma-AirPods akho</string>
+    <string name="upgrade_pro_body">Vula okuzenzakalelayo nezinto ezengeziwe ukuze amafoni asebenze ngendlela oyifunayo.</string>
+    <string name="upgrade_pro_yearly">Minyaka yonke</string>
+    <string name="upgrade_pro_monthly">Ngenyanga</string>
+    <string name="upgrade_benefit_playback_title">Ukudlala nokuma okuzenzakalelayo</string>
+    <string name="upgrade_benefit_playback_body">Kuqala futhi kumise umsindo lapho ufaka noma ukhipha ama-AirPods.</string>
+    <string name="upgrade_benefit_connect_title">Ukuxhuma okuzenzakalelayo</string>
+    <string name="upgrade_benefit_connect_body">Cela i-Android ukuthi ixhume lapho ama-AirPods eseduze, kuvulwa ikesi noma esendlebeni.</string>
+    <string name="upgrade_benefit_popups_title">Ama-popup ekesi nokuxhuma</string>
+    <string name="upgrade_benefit_popups_body">Bonisa i-popup lapho uvula ikesi.</string>
+    <string name="upgrade_benefit_widget_title">Iwijethi yesikrini sasekhaya</string>
+    <string name="upgrade_benefit_widget_body">Bheka ibhethri nesimo ngaphandle kokuvula uhlelo.</string>
+</resources>

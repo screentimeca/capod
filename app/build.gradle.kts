@@ -154,4 +154,11 @@ dependencies {
     addTesting()
 
     implementation("com.android.billingclient:billing:9.1.0")
+
+    add("gplayImplementation", platform("com.google.firebase:firebase-bom:34.18.0"))
+    add("gplayImplementation", "com.google.firebase:firebase-analytics")
+    add("gplayImplementation", "com.google.firebase:firebase-crashlytics")
 }
+
+apply(plugin = "com.google.gms.google-services")
+apply(plugin = "com.google.firebase.crashlytics")

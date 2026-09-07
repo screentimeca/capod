@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="general_share_action">साझा करें</string>
+    <string name="general_done_action">पूर्ण</string>
+    <string name="general_copy_action">प्रतिलिपि</string>
+    <string name="general_thank_you_label">धन्यवाद</string>
+    <string name="upgrade_capod_description">ऑटो प्ले/पॉज़, ऑटो कनेक्ट, पॉपअप और होम विजेट अनलॉक करें।</string>
+    <string name="upgrade_pro_headline">अपने AirPods से और पाएँ</string>
+    <string name="upgrade_pro_body">ऑटोमेशन और अतिरिक्त सुविधाएँ अनलॉक करें ताकि हेडफ़ोन आपके हिसाब से चलें।</string>
+    <string name="upgrade_pro_yearly">वार्षिक</string>
+    <string name="upgrade_pro_monthly">मासिक</string>
+    <string name="upgrade_benefit_playback_title">ऑटो प्ले और पॉज़</string>
+    <string name="upgrade_benefit_playback_body">AirPods पहनने या निकालने पर ऑडियो शुरू और बंद होता है।</string>
+    <string name="upgrade_benefit_connect_title">ऑटो कनेक्ट</string>
+    <string name="upgrade_benefit_connect_body">जब AirPods पास हों, केस खुले या कान में हों, तब Android से कनेक्ट करें।</string>
+    <string name="upgrade_benefit_popups_title">केस और कनेक्शन पॉपअप</string>
+    <string name="upgrade_benefit_popups_body">केस खोलने पर पॉपअप दिखाएँ।</string>
+    <string name="upgrade_benefit_widget_title">होम स्क्रीन विजेट</string>
+    <string name="upgrade_benefit_widget_body">ऐप खोले बिना बैटरी और स्थिति देखें।</string>
+    <string name="notification_channel_device_status_label">उपकरण की स्थिति</string>
+    <string name="settings_support_installid_desc">स्वचालित त्रुटि रिपोर्ट गुमनाम हैं।  यदि डेवलपर को आपकी त्रुटि रिपोर्ट ढूंढ़ने की आवश्यकता हो, तो अपना इंस्टॉल आईडी साझा करें.</string>
+</resources>

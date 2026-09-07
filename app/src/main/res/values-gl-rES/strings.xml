@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Desbloquea a reprodución/pausa automática, a conexión automática, as ventás emerxentes e o widget de inicio.</string>
+    <string name="upgrade_pro_headline">Saca máis partido dos teus AirPods</string>
+    <string name="upgrade_pro_body">Desbloquea automatizacións e extras para que os auriculares funcionen como queiras.</string>
+    <string name="upgrade_pro_yearly">Anual</string>
+    <string name="upgrade_pro_monthly">Mensual</string>
+    <string name="upgrade_benefit_playback_title">Reprodución e pausa automáticas</string>
+    <string name="upgrade_benefit_playback_body">Inicia e detén o son ao poñer ou quitar os AirPods.</string>
+    <string name="upgrade_benefit_connect_title">Conexión automática</string>
+    <string name="upgrade_benefit_connect_body">Pide a Android que se conecte cando os AirPods estean preto, se abra o estoxo ou os leves postos.</string>
+    <string name="upgrade_benefit_popups_title">Ventás do estoxo e da conexión</string>
+    <string name="upgrade_benefit_popups_body">Mostra unha ventá emerxente ao abrir o estoxo.</string>
+    <string name="upgrade_benefit_widget_title">Widget da pantalla de inicio</string>
+    <string name="upgrade_benefit_widget_body">Consulta a batería e o estado sen abrir a app.</string>
+</resources>

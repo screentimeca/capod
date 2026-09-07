@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Отключете автоматично пускане/пауза, автоматично свързване, изскачащи прозорци и уиджета на началния екран.</string>
+    <string name="upgrade_pro_headline">Вземете повече от вашите AirPods</string>
+    <string name="upgrade_pro_body">Отключете автоматизации и допълнения, за да работят слушалките както искате.</string>
+    <string name="upgrade_pro_yearly">Годишно</string>
+    <string name="upgrade_pro_monthly">Месечно</string>
+    <string name="upgrade_benefit_playback_title">Автоматично пускане и пауза</string>
+    <string name="upgrade_benefit_playback_body">Стартира и спира звука, когато сложиш или махнеш AirPods.</string>
+    <string name="upgrade_benefit_connect_title">Автоматично свързване</string>
+    <string name="upgrade_benefit_connect_body">Помолете Android да се свърже, когато AirPods са наблизо, кутията се отвори или са в ушите.</string>
+    <string name="upgrade_benefit_popups_title">Изскачащи прозорци за кутия и връзка</string>
+    <string name="upgrade_benefit_popups_body">Показвай изскачащ прозорец при отваряне на кутията.</string>
+    <string name="upgrade_benefit_widget_title">Уиджет на началния екран</string>
+    <string name="upgrade_benefit_widget_body">Проверете батерията и състоянието без да отваряте приложението.</string>
+</resources>

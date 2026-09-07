@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Odklenite samodejno predvajanje/pavzo, samodejno povezavo, pojavna okna in pripomoček na začetnem zaslonu.</string>
+    <string name="upgrade_pro_headline">Izkoristite AirPods še bolj</string>
+    <string name="upgrade_pro_body">Odklenite avtomatizacije in dodatke, da slušalke delujejo, kot želite.</string>
+    <string name="upgrade_pro_yearly">Letno</string>
+    <string name="upgrade_pro_monthly">Mesečno</string>
+    <string name="upgrade_benefit_playback_title">Samodejno predvajanje in pavza</string>
+    <string name="upgrade_benefit_playback_body">Zažene in ustavi zvok, ko vstavite ali vzamete AirPods.</string>
+    <string name="upgrade_benefit_connect_title">Samodejna povezava</string>
+    <string name="upgrade_benefit_connect_body">Prosite Android, naj se poveže, ko so AirPods v bližini, se odpre etui ali so v ušesih.</string>
+    <string name="upgrade_benefit_popups_title">Pojavna okna etuija in povezave</string>
+    <string name="upgrade_benefit_popups_body">Prikaži pojavno okno, ko odpreš etui.</string>
+    <string name="upgrade_benefit_widget_title">Pripomoček začetnega zaslona</string>
+    <string name="upgrade_benefit_widget_body">Preverite baterijo in stanje brez odpiranja aplikacije.</string>
+</resources>

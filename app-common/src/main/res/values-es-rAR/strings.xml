@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="general_value_not_available_label">N/D</string>
+    <string name="general_grant_permission_action">Conceder permiso</string>
+    <string name="overview_nomaindevice_label">Ningún dispositivo principal</string>
+</resources>

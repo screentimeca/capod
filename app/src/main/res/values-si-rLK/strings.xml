@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="general_share_action">බෙදාගන්න</string>
+    <string name="general_done_action">අහවරයි</string>
+    <string name="general_copy_action">පිටපත්</string>
+    <string name="general_thank_you_label">ඔබට ස්තූතියි</string>
+    <string name="general_check_action">පරීක්‍ෂාව</string>
+    <string name="general_close_action">වසන්න</string>
+    <string name="upgrade_capod_description">ස්වයංක්‍රීය ධාවනය/විරාමය, ස්වයංක්‍රීය සම්බන්ධතාව, පොප්අප් සහ මුල් තිර විජට්ටුව අගුළු හරින්න.</string>
+    <string name="upgrade_pro_headline">ඔබේ AirPods වලින් තවත් ලබා ගන්න</string>
+    <string name="upgrade_pro_body">හෙඩ්ෆෝන් ඔබට අවශ්‍ය ලෙස ක්‍රියා කිරීමට ස්වයංක්‍රීයකරණය සහ අමතර විශේෂාංග අගුළු හරින්න.</string>
+    <string name="upgrade_pro_yearly">වාර්ෂික</string>
+    <string name="upgrade_pro_monthly">මාසික</string>
+    <string name="upgrade_benefit_playback_title">ස්වයංක්‍රීය ධාවනය සහ විරාමය</string>
+    <string name="upgrade_benefit_playback_body">AirPods දැමූ විට හෝ ගැලවූ විට ශබ්දය ආරම්භ වී නවතී.</string>
+    <string name="upgrade_benefit_connect_title">ස්වයංක්‍රීය සම්බන්ධතාව</string>
+    <string name="upgrade_benefit_connect_body">AirPods ආසන්නයේ, කේස් ඇරෙන විට හෝ කනේ ඇති විට Android සම්බන්ධ වීමට කියන්න.</string>
+    <string name="upgrade_benefit_popups_title">කේස් සහ සම්බන්ධතා පොප්අප්</string>
+    <string name="upgrade_benefit_popups_body">කේස් ඇරෙන විට පොප්අප් එකක් පෙන්වන්න.</string>
+    <string name="upgrade_benefit_widget_title">මුල් තිර විජට්ටුව</string>
+    <string name="upgrade_benefit_widget_body">යෙදුම නොවිවෘතව බැටරිය සහ තත්ත්වය බලන්න.</string>
+    <string name="settings_showall_label">සියළු උපාංග පෙන්වන්න</string>
+    <string name="settings_autopplay_label">ස්වයං වාදනය</string>
+    <string name="settings_fake_data_label">ව්‍යාජ දත්ත</string>
+    <string name="settings_signal_minimum_label">අවම සංඥා ගුණත්වය</string>
+    <string name="settings_autoconnect_label">ස්වයං සම්බන්ධය</string>
+    <string name="settings_category_yourdevice_label">ඔබගේ උපාංගය</string>
+    <string name="settings_maindevice_address_label">ඔබගේ උපාංගයේ ලිපිනය</string>
+    <string name="settings_maindevice_address_none">කිසිවක් නැත</string>
+    <string name="notification_channel_device_status_label">උපාංගයේ තත්‍වය</string>
+    <string name="debug_debuglog_size_label">ප්‍රමාණය</string>
+    <string name="settings_support_installid_label">ස්ථාපන හැඳු.</string>
+    <string name="settings_support_label">සහාය</string>
+    <string name="settings_support_description">ඔබට යම් උදව්වක් ඇවැසි නම්.</string>
+    <string name="discord_label">ඩිස්කොර්ඩ්</string>
+    <string name="settings_label">සැකසුම්</string>
+    <string name="settings_privacy_policy_label">රහස්‍යතා ප්‍රතිපත්තිය</string>
+    <string name="settings_licenses_label">බලපත්‍ර</string>
+    <string name="settings_general_label">සැකසුම්</string>
+    <string name="help_translate_label">පරිවර්තනය</string>
+</resources>

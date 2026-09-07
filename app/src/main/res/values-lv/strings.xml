@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Atbloķējiet automātisku atskaņošanu/pauzi, automātisku savienojumu, uznirstošos logus un sākuma ekrāna logrīku.</string>
+    <string name="upgrade_pro_headline">Iegūstiet vairāk no savām AirPods</string>
+    <string name="upgrade_pro_body">Atbloķējiet automatizāciju un papildu funkcijas, lai austiņas darbotos, kā vēlaties.</string>
+    <string name="upgrade_pro_yearly">Katru gadu</string>
+    <string name="upgrade_pro_monthly">Katru mēnesi</string>
+    <string name="upgrade_benefit_playback_title">Automātiska atskaņošana un pauze</string>
+    <string name="upgrade_benefit_playback_body">Sāk un aptur skaņu, kad ievietojat vai izņemat AirPods.</string>
+    <string name="upgrade_benefit_connect_title">Automātisks savienojums</string>
+    <string name="upgrade_benefit_connect_body">Palūdziet Android savienoties, kad AirPods ir tuvumā, tiek atvērts futlāris vai tās ir ausīs.</string>
+    <string name="upgrade_benefit_popups_title">Futlāra un savienojuma logi</string>
+    <string name="upgrade_benefit_popups_body">Rādīt uznirstošo logu, atverot futlāri.</string>
+    <string name="upgrade_benefit_widget_title">Sākuma ekrāna logrīks</string>
+    <string name="upgrade_benefit_widget_body">Pārbaudiet bateriju un statusu, neatverot lietotni.</string>
+</resources>

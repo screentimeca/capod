@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Автоматаар тоглуулах/зогсоох, автоматаар холбох, поп-ап болон нүүр дэлгэцийн виджетийг нээнэ үү.</string>
+    <string name="upgrade_pro_headline">AirPods-оосоо илүү их ашиглаарай</string>
+    <string name="upgrade_pro_body">Чихэвч хүссэнээрээ ажиллахын тулд автоматжуулалт болон нэмэлтүүдийг нээнэ үү.</string>
+    <string name="upgrade_pro_yearly">Жилээр</string>
+    <string name="upgrade_pro_monthly">Сараар</string>
+    <string name="upgrade_benefit_playback_title">Автоматаар тоглуулах ба зогсоох</string>
+    <string name="upgrade_benefit_playback_body">AirPods зүүх эсвэл авахад дуу эхэлж, зогсоно.</string>
+    <string name="upgrade_benefit_connect_title">Автоматаар холбох</string>
+    <string name="upgrade_benefit_connect_body">AirPods ойрхон, хайрцаг нээгдэх эсвэл чихэнд байхад Android холбогдоорой.</string>
+    <string name="upgrade_benefit_popups_title">Хайрцаг болон холболтын поп-ап</string>
+    <string name="upgrade_benefit_popups_body">Хайрцгийг нээхэд поп-ап харуул.</string>
+    <string name="upgrade_benefit_widget_title">Нүүр дэлгэцийн виджет</string>
+    <string name="upgrade_benefit_widget_body">Аппыг нээхгүйгээр батерей болон төлөвийг шалгана уу.</string>
+</resources>

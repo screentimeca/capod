@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">ራስ-ሰር ማጫወት/ማቆም፣ ራስ-ሰር መገናኘት፣ ብቅ-ባዮች እና የመነሻ ስክሪን ዊጄትን ይክፈቱ።</string>
+    <string name="upgrade_pro_headline">ከ AirPods የበለጠ ያግኙ</string>
+    <string name="upgrade_pro_body">ጆሮ ማዳመጫዎች እንደምትፈልጉ እንዲሰሩ አውቶሜሽን እና ተጨማሪዎችን ይክፈቱ።</string>
+    <string name="upgrade_pro_yearly">ዓመታዊ</string>
+    <string name="upgrade_pro_monthly">ወርሃዊ</string>
+    <string name="upgrade_benefit_playback_title">ራስ-ሰር ማጫወት እና ማቆም</string>
+    <string name="upgrade_benefit_playback_body">AirPods ስትለብሱ ወይም ስታወልቁ ድምፅ ይጀምራል እና ይቆማል።</string>
+    <string name="upgrade_benefit_connect_title">ራስ-ሰር መገናኘት</string>
+    <string name="upgrade_benefit_connect_body">AirPods ቅርብ ሲሆኑ፣ መያዣው ሲከፈት ወይም በጆሮ ሲሆኑ Android እንዲገናኝ ይጠይቁ።</string>
+    <string name="upgrade_benefit_popups_title">የመያዣ እና ግንኙነት ብቅ-ባዮች</string>
+    <string name="upgrade_benefit_popups_body">መያዣውን ስትከፍት ብቅ-ባይ አሳይ።</string>
+    <string name="upgrade_benefit_widget_title">የመነሻ ስክሪን ዊጄት</string>
+    <string name="upgrade_benefit_widget_body">መተግበሪያውን ሳትከፍት ባትሪ እና ሁኔታ ይመልከቱ።</string>
+</resources>

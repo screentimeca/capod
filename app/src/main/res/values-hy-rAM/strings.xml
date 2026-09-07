@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Ապակողպեք ավտոնվագարկում/դադար, ավտոմիացում, ելնող պատուհաններ և գլխավոր էկրանի վիդջեթը։</string>
+    <string name="upgrade_pro_headline">Ավելի շատ օգտվեք ձեր AirPods-ից</string>
+    <string name="upgrade_pro_body">Ապակողպեք ավտոմատացում և լրացուցիչներ, որպեսզի ականջակալները աշխատեն ձեր ուզած ձևով։</string>
+    <string name="upgrade_pro_yearly">Տարեկան</string>
+    <string name="upgrade_pro_monthly">Ամսական</string>
+    <string name="upgrade_benefit_playback_title">Ավտոնվագարկում և դադար</string>
+    <string name="upgrade_benefit_playback_body">Միացնում և կանգնեցնում է ձայնը, երբ դնում կամ հանում եք AirPods-ը։</string>
+    <string name="upgrade_benefit_connect_title">Ավտոմիացում</string>
+    <string name="upgrade_benefit_connect_body">Խնդրեք Android-ին միանալ, երբ AirPods-ը մոտ է, պատյանը բացվում է կամ դրանք ականջներում են։</string>
+    <string name="upgrade_benefit_popups_title">Պատյանի և միացման պատուհաններ</string>
+    <string name="upgrade_benefit_popups_body">Ցույց տուր ելնող պատուհան, երբ բացում ես պատյանը։</string>
+    <string name="upgrade_benefit_widget_title">Գլխավոր էկրանի վիդջեթ</string>
+    <string name="upgrade_benefit_widget_body">Ստուգեք մարտկոցը և կարգավիճակը՝ հավելվածը չբացելով։</string>
+</resources>

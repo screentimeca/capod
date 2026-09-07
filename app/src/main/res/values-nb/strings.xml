@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Lås opp autoavspilling/pause, autotilkobling, sprettoppvinduer og startskjermwidgeten.</string>
+    <string name="upgrade_pro_headline">Få mer ut av AirPods-ene dine</string>
+    <string name="upgrade_pro_body">Lås opp automatisering og ekstra funksjoner slik at hodetelefonene fungerer slik du vil.</string>
+    <string name="upgrade_pro_yearly">Årlig</string>
+    <string name="upgrade_pro_monthly">Månedlig</string>
+    <string name="upgrade_benefit_playback_title">Automatisk avspilling og pause</string>
+    <string name="upgrade_benefit_playback_body">Starter og stopper lyden når du setter inn eller tar ut AirPods.</string>
+    <string name="upgrade_benefit_connect_title">Automatisk tilkobling</string>
+    <string name="upgrade_benefit_connect_body">Be Android koble til når AirPods er i nærheten, etuiet åpnes eller de er i øret.</string>
+    <string name="upgrade_benefit_popups_title">Sprettopp for etui og tilkobling</string>
+    <string name="upgrade_benefit_popups_body">Vis et sprettoppvindu når du åpner etuiet.</string>
+    <string name="upgrade_benefit_widget_title">Widget på startskjermen</string>
+    <string name="upgrade_benefit_widget_body">Sjekk batteri og status uten å åpne appen.</string>
+</resources>

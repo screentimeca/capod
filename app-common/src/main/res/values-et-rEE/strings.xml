@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_pro">Tasuline AirPod</string>
+    <string name="general_value_not_available_label">Pole saadaval</string>
+    <string name="pods_dual_left_label">Vasak klapp</string>
+    <string name="pods_dual_right_label">Parem klapp</string>
+    <string name="permission_post_notifications_label">Näita teateid</string>
+    <string name="permission_post_notifications_description">&quot;Luba AirPodil näidata AirPodsi teateid, nt praegust olekut ühendatud olles.&quot;</string>
+</resources>

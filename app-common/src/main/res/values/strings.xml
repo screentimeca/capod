@@ -7,8 +7,8 @@
     <string name="general_error_label">Error</string>
     <string name="general_grant_permission_action">Allow</string>
 
-    <string name="overview_nomaindevice_label">Can\'t find your AirPods</string>
-    <string name="overview_nomaindevice_description">Nearby headphones don\'t match yours. Open the case next to your phone, or choose your device in Settings.</string>
+    <string name="overview_nomaindevice_label">Can&apos;t find your AirPods</string>
+    <string name="overview_nomaindevice_description">Nearby headphones don&apos;t match yours. Open the case next to your phone, or choose your device in Settings.</string>
     <string name="overview_bluetooth_disabled_label">Bluetooth is off</string>
     <string name="overview_bluetooth_disabled_description">Turn Bluetooth on so AirPod can find your headphones.</string>
 
@@ -19,9 +19,9 @@
     <string name="permission_bluetooth_label">Bluetooth</string>
     <string name="permission_bluetooth_description">Lets AirPod connect to your paired headphones.</string>
     <string name="permission_access_fine_location_label">Nearby devices</string>
-    <string name="permission_access_fine_location_description">Android uses this so AirPod can read headphone status over Bluetooth. It isn\'t used to track where you are.</string>
+    <string name="permission_access_fine_location_description">Android uses this so AirPod can read headphone status over Bluetooth. It isn&apos;t used to track where you are.</string>
     <string name="permission_ignore_battery_optimizations_label">Unrestricted battery use</string>
-    <string name="permission_ignore_battery_optimizations_description">Keeps AirPod running in the background so status and automations don\'t stop.</string>
+    <string name="permission_ignore_battery_optimizations_description">Keeps AirPod running in the background so status and automations don&apos;t stop.</string>
     <string name="permission_required_title">AirPod needs this to continue</string>
     <string name="permission_system_alert_window_label">Display over other apps</string>
     <string name="permission_system_alert_window_description">Lets AirPod show a popup when you open the case or connect.</string>
@@ -52,7 +52,7 @@
     <string name="pods_connection_state_unknown_label">Unknown connection state</string>
     <string name="pods_unknown_raw_data_label">Raw data</string>
     <string name="pods_unknown_label">Unknown device</string>
-    <string name="pods_unknown_contact_dev">This is an unknown device, but it is using similar message format. Let\'s add support for it, contact me :)</string>
+    <string name="pods_unknown_contact_dev">This is an unknown device, but it is using similar message format. Let&apos;s add support for it, contact me :)</string>
     <string name="pods_none_label_short">No device</string>
     <string name="pods_charging_label">Charging</string>
     <string name="pods_inear_label">In ear</string>
@@ -65,5 +65,5 @@
     <string name="last_seen_x">Last seen: %s</string>
     <string name="first_seen_x">First seen: %s</string>
     <string name="permission_post_notifications_label">Notifications</string>
-    <string name="permission_post_notifications_description">Shows your AirPods\' battery and status while they\'re connected.</string>
+    <string name="permission_post_notifications_description">Shows your AirPods&apos; battery and status while they&apos;re connected.</string>
 </resources>

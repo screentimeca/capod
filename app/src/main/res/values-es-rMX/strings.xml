@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="general_share_action">Compartir</string>
+    <string name="general_done_action">Hecho</string>
+    <string name="general_copy_action">Copiar</string>
+    <string name="general_thank_you_label">Gracias</string>
+    <string name="general_upgrade_action">Mejorar</string>
+    <string name="general_check_action">Verificar</string>
+    <string name="general_close_action">Cerrar</string>
+    <string name="upgrade_capod_description">Desbloquea la reproducción/pausa automática, la conexión automática, las ventanas emergentes y el widget de inicio.</string>
+    <string name="upgrade_pro_headline">Sácale más partido a tus AirPods</string>
+    <string name="upgrade_pro_body">Desbloquea automatizaciones y extras para que tus auriculares funcionen como quieres.</string>
+    <string name="upgrade_pro_yearly">Anual</string>
+    <string name="upgrade_pro_monthly">Mensual</string>
+    <string name="upgrade_benefit_playback_title">Reproducción y pausa automáticas</string>
+    <string name="upgrade_benefit_playback_body">Inicia y detiene el audio al ponerte o quitarte los AirPods.</string>
+    <string name="upgrade_benefit_connect_title">Conexión automática</string>
+    <string name="upgrade_benefit_connect_body">Pide a Android que se conecte cuando tus AirPods estén cerca, se abra el estuche o los lleves puestos.</string>
+    <string name="upgrade_benefit_popups_title">Ventanas del estuche y de conexión</string>
+    <string name="upgrade_benefit_popups_body">Muestra una ventana emergente al abrir el estuche.</string>
+    <string name="upgrade_benefit_widget_title">Widget de la pantalla de inicio</string>
+    <string name="upgrade_benefit_widget_body">Consulta la batería y el estado sin abrir la app.</string>
+    <string name="notification_channel_device_status_label">Estado del dispositivo</string>
+    <string name="debug_debuglog_size_label">Tamaño</string>
+    <string name="debug_debuglog_size_compressed_label">Tamaño comprimido</string>
+    <string name="debug_notification_channel_label">Depurar notificaciones</string>
+</resources>

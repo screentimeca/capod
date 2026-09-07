@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Atrakinkite automatinį grojimą / pauzę, automatinį ryšį, iškylančiuosius langus ir pradžios ekrano valdiklį.</string>
+    <string name="upgrade_pro_headline">Gaukite daugiau iš „AirPods“</string>
+    <string name="upgrade_pro_body">Atrakinkite automatizavimą ir priedus, kad ausinės veiktų taip, kaip norite.</string>
+    <string name="upgrade_pro_yearly">Kasmet</string>
+    <string name="upgrade_pro_monthly">Kas mėnesį</string>
+    <string name="upgrade_benefit_playback_title">Automatinis grojimas ir pauzė</string>
+    <string name="upgrade_benefit_playback_body">Paleidžia ir sustabdo garsą, kai įsidedate arba išimate „AirPods“.</string>
+    <string name="upgrade_benefit_connect_title">Automatinis ryšys</string>
+    <string name="upgrade_benefit_connect_body">Paprašykite „Android“ prisijungti, kai „AirPods“ yra šalia, atidaromas dėklas arba jie ausyse.</string>
+    <string name="upgrade_benefit_popups_title">Dėklo ir ryšio langai</string>
+    <string name="upgrade_benefit_popups_body">Rodyti iškylantįjį langą atidarius dėklą.</string>
+    <string name="upgrade_benefit_widget_title">Pradžios ekrano valdiklis</string>
+    <string name="upgrade_benefit_widget_body">Tikrinkite bateriją ir būseną neatidarę programos.</string>
+</resources>

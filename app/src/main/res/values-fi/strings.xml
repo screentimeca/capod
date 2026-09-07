@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Avaa automaattinen toisto/tauko, automaattinen yhdistäminen, ponnahdusikkunat ja aloitusnäytön widget.</string>
+    <string name="upgrade_pro_headline">Saa enemmän irti AirPodeista</string>
+    <string name="upgrade_pro_body">Avaa automaatiot ja lisätoiminnot, jotta kuulokkeet toimivat haluamallasi tavalla.</string>
+    <string name="upgrade_pro_yearly">Vuosittain</string>
+    <string name="upgrade_pro_monthly">Kuukausittain</string>
+    <string name="upgrade_benefit_playback_title">Automaattinen toisto ja tauko</string>
+    <string name="upgrade_benefit_playback_body">Käynnistää ja pysäyttää äänen, kun laitat AirPodit korviin tai otat ne pois.</string>
+    <string name="upgrade_benefit_connect_title">Automaattinen yhdistäminen</string>
+    <string name="upgrade_benefit_connect_body">Pyydä Androidia yhdistämään, kun AirPodit ovat lähellä, kotelo avataan tai ne ovat korvissa.</string>
+    <string name="upgrade_benefit_popups_title">Kotelon ja yhteyden ponnahdukset</string>
+    <string name="upgrade_benefit_popups_body">Näytä ponnahdusikkuna, kun avaat kotelon.</string>
+    <string name="upgrade_benefit_widget_title">Aloitusnäytön widget</string>
+    <string name="upgrade_benefit_widget_body">Tarkista akku ja tila avaamatta sovellusta.</string>
+</resources>

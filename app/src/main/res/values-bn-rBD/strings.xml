@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="general_done_action">সম্পন্ন</string>
+    <string name="general_thank_you_label">ধন্যবাদ</string>
+    <string name="general_upgrade_action">আপগ্রেড</string>
+    <string name="upgrade_capod_description">অটো প্লে/পজ, অটো কানেক্ট, পপআপ এবং হোম উইজেট আনলক করুন।</string>
+    <string name="upgrade_pro_headline">আপনার AirPods থেকে আরও পান</string>
+    <string name="upgrade_pro_body">হেডফোন আপনার মতো কাজ করুক—অটোমেশন ও অতিরিক্ত ফিচার আনলক করুন।</string>
+    <string name="upgrade_pro_yearly">বার্ষিক</string>
+    <string name="upgrade_pro_monthly">মাসিক</string>
+    <string name="upgrade_benefit_playback_title">অটো প্লে ও পজ</string>
+    <string name="upgrade_benefit_playback_body">AirPods পরলে বা খুললে অডিও চালু ও বন্ধ হয়।</string>
+    <string name="upgrade_benefit_connect_title">অটো কানেক্ট</string>
+    <string name="upgrade_benefit_connect_body">AirPods কাছে থাকলে, কেস খুললে বা কানে থাকলে Android-কে সংযোগ করতে বলুন।</string>
+    <string name="upgrade_benefit_popups_title">কেস ও কানেকশন পপআপ</string>
+    <string name="upgrade_benefit_popups_body">কেস খুললে একটি পপআপ দেখান।</string>
+    <string name="upgrade_benefit_widget_title">হোম স্ক্রিন উইজেট</string>
+    <string name="upgrade_benefit_widget_body">অ্যাপ না খুলেই ব্যাটারি ও স্ট্যাটাস দেখুন।</string>
+    <string name="debug_debuglog_size_label">আকার</string>
+    <string name="settings_general_label">সেটিংস</string>
+</resources>

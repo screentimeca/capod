@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Zhbllokoni luajtjen/pauzën automatike, lidhjen automatike, dritaret kërcyese dhe widget-in e ekranit kryesor.</string>
+    <string name="upgrade_pro_headline">Merrni më shumë nga AirPods tuaj</string>
+    <string name="upgrade_pro_body">Zhbllokoni automatizime dhe shtesa që kufjet të punojnë siç dëshironi.</string>
+    <string name="upgrade_pro_yearly">Vjetore</string>
+    <string name="upgrade_pro_monthly">Mujore</string>
+    <string name="upgrade_benefit_playback_title">Luajtje dhe pauzë automatike</string>
+    <string name="upgrade_benefit_playback_body">Nis dhe ndal audio kur vendosni ose hiqni AirPods.</string>
+    <string name="upgrade_benefit_connect_title">Lidhje automatike</string>
+    <string name="upgrade_benefit_connect_body">Kërkojini Android-it të lidhet kur AirPods janë afër, hapet kutia ose janë në vesh.</string>
+    <string name="upgrade_benefit_popups_title">Dritare kutie dhe lidhjeje</string>
+    <string name="upgrade_benefit_popups_body">Shfaq një dritare kërcyese kur hapni kutinë.</string>
+    <string name="upgrade_benefit_widget_title">Widget i ekranit kryesor</string>
+    <string name="upgrade_benefit_widget_body">Kontrolloni baterinë dhe gjendjen pa hapur aplikacionin.</string>
+</resources>

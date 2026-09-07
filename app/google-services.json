@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "701448104961",
+    "project_id": "airpods-6674c",
+    "storage_bucket": "airpods-6674c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701448104961:android:a2e7186ea36657dff62400",
+        "android_client_info": {
+          "package_name": "com.screentime.airpod"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEXdm0cMPa49j_G1QQX7wY6e5u40uVq6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

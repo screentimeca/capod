@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Ontsluit outo-speel/pouse, outo-koppel, opspringers en die tuisskerm-widget.</string>
+    <string name="upgrade_pro_headline">Kry meer uit jou AirPods</string>
+    <string name="upgrade_pro_body">Ontsluit outomatisering en ekstras sodat jou oorfone werk soos jy wil.</string>
+    <string name="upgrade_pro_yearly">Jaarliks</string>
+    <string name="upgrade_pro_monthly">Maandeliks</string>
+    <string name="upgrade_benefit_playback_title">Outo-speel en pouse</string>
+    <string name="upgrade_benefit_playback_body">Begin en stop oudio wanneer jy AirPods insit of uithaal.</string>
+    <string name="upgrade_benefit_connect_title">Outo-koppel</string>
+    <string name="upgrade_benefit_connect_body">Vra Android om te koppel wanneer AirPods naby is, die dosie oopgaan of hulle in jou oor is.</string>
+    <string name="upgrade_benefit_popups_title">Dosie- en koppel-opspringers</string>
+    <string name="upgrade_benefit_popups_body">Wys ’n opspringer wanneer jy die dosie oopmaak.</string>
+    <string name="upgrade_benefit_widget_title">Tuisskerm-widget</string>
+    <string name="upgrade_benefit_widget_body">Kyk battery en status sonder om die app oop te maak.</string>
+</resources>

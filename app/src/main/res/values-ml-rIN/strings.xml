@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">ഓട്ടോ പ്ലേ/പോസ്, ഓട്ടോ കണക്ട്, പോപ്പപ്പുകൾ, ഹോം വിജറ്റ് അൺലോക്ക് ചെയ്യുക.</string>
+    <string name="upgrade_pro_headline">നിങ്ങളുടെ AirPods-ൽ നിന്ന് കൂടുതൽ നേടുക</string>
+    <string name="upgrade_pro_body">ഹെഡ്‌ഫോണുകൾ നിങ്ങൾക്ക് വേണ്ട രീതിയിൽ പ്രവർത്തിക്കാൻ ഓട്ടോമേഷനും അധിക സവിശേഷതകളും അൺലോക്ക് ചെയ്യുക.</string>
+    <string name="upgrade_pro_yearly">വാർഷികം</string>
+    <string name="upgrade_pro_monthly">മാസികം</string>
+    <string name="upgrade_benefit_playback_title">ഓട്ടോ പ്ലേയും പോസും</string>
+    <string name="upgrade_benefit_playback_body">AirPods ഇട്ടാൽ അല്ലെങ്കിൽ നീക്കിയാൽ ഓഡിയോ തുടങ്ങുകയും നിർത്തുകയും ചെയ്യും.</string>
+    <string name="upgrade_benefit_connect_title">ഓട്ടോ കണക്ട്</string>
+    <string name="upgrade_benefit_connect_body">AirPods അടുത്തിരിക്കുമ്പോൾ, കേസ് തുറക്കുമ്പോൾ അല്ലെങ്കിൽ ചെവിയിലിരിക്കുമ്പോൾ Android ബന്ധിപ്പിക്കട്ടെ.</string>
+    <string name="upgrade_benefit_popups_title">കേസും കണക്ഷൻ പോപ്പപ്പുകളും</string>
+    <string name="upgrade_benefit_popups_body">കേസ് തുറക്കുമ്പോൾ ഒരു പോപ്പപ്പ് കാണിക്കുക.</string>
+    <string name="upgrade_benefit_widget_title">ഹോം സ്‌ക്രീൻ വിജറ്റ്</string>
+    <string name="upgrade_benefit_widget_body">ആപ്പ് തുറക്കാതെ ബാറ്ററിയും സ്റ്റാറ്റസും നോക്കുക.</string>
+</resources>

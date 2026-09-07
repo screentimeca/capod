@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">ಆಟೋ ಪ್ಲೇ/ಪಾಜ್, ಆಟೋ ಕನೆಕ್ಟ್, ಪಾಪ್‌ಅಪ್‌ಗಳು ಮತ್ತು ಹೋಮ್ ವಿಜೆಟ್ ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಿ.</string>
+    <string name="upgrade_pro_headline">ನಿಮ್ಮ AirPods ನಿಂದ ಇನ್ನಷ್ಟು ಪಡೆಯಿರಿ</string>
+    <string name="upgrade_pro_body">ಹೆಡ್‌ಫೋನ್‌ಗಳು ನಿಮಗೆ ಬೇಕಾದಂತೆ ಕೆಲಸ ಮಾಡಲು ಆಟೋಮೇಷನ್ ಮತ್ತು ಹೆಚ್ಚುವರಿ ಸೌಲಭ್ಯಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಿ.</string>
+    <string name="upgrade_pro_yearly">ವಾರ್ಷಿಕ</string>
+    <string name="upgrade_pro_monthly">ಮಾಸಿಕ</string>
+    <string name="upgrade_benefit_playback_title">ಆಟೋ ಪ್ಲೇ ಮತ್ತು ಪಾಜ್</string>
+    <string name="upgrade_benefit_playback_body">AirPods ಧರಿಸಿದಾಗ ಅಥವಾ ತೆಗೆದಾಗ ಆಡಿಯೋ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ ಮತ್ತು ನಿಲ್ಲುತ್ತದೆ.</string>
+    <string name="upgrade_benefit_connect_title">ಆಟೋ ಕನೆಕ್ಟ್</string>
+    <string name="upgrade_benefit_connect_body">AirPods ಹತ್ತಿರವಿದ್ದಾಗ, ಕೇಸ್ ತೆರೆದಾಗ ಅಥವಾ ಕಿವಿಯಲ್ಲಿದ್ದಾಗ Android ಗೆ ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="upgrade_benefit_popups_title">ಕೇಸ್ ಮತ್ತು ಸಂಪರ್ಕ ಪಾಪ್‌ಅಪ್‌ಗಳು</string>
+    <string name="upgrade_benefit_popups_body">ಕೇಸ್ ತೆರೆದಾಗ ಪಾಪ್‌ಅಪ್ ತೋರಿಸಿ.</string>
+    <string name="upgrade_benefit_widget_title">ಹೋಮ್ ಸ್ಕ್ರೀನ್ ವಿಜೆಟ್</string>
+    <string name="upgrade_benefit_widget_body">ಅಪ್ಲಿಕೇಶನ್ ತೆರೆಯದೆ ಬ್ಯಾಟರಿ ಮತ್ತು ಸ್ಥಿತಿ ನೋಡಿ.</string>
+</resources>

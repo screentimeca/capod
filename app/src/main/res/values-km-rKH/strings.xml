@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">ដោះសោការលេង/ផ្អាកស្វ័យប្រវត្តិ ការភ្ជាប់ស្វ័យប្រវត្តិ ប៉ុបអាប់ និងវីដជិតអេក្រង់ដើម។</string>
+    <string name="upgrade_pro_headline">ទទួលបានច្រើនពី AirPods របស់អ្នក</string>
+    <string name="upgrade_pro_body">ដោះសោស្វ័យប្រវត្តិកម្ម និងមុខងារបន្ថែម ដើម្បីឱ្យកាសដំណើរការតាមដែលអ្នកចង់។</string>
+    <string name="upgrade_pro_yearly">ប្រចាំឆ្នាំ</string>
+    <string name="upgrade_pro_monthly">ប្រចាំខែ</string>
+    <string name="upgrade_benefit_playback_title">លេង និងផ្អាកស្វ័យប្រវត្តិ</string>
+    <string name="upgrade_benefit_playback_body">ចាប់ផ្តើម និងឈប់សំឡេងពេលអ្នកពាក់ ឬដក AirPods។</string>
+    <string name="upgrade_benefit_connect_title">ភ្ជាប់ស្វ័យប្រវត្តិ</string>
+    <string name="upgrade_benefit_connect_body">ស្នើឱ្យ Android ភ្ជាប់ពេល AirPods នៅជិត បើកប្រអប់ ឬពាក់ក្នុងត្រចៀក។</string>
+    <string name="upgrade_benefit_popups_title">ប៉ុបអាប់ប្រអប់ និងការភ្ជាប់</string>
+    <string name="upgrade_benefit_popups_body">បង្ហាញប៉ុបអាប់ពេលអ្នកបើកប្រអប់។</string>
+    <string name="upgrade_benefit_widget_title">វីដជិតអេក្រង់ដើម</string>
+    <string name="upgrade_benefit_widget_body">ពិនិត្យថ្ម និងស្ថានភាពដោយមិនបើកកម្មវិធី។</string>
+</resources>

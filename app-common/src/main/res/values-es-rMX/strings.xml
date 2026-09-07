@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="general_grant_permission_action">Conceder permiso</string>
+    <string name="permission_bluetooth_connect_label">Conexión Bluetooth</string>
+    <string name="permission_bluetooth_connect_description">Esta aplicacion requiere el permiso &quot;Conexión Bluetooth&quot; para interactuar con los dispositivos vinculados e iniciar las conexiones.</string>
+    <string name="permission_bluetooth_scan_label">Escaneo Bluetooth</string>
+    <string name="permission_bluetooth_scan_description">El permiso &quot;Escaneo Bluetooth&quot; permite que esta aplicación descubra y reciba datos de Bluetooth de dispositivos cercanos como tus AirPods.</string>
+    <string name="permission_bluetooth_description">Esta aplicacion requiere el permiso &quot;Bluetooth&quot; para conectarse a los dispositivos vinculados.</string>
+    <string name="permission_access_fine_location_label">Acceso a la ubicación precisa</string>
+    <string name="permission_access_fine_location_description">AirPod utiliza el permiso de &quot;ubicación precisa&quot; para recibir Datos de Bluetooth de bajo consumo. Sus auriculares utilizan la tecnología Datos de Bluetooth de bajo consumo para transmitir su estado. Esta aplicación NO utilizará datos de Bluetooth para determinar su ubicación.</string>
+    <string name="permission_ignore_battery_optimizations_label">Deshabilitar optimizaciones de batería</string>
+    <string name="permission_ignore_battery_optimizations_description">Las optimizaciones de la batería evitan que esta aplicación reciba datos de Bluetooth de manera confiable mientras la aplicación está en segundo plano.</string>
+    <string name="pods_dual_left_label">Audífono izquierdo</string>
+    <string name="pods_dual_right_label">Audífono derecho</string>
+    <string name="pods_case_label">Estuche</string>
+    <string name="pods_case_status_open_label">Estuche abierto</string>
+    <string name="pods_case_status_closed_label">Estuche cerrado</string>
+    <string name="pods_connection_state_disconnected_label">No está conectado a un dispositivo</string>
+    <string name="pods_connection_state_idle_label">Conectado a un dispositivo, pero inactivo</string>
+    <string name="pods_connection_state_music_label">En modo música</string>
+    <string name="pods_connection_state_call_label">En modo llamada</string>
+    <string name="pods_connection_state_ringing_label">Sonando</string>
+    <string name="pods_connection_state_hanging_up_label">Colgar</string>
+    <string name="pods_connection_state_unknown_label">Estado de conexión desconocido</string>
+    <string name="pods_unknown_raw_data_label">Datos sin procesar</string>
+    <string name="pods_unknown_label">Dispositivo desconocido</string>
+    <string name="pods_unknown_contact_dev">Este es un dispositivo desconocido, pero está usando un formato de mensaje similar. Agreguemos soporte para ello, contáctame :)</string>
+    <string name="pods_none_label_short">Sin dispositivo</string>
+    <string name="pods_charging_label">Cargando</string>
+    <string name="pods_inear_label">En el oído</string>
+    <string name="pods_microphone_label">Micrófono</string>
+    <string name="pods_yours">Tuyos</string>
+    <string name="headset_being_worn_label">En uso</string>
+</resources>

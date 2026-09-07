@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Deblochescha il play/pausa automatic, la colliaziun automatica, pop-ups e il widget da la visura principala.</string>
+    <string name="upgrade_pro_headline">Ha da tes AirPods anc dapli</string>
+    <string name="upgrade_pro_body">Deblochescha automatisaziuns ed extras per che las cudeschinas funcziunian sco ti vuls.</string>
+    <string name="upgrade_pro_yearly">Annual</string>
+    <string name="upgrade_pro_monthly">Mensil</string>
+    <string name="upgrade_benefit_playback_title">Play e pausa automatic</string>
+    <string name="upgrade_benefit_playback_body">Cumenza e ferma l’audio cura che ti mettas u trais ora ils AirPods.</string>
+    <string name="upgrade_benefit_connect_title">Colliaziun automatica</string>
+    <string name="upgrade_benefit_connect_body">Dumonda ad Android da sa colliar cura che ils AirPods èn vischin, s’avra la scatla u èn en l’ureglia.</string>
+    <string name="upgrade_benefit_popups_title">Pop-ups da scatla e colliaziun</string>
+    <string name="upgrade_benefit_popups_body">Mussar in pop-up cura che ti avras la scatla.</string>
+    <string name="upgrade_benefit_widget_title">Widget da la visura principala</string>
+    <string name="upgrade_benefit_widget_body">Controllescha bateria e status senza avrir l’app.</string>
+</resources>

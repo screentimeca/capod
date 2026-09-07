@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">தானியங்கி இயக்கம்/இடைநிறுத்தம், தானியங்கி இணைப்பு, பாப்அப்கள் மற்றும் முகப்பு விட்ஜெட்டைத் திறக்கவும்.</string>
+    <string name="upgrade_pro_headline">உங்கள் AirPods-இலிருந்து மேலும் பெறுங்கள்</string>
+    <string name="upgrade_pro_body">ஹெட்ஃபோன்கள் நீங்கள் விரும்பும் வகையில் இயங்க தானியங்கிகளையும் கூடுதல் அம்சங்களையும் திறக்கவும்.</string>
+    <string name="upgrade_pro_yearly">ஆண்டுதோறும்</string>
+    <string name="upgrade_pro_monthly">மாதந்தோறும்</string>
+    <string name="upgrade_benefit_playback_title">தானியங்கி இயக்கம் மற்றும் இடைநிறுத்தம்</string>
+    <string name="upgrade_benefit_playback_body">AirPods அணியும்போது அல்லது கழற்றும்போது ஆடியோ தொடங்கி நிற்கும்.</string>
+    <string name="upgrade_benefit_connect_title">தானியங்கி இணைப்பு</string>
+    <string name="upgrade_benefit_connect_body">AirPods அருகில் இருக்கும்போது, கேஸ் திறக்கும்போது அல்லது காதில் இருக்கும்போது Android இணைக்கட்டும்.</string>
+    <string name="upgrade_benefit_popups_title">கேஸ் மற்றும் இணைப்பு பாப்அப்கள்</string>
+    <string name="upgrade_benefit_popups_body">கேஸைத் திறக்கும்போது பாப்அப் காட்டு.</string>
+    <string name="upgrade_benefit_widget_title">முகப்புத் திரை விட்ஜெட்</string>
+    <string name="upgrade_benefit_widget_body">ஆப்பைத் திறக்காமல் பேட்டரி மற்றும் நிலையைப் பாருங்கள்.</string>
+</resources>

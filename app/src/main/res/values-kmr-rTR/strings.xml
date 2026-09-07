@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Lêdana/rawestandina otomatîk, girêdana otomatîk, pencereyên popup û widgeta ekrana sereke vekin.</string>
+    <string name="upgrade_pro_headline">Ji AirPodsên xwe zêdetir bistînin</string>
+    <string name="upgrade_pro_body">Otomatîkî û taybetmendiyên zêde vekin da ku guhdarî we wekî hûn dixwazin bixebitin.</string>
+    <string name="upgrade_pro_yearly">Salane</string>
+    <string name="upgrade_pro_monthly">Mehane</string>
+    <string name="upgrade_benefit_playback_title">Lêdan û rawestandina otomatîk</string>
+    <string name="upgrade_benefit_playback_body">Dema AirPods têxin an derxînin deng dest pê dike û disekine.</string>
+    <string name="upgrade_benefit_connect_title">Girêdana otomatîk</string>
+    <string name="upgrade_benefit_connect_body">Ji Androidê bixwazin ku dema AirPods nêzîk in, qutî vedibe an di guh de ne ve girê bide.</string>
+    <string name="upgrade_benefit_popups_title">Popupên qutî û girêdanê</string>
+    <string name="upgrade_benefit_popups_body">Dema qutiyê vekî popupek nîşan bide.</string>
+    <string name="upgrade_benefit_widget_title">Widgeta ekrana sereke</string>
+    <string name="upgrade_benefit_widget_body">Bêyî vekirina sepanê pîl û rewşê kontrol bikin.</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Автоойнотуу/пауза, автотуташуу, калкыма терезелер жана башкы экран виджетин ачыңыз.</string>
+    <string name="upgrade_pro_headline">AirPods’тан көбүрөөк пайдаланыңыз</string>
+    <string name="upgrade_pro_body">Кулакчындар каалагандай иштеши үчүн автоматташтыруу жана кошумчаларды ачыңыз.</string>
+    <string name="upgrade_pro_yearly">Жылдык</string>
+    <string name="upgrade_pro_monthly">Айлык</string>
+    <string name="upgrade_benefit_playback_title">Автоойнотуу жана пауза</string>
+    <string name="upgrade_benefit_playback_body">AirPods кийгенде же чыгарганда үн башталат жана токтойт.</string>
+    <string name="upgrade_benefit_connect_title">Автотуташуу</string>
+    <string name="upgrade_benefit_connect_body">AirPods жакын болгондо, куту ачылганда же кулакта болгондо Android туташсын.</string>
+    <string name="upgrade_benefit_popups_title">Куту жана туташуу терезелери</string>
+    <string name="upgrade_benefit_popups_body">Кутуну ачканда калкыма терезе көрсөт.</string>
+    <string name="upgrade_benefit_widget_title">Башкы экран виджети</string>
+    <string name="upgrade_benefit_widget_body">Колдонмону ачпастан батарея менен абалды текшериңиз.</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="general_share_action">Ibahagi</string>
+    <string name="general_done_action">Tapos Na</string>
+    <string name="general_copy_action">Kopyahin</string>
+    <string name="general_thank_you_label">Salamat sayo</string>
+    <string name="general_close_action">Sarado</string>
+    <string name="upgrade_capod_description">I-unlock ang auto play/pause, auto connect, mga popup, at home screen widget.</string>
+    <string name="upgrade_pro_headline">Makakuha pa mula sa iyong AirPods</string>
+    <string name="upgrade_pro_body">I-unlock ang mga automation at extra para gumana ang headphones ayon sa gusto mo.</string>
+    <string name="upgrade_pro_yearly">Taunan</string>
+    <string name="upgrade_pro_monthly">Buwanan</string>
+    <string name="upgrade_benefit_playback_title">Auto play at pause</string>
+    <string name="upgrade_benefit_playback_body">Simulan at ihinto ang audio kapag isinuot o tinanggal mo ang AirPods.</string>
+    <string name="upgrade_benefit_connect_title">Auto connect</string>
+    <string name="upgrade_benefit_connect_body">Hilingin sa Android na kumonekta kapag malapit ang AirPods, nabuksan ang case, o nasa tenga.</string>
+    <string name="upgrade_benefit_popups_title">Mga popup ng case at koneksyon</string>
+    <string name="upgrade_benefit_popups_body">Magpakita ng popup kapag binuksan mo ang case.</string>
+    <string name="upgrade_benefit_widget_title">Widget sa home screen</string>
+    <string name="upgrade_benefit_widget_body">Tingnan ang baterya at status nang hindi binubuksan ang app.</string>
+    <string name="debug_debuglog_size_label">Sukat</string>
+    <string name="settings_licenses_label">Lisensiya</string>
+    <string name="settings_category_other_label">Iba</string>
+</resources>

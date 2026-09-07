@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">Avto ijro/pauza, avto ulanish, qalqib chiquvchi oynalar va bosh ekran vidjetini oching.</string>
+    <string name="upgrade_pro_headline">AirPods’dan ko‘proq foydalaning</string>
+    <string name="upgrade_pro_body">Quloqchinlar xohlaganingizdek ishlashi uchun avtomatlashtirish va qo‘shimchalarni oching.</string>
+    <string name="upgrade_pro_yearly">Yillik</string>
+    <string name="upgrade_pro_monthly">Oylik</string>
+    <string name="upgrade_benefit_playback_title">Avto ijro va pauza</string>
+    <string name="upgrade_benefit_playback_body">AirPods taqilganda yoki yechilganda audio boshlanadi va to‘xtaydi.</string>
+    <string name="upgrade_benefit_connect_title">Avto ulanish</string>
+    <string name="upgrade_benefit_connect_body">AirPods yaqin bo‘lsa, quti ochilsa yoki quloqda bo‘lsa Android ulansin.</string>
+    <string name="upgrade_benefit_popups_title">Quti va ulanish oynalari</string>
+    <string name="upgrade_benefit_popups_body">Qutini ochganda qalqib chiquvchi oyna ko‘rsat.</string>
+    <string name="upgrade_benefit_widget_title">Bosh ekran vidjeti</string>
+    <string name="upgrade_benefit_widget_body">Ilovani ochmasdan batareya va holatni tekshiring.</string>
+</resources>

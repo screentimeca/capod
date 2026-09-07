@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upgrade_capod_description">آٹو پلے/پاز، آٹو کنیکٹ، پاپ اپ اور ہوم وجیٹ کو انلاک کریں۔</string>
+    <string name="upgrade_pro_headline">اپنے AirPods سے مزید حاصل کریں</string>
+    <string name="upgrade_pro_body">ہیڈ فون آپ کی مرضی سے چلیں، اس کے لیے آٹومیشن اور اضافی خصوصیات انلاک کریں۔</string>
+    <string name="upgrade_pro_yearly">سالانہ</string>
+    <string name="upgrade_pro_monthly">ماہانہ</string>
+    <string name="upgrade_benefit_playback_title">آٹو پلے اور پاز</string>
+    <string name="upgrade_benefit_playback_body">AirPods پہنتے یا اتارتے وقت آڈیو شروع اور بند ہوتا ہے۔</string>
+    <string name="upgrade_benefit_connect_title">آٹو کنیکٹ</string>
+    <string name="upgrade_benefit_connect_body">جب AirPods قریب ہوں، کیس کھلے یا کان میں ہوں تو Android سے جڑنے کو کہیں۔</string>
+    <string name="upgrade_benefit_popups_title">کیس اور کنکشن پاپ اپ</string>
+    <string name="upgrade_benefit_popups_body">کیس کھولنے پر پاپ اپ دکھائیں۔</string>
+    <string name="upgrade_benefit_widget_title">ہوم اسکرین وجیٹ</string>
+    <string name="upgrade_benefit_widget_body">ایپ کھولے بغیر بیٹری اور اسٹیٹس دیکھیں۔</string>
+</resources>

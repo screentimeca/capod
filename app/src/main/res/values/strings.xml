@@ -17,9 +17,9 @@
     <string name="upgrade_benefit_playback_title">Auto play and pause</string>
     <string name="upgrade_benefit_playback_body">Start and stop audio when you put AirPods in or take them out.</string>
     <string name="upgrade_benefit_connect_title">Auto connect</string>
-    <string name="upgrade_benefit_connect_body">Ask Android to connect when your AirPods are nearby, the case opens, or they\'re in your ear.</string>
+    <string name="upgrade_benefit_connect_body">Ask Android to connect when your AirPods are nearby, the case opens, or they&apos;re in your ear.</string>
     <string name="upgrade_benefit_popups_title">Case and connection popups</string>
-    <string name="upgrade_benefit_popups_body">See battery and status when you open the case or first connect.</string>
+    <string name="upgrade_benefit_popups_body">Show a popup when you open the case.</string>
     <string name="upgrade_benefit_widget_title">Home screen widget</string>
     <string name="upgrade_benefit_widget_body">Check battery and status without opening the app.</string>
     <string name="upgrades_gplay_unavailable_error">Google Play services are unavailable.</string>
@@ -32,17 +32,17 @@
     <string name="settings_autopause_label">Auto pause</string>
     <string name="settings_autopause_description">Pause audio when you take an AirPod out.</string>
     <string name="settings_showall_label">Show all devices</string>
-    <string name="settings_showall_description">Also show nearby AirPods that aren\'t yours.</string>
+    <string name="settings_showall_description">Also show nearby AirPods that aren&apos;t yours.</string>
     <string name="settings_autopplay_label">Auto play</string>
     <string name="settings_autoplay_description">Start audio when you put your AirPods in.</string>
     <string name="settings_fake_data_label">Fake data</string>
-    <string name="settings_fake_data_description">Simulate AirPods that aren\'t actually nearby.</string>
+    <string name="settings_fake_data_description">Simulate AirPods that aren&apos;t actually nearby.</string>
     <string name="settings_debug_label">Debug</string>
     <string name="settings_debug_description">Extra options for diagnosing problems.</string>
     <string name="settings_signal_minimum_label">Minimum signal</string>
     <string name="settings_signal_minimum_description">How strong the signal must be to count as yours.</string>
     <string name="settings_autoconnect_label">Auto connect</string>
-    <string name="settings_autoconnect_description">Ask Android to connect if it doesn\'t on its own. Sets Monitor mode to Always.</string>
+    <string name="settings_autoconnect_description">Ask Android to connect if it doesn&apos;t on its own. Sets Monitor mode to Always.</string>
     <string name="settings_autoconnect_condition_label">Connect when</string>
     <string name="settings_autoconnect_condition_description">When to try connecting to your AirPods.</string>
     <string name="settings_reaction_label">Reactions</string>
@@ -54,17 +54,17 @@
     <string name="settings_category_popups_label">Popups</string>
 
     <string name="settings_category_compatibility_options_title">Compatibility</string>
-    <string name="settings_category_compatibility_options_description">Only change these if your AirPods aren\'t showing up.</string>
+    <string name="settings_category_compatibility_options_description">Only change these if your AirPods aren&apos;t showing up.</string>
     <string name="settings_compat_offloaded_filtering_disabled_title">Disable hardware filtering</string>
     <string name="settings_compat_offloaded_filtering_disabled_summary">Filter Bluetooth data in the app instead of on the phone.</string>
     <string name="settings_compat_offloaded_batching_disabled_title">Disable hardware batching</string>
     <string name="settings_compat_offloaded_batching_disabled_summary">Get Bluetooth updates immediately instead of in batches.</string>
 
     <string name="settings_maindevice_address_label">Bluetooth address</string>
-    <string name="settings_maindevice_address_description">The address of your paired AirPods. Used to tell when they\'re connected.</string>
+    <string name="settings_maindevice_address_description">The address of your paired AirPods. Used to tell when they&apos;re connected.</string>
     <string name="settings_maindevice_address_none">None</string>
     <string name="settings_maindevice_model_label">Model</string>
-    <string name="settings_maindevice_model_description">Helps recognize your AirPods when they aren\'t connected.</string>
+    <string name="settings_maindevice_model_description">Helps recognize your AirPods when they aren&apos;t connected.</string>
     <string name="settings_onepod_mode_label">One pod mode</string>
     <string name="settings_onepod_mode_description">Play and pause with only one AirPod in your ear.</string>
     <string name="settings_popup_caseopen_label">Case popup</string>
@@ -130,18 +130,18 @@
 
     <string name="troubleshooter_title">Troubleshooter</string>
     <string name="troubleshooter_ble_intro_title">Help your phone find your AirPods</string>
-    <string name="troubleshooter_ble_intro_body1">AirPods send battery and status over Bluetooth. Some phones don\'t receive that data correctly. This app will try different settings until it finds one that works.</string>
+    <string name="troubleshooter_ble_intro_body1">AirPods send battery and status over Bluetooth. Some phones don&apos;t receive that data correctly. This app will try different settings until it finds one that works.</string>
     <string name="troubleshooter_ble_intro_steps_title">Before you start</string>
     <string name="troubleshooter_ble_intro_step1">Play audio on your AirPods</string>
     <string name="troubleshooter_ble_intro_step2">Keep them next to your phone</string>
     <string name="troubleshooter_ble_intro_start_action">Start</string>
     <string name="troubleshooter_ble_process_title">Checking your connection</string>
     <string name="troubleshooter_ble_process_subtile">Each step takes about 5–10 seconds. Keep your AirPods nearby.</string>
-    <string name="troubleshooter_ble_result_success_title">You\'re all set</string>
+    <string name="troubleshooter_ble_result_success_title">You&apos;re all set</string>
     <string name="troubleshooter_ble_result_success_body">Your phone is receiving status from your AirPods.</string>
-    <string name="troubleshooter_ble_result_failure_title">Couldn\'t find a fix</string>
+    <string name="troubleshooter_ble_result_failure_title">Couldn&apos;t find a fix</string>
     <string name="troubleshooter_ble_result_failure_body">None of the compatibility options helped.</string>
-    <string name="troubleshooter_ble_result_failure_phone_body">Your phone didn\'t receive any Bluetooth data. Try again somewhere with more nearby devices. If nothing shows up, the issue is likely with this phone.</string>
+    <string name="troubleshooter_ble_result_failure_phone_body">Your phone didn&apos;t receive any Bluetooth data. Try again somewhere with more nearby devices. If nothing shows up, the issue is likely with this phone.</string>
     <string name="troubleshooter_ble_result_failure_phone_headphones">Your phone is receiving Bluetooth data, but not from a supported headset. Make sure your AirPods are on and nearby.</string>
     <string name="troubleshooter_ble_result_failure_action">Try again</string>
     <string name="troubleshoot_action">Troubleshoot</string>
