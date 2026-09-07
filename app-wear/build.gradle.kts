@@ -118,7 +118,7 @@ android {
 }
 
 dependencies {
-    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:1.1.5")
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.5")
 
     implementation(project(":app-common"))
 
@@ -131,12 +131,12 @@ dependencies {
     addBaseAndroid()
     addBaseAndroidUi()
 
-    implementation("androidx.core:core-splashscreen:1.0.1")
+    implementation("androidx.core:core-splashscreen:1.2.0")
 
     addNavigation()
 
     addTesting()
 
-    implementation("androidx.wear:wear:1.2.0")
+    implementation("androidx.wear:wear:1.4.0")
     implementation("androidx.wear.tiles:tiles-material:1.1.0")
 }
