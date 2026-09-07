@@ -47,6 +47,11 @@
     <string name="settings_autoconnect_condition_description">When to try connecting to your AirPods.</string>
     <string name="settings_reaction_label">Reactions</string>
     <string name="settings_reaction_description">Play, pause, connect, and show popups automatically.</string>
+    <string name="settings_share_label">Share</string>
+    <string name="settings_share_description">Send the Play Store link to a friend.</string>
+    <string name="settings_share_text">Check out AirPod for Android — battery status, auto play and pause, and more for your AirPods.\n%s</string>
+    <string name="settings_rate_label">Rate us</string>
+    <string name="settings_rate_description">Rate AirPod on Google Play.</string>
     <string name="settings_category_general_label">General</string>
     <string name="settings_category_yourdevice_label">Your AirPods</string>
     <string name="settings_category_playback_label">Playback</string>

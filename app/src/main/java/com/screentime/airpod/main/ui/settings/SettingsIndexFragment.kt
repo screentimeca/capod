@@ -1,12 +1,12 @@
 package com.screentime.airpod.main.ui.settings
 
-import android.os.Bundle
-import android.view.View
+import android.content.ActivityNotFoundException
+import android.content.Intent
+import android.net.Uri
 import androidx.preference.Preference
 import dagger.hilt.android.AndroidEntryPoint
 import com.screentime.airpod.R
 import com.screentime.airpod.common.BuildConfigWrap
-import com.screentime.airpod.common.PrivacyPolicy
 import com.screentime.airpod.common.WebpageTool
 import com.screentime.airpod.common.preferences.Settings
 import com.screentime.airpod.common.uix.PreferenceFragment2
@@ -43,12 +43,39 @@ class SettingsIndexFragment : PreferenceFragment2() {
 //    }
 
     override fun onPreferencesCreated() {
-//        findPreference<Preference>("core.changelog")!!.summary = BuildConfigWrap.VERSION_DESCRIPTION_LONG
-//        findPreference<Preference>("core.privacy")!!.setOnPreferenceClickListener {
-//            webpageTool.open(PrivacyPolicy.URL)
-//            true
-//        }
-
+        findPreference<Preference>("settings.share")?.setOnPreferenceClickListener {
+            shareApp()
+            true
+        }
+        findPreference<Preference>("settings.rate")?.setOnPreferenceClickListener {
+            rateApp()
+            true
+        }
         super.onPreferencesCreated()
     }
+
+    private fun shareApp() {
+        val playUrl = playStoreUrl()
+        val text = getString(R.string.settings_share_text, playUrl)
+        val intent = Intent(Intent.ACTION_SEND).apply {
+            type = "text/plain"
+            putExtra(Intent.EXTRA_TEXT, text)
+        }
+        startActivity(Intent.createChooser(intent, getString(R.string.settings_share_label)))
+    }
+
+    private fun rateApp() {
+        val market = Intent(
+            Intent.ACTION_VIEW,
+            Uri.parse("market://details?id=${BuildConfigWrap.APPLICATION_ID}")
+        )
+        try {
+            startActivity(market)
+        } catch (_: ActivityNotFoundException) {
+            webpageTool.open(playStoreUrl())
+        }
+    }
+
+    private fun playStoreUrl(): String =
+        "https://play.google.com/store/apps/details?id=${BuildConfigWrap.APPLICATION_ID}"
 }

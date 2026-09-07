@@ -15,4 +15,18 @@
         app:summary="@string/settings_reaction_description"
         app:title="@string/settings_reaction_label" />
 
+    <Preference
+        android:key="settings.share"
+        android:icon="@drawable/ic_baseline_share_24"
+        app:iconSpaceReserved="false"
+        app:summary="@string/settings_share_description"
+        app:title="@string/settings_share_label" />
+
+    <Preference
+        android:key="settings.rate"
+        android:icon="@drawable/ic_baseline_star_24"
+        app:iconSpaceReserved="false"
+        app:summary="@string/settings_rate_description"
+        app:title="@string/settings_rate_label" />
+
 </PreferenceScreen>
