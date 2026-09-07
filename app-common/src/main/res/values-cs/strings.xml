@@ -52,5 +52,5 @@
     <string name="last_seen_x">Naposledy spatřeno: %s</string>
     <string name="first_seen_x">Poprvé spatřeno: %s</string>
     <string name="permission_post_notifications_label">Zobrazit oznámení</string>
-    <string name="permission_post_notifications_description">&quot;Povolte aplikaci AirPod zobrazovat oznámení o sluchátkách AirPods, např. o jejich aktuálním stavu během připojení.&quot;</string>
+    <string name="permission_post_notifications_description">"Povolte aplikaci AirPod zobrazovat oznámení o sluchátkách AirPods, např. o jejich aktuálním stavu během připojení."</string>
 </resources>

@@ -98,7 +98,7 @@
     <string name="settings_compat_indirectcallback_summary">Použijte alternativní metodu pro příjem dat BLE ze systému (vysílání namísto přijímání).</string>
     <string name="troubleshooter_title">Řešení problémů</string>
     <string name="troubleshooter_ble_intro_title">Vysílání Bluetooth Low Energy</string>
-    <string name="troubleshooter_ble_intro_body1">Sluchátka AirPods (a podobná sluchátka) vysílají informace o stavu pomocí technologie BLE zvané &quot;reklama&quot;. Některé telefony tuto technologii neimplementují správně. AirPod se může pokusit o nápravu zkoušením různých možností kompatibility, dokud nebudou data přijata. Spusťte přehrávání hudby ve sluchátkách, přiložte je k telefonu a spusťte proces.</string>
+    <string name="troubleshooter_ble_intro_body1">"Sluchátka AirPods (a podobná sluchátka) vysílají informace o stavu pomocí technologie BLE zvané \"reklama\". Některé telefony tuto technologii neimplementují správně. AirPod se může pokusit o nápravu zkoušením různých možností kompatibility, dokud nebudou data přijata. Spusťte přehrávání hudby ve sluchátkách, přiložte je k telefonu a spusťte proces."</string>
     <string name="troubleshooter_ble_intro_start_action">Spustit řešení problémů</string>
     <string name="troubleshooter_ble_process_title">Probíhá řešení problémů</string>
     <string name="troubleshooter_ble_process_subtile">Každý krok trvá 5-10 sekund</string>

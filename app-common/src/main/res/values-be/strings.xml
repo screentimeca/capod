@@ -13,12 +13,12 @@
     <string name="permission_bluetooth_scan_description">Дазвол на сканіраванне Bluetooth дасць магчымасць гэтай праграме выяўляць і атрымліваць даныя па Bluetooth з навакольных прылад, такіх як вашы AirPods.</string>
     <string name="permission_bluetooth_description">Гэтай праграме патрабуецца дазвол на выкарыстанне Bluetooth для злучэння са спалучанымі прыладамі.</string>
     <string name="permission_access_fine_location_label">Доступ да дакладнага месцазнаходжання</string>
-    <string name="permission_access_fine_location_description">AirPod выкарыстоўвае дазвол &quot;Дакладнае месцазнаходжанне&quot; для атрымання даных Bluetooth Low Energy. Вашы навушнікі з дапамогай тэхналогіі Bluetooth Low Energy перадаюць інфармацыю пра свой стан. Гэта праграма НЕ будзе карыстацца данымі Bluetooth для вызначэння вашага месцазнаходжання.</string>
+    <string name="permission_access_fine_location_description">"AirPod выкарыстоўвае дазвол \"Дакладнае месцазнаходжанне\" для атрымання даных Bluetooth Low Energy. Вашы навушнікі з дапамогай тэхналогіі Bluetooth Low Energy перадаюць інфармацыю пра свой стан. Гэта праграма НЕ будзе карыстацца данымі Bluetooth для вызначэння вашага месцазнаходжання."</string>
     <string name="permission_ignore_battery_optimizations_label">Адключыць аптымізацыю батарэі</string>
     <string name="permission_ignore_battery_optimizations_description">Аптымізацыя батарэі перашкаджае гэтай праграме надзейна атрымліваць даныя Bluetooth падчас яе знаходжання ў фоне.</string>
     <string name="permission_required_title">Патрабуецца наступны дазвол:</string>
     <string name="permission_system_alert_window_label">Акно сістэмных папярэджанняў</string>
-    <string name="permission_system_alert_window_description">Дазвольце AirPod накладанне паверх іншых праграм для карэктнай работы функцыі &quot;Апавяшчэнні&quot;.</string>
+    <string name="permission_system_alert_window_description">"Дазвольце AirPod накладанне паверх іншых праграм для карэктнай работы функцыі \"Апавяшчэнні\"."</string>
     <string name="settings_scanner_mode_lowpower_label">Эканомія энергіі</string>
     <string name="settings_scanner_mode_balanced_label">Збалансаваны</string>
     <string name="settings_scanner_mode_lowlatency_label">Малая затрымка</string>
@@ -53,5 +53,5 @@
     <string name="last_seen_x">Апошні раз быў: %s</string>
     <string name="first_seen_x">Упершыню быў: %s</string>
     <string name="permission_post_notifications_label">Паказваць апавяшчэнні</string>
-    <string name="permission_post_notifications_description">&quot;Дазволіць AirPod адлюстроўваць апавяшчэнні аб вашых AirPods: напрыклад, іх бягучы стан пры падключэнні.&quot;</string>
+    <string name="permission_post_notifications_description">"Дазволіць AirPod адлюстроўваць апавяшчэнні аб вашых AirPods: напрыклад, іх бягучы стан пры падключэнні."</string>
 </resources>

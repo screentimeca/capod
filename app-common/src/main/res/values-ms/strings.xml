@@ -8,17 +8,17 @@
     <string name="overview_bluetooth_disabled_label">Bluetooth dilumpuhkan</string>
     <string name="overview_bluetooth_disabled_description">Bluetooth dilumpuhkan, dayakan ia ;)</string>
     <string name="permission_bluetooth_connect_label">Sambung bluetooth</string>
-    <string name="permission_bluetooth_connect_description">Apl ini memerlukan kebenaran &quot;Bluetooth connect&quot; untuk berinteraksi dengan pasangan peranti dan memulakan sambungan.</string>
+    <string name="permission_bluetooth_connect_description">"Apl ini memerlukan kebenaran \"Bluetooth connect\" untuk berinteraksi dengan pasangan peranti dan memulakan sambungan."</string>
     <string name="permission_bluetooth_scan_label">Pengimbasan bluetooth</string>
-    <string name="permission_bluetooth_scan_description">Kebenaran &quot;Pengimbasan Bluetooth&quot; membolehkan apl ini menemui dan menerima data Bluetooth daripada peranti berdekatan seperti AirPods anda.</string>
-    <string name="permission_bluetooth_description">Apl ini memerlukan kebenaran &quot;Bluetooth&quot; untuk menyambung ke peranti bluetooth yang dipasangkan.</string>
+    <string name="permission_bluetooth_scan_description">"Kebenaran \"Pengimbasan Bluetooth\" membolehkan apl ini menemui dan menerima data Bluetooth daripada peranti berdekatan seperti AirPods anda."</string>
+    <string name="permission_bluetooth_description">"Apl ini memerlukan kebenaran \"Bluetooth\" untuk menyambung ke peranti bluetooth yang dipasangkan."</string>
     <string name="permission_access_fine_location_label">Akses lokasi yang baik</string>
-    <string name="permission_access_fine_location_description">AirPod menggunakan kebenaran &quot;lokasi baik&quot; untuk menerima data Bluetooth Tenaga Rendah. Fon kepala anda menggunakan teknologi Bluetooth Tenaga Rendah untuk menyiarkan statusnya. Apl ini TIDAK akan menggunakan data Bluetooth untuk menentukan lokasi anda.</string>
+    <string name="permission_access_fine_location_description">"AirPod menggunakan kebenaran \"lokasi baik\" untuk menerima data Bluetooth Tenaga Rendah. Fon kepala anda menggunakan teknologi Bluetooth Tenaga Rendah untuk menyiarkan statusnya. Apl ini TIDAK akan menggunakan data Bluetooth untuk menentukan lokasi anda."</string>
     <string name="permission_ignore_battery_optimizations_label">Nyahdayakan pengoptimuman bateri</string>
     <string name="permission_ignore_battery_optimizations_description">Pengoptimuman bateri menghalang apl ini daripada menerima data Bluetooth dengan pasti semasa apl berada di latar belakang.</string>
     <string name="permission_required_title">Kebenaran berikut diperlukan:</string>
     <string name="permission_system_alert_window_label">Tetingkap Makluman Sistem</string>
-    <string name="permission_system_alert_window_description">Benarkan AirPod melakar di atas apl lain untuk membolehkan ciri &quot;Tunjukkan PopUp&quot;.</string>
+    <string name="permission_system_alert_window_description">"Benarkan AirPod melakar di atas apl lain untuk membolehkan ciri \"Tunjukkan PopUp\"."</string>
     <string name="settings_scanner_mode_lowpower_label">Kuasa rendah</string>
     <string name="settings_scanner_mode_balanced_label">Seimbang</string>
     <string name="settings_scanner_mode_lowlatency_label">Latensi rendah</string>
@@ -53,5 +53,5 @@
     <string name="last_seen_x">Terakhir dilihat: %s</string>
     <string name="first_seen_x">Pertama dilihat: %s</string>
     <string name="permission_post_notifications_label">Tunjukkan pemberitahuanm</string>
-    <string name="permission_post_notifications_description">&quot;Benarkan AirPod memaparkan pemberitahuan tentang AirPods anda, misalnya, status semasa mereka ketika disambungkan.&quot;</string>
+    <string name="permission_post_notifications_description">"Benarkan AirPod memaparkan pemberitahuan tentang AirPods anda, misalnya, status semasa mereka ketika disambungkan."</string>
 </resources>

@@ -8,17 +8,17 @@
     <string name="overview_bluetooth_disabled_label">Bluetooth jest wyłączony</string>
     <string name="overview_bluetooth_disabled_description">Bluetooth jest wyłączony, włącz go ;)</string>
     <string name="permission_bluetooth_connect_label">Połączenie Bluetooth</string>
-    <string name="permission_bluetooth_connect_description">Aplikacja wymaga uprawnień do &quot;Połączenia Bluetooth&quot;, aby oddziaływać na sparowane urządzenia i inicjować połączenia.</string>
+    <string name="permission_bluetooth_connect_description">"Aplikacja wymaga uprawnień do \"Połączenia Bluetooth\", aby oddziaływać na sparowane urządzenia i inicjować połączenia."</string>
     <string name="permission_bluetooth_scan_label">Skanowanie Bluetooth</string>
-    <string name="permission_bluetooth_scan_description">Uprawnienie &quot;Skanowanie Bluetooth&quot; zezwala aplikacji na odkrywanie i odbieranie danych Bluetooth od urządzeń znajdujących się w pobliżu, takich jak AirPods.</string>
-    <string name="permission_bluetooth_description">Aplikacja wymaga uprawnień &quot;Bluetooth&quot;, aby łączyć się ze sparowanymi urządzeniami bluetooth.</string>
+    <string name="permission_bluetooth_scan_description">"Uprawnienie \"Skanowanie Bluetooth\" zezwala aplikacji na odkrywanie i odbieranie danych Bluetooth od urządzeń znajdujących się w pobliżu, takich jak AirPods."</string>
+    <string name="permission_bluetooth_description">"Aplikacja wymaga uprawnień \"Bluetooth\", aby łączyć się ze sparowanymi urządzeniami bluetooth."</string>
     <string name="permission_access_fine_location_label">Dostęp do dokładnej lokalizacji</string>
-    <string name="permission_access_fine_location_description">AirPod korzysta z uprawnienia do &quot;dokładnej lokalizacji&quot;, aby odbierać dane Bluetooth Low Energy. Twoje słuchawki korzystają z technologii Bluetooth Low Energy, aby przekazywać informacje o swoim stanie. Aplikacja NIE BĘDZIE korzystać z danych Bluetooth do ustalenia twojego położenia.</string>
+    <string name="permission_access_fine_location_description">"AirPod korzysta z uprawnienia do \"dokładnej lokalizacji\", aby odbierać dane Bluetooth Low Energy. Twoje słuchawki korzystają z technologii Bluetooth Low Energy, aby przekazywać informacje o swoim stanie. Aplikacja NIE BĘDZIE korzystać z danych Bluetooth do ustalenia twojego położenia."</string>
     <string name="permission_ignore_battery_optimizations_label">Wyłącz optymalizacje baterii</string>
     <string name="permission_ignore_battery_optimizations_description">Optymalizacja baterii zapobiega przed niezawodnym odbieraniem danych Bluetooth, gdy aplikacja działa w tle.</string>
     <string name="permission_required_title">Następujące uprawnienie jest wymagane:</string>
     <string name="permission_system_alert_window_label">Okna alertów systemowych</string>
-    <string name="permission_system_alert_window_description">Zezwól na wyświetlanie AirPod nad innymi aplikacjami, aby aktywować funkcję &quot;Wyświetlanie informacji&quot;.</string>
+    <string name="permission_system_alert_window_description">"Zezwól na wyświetlanie AirPod nad innymi aplikacjami, aby aktywować funkcję \"Wyświetlanie informacji\"."</string>
     <string name="settings_scanner_mode_lowpower_label">Oszczędzanie energii</string>
     <string name="settings_scanner_mode_balanced_label">Zbalansowana</string>
     <string name="settings_scanner_mode_lowlatency_label">Małe opóźnienia</string>
@@ -53,5 +53,5 @@
     <string name="last_seen_x">Ostatnio widziane: %s</string>
     <string name="first_seen_x">Widziane pierwszy raz: %s</string>
     <string name="permission_post_notifications_label">Wyświetl powiadomienia</string>
-    <string name="permission_post_notifications_description">&quot;Zezwól AirPod na wyświetlanie powiadomień o słuchawkach AirPods, np. ich aktualnym statusie podczas połączenia.&quot;</string>
+    <string name="permission_post_notifications_description">"Zezwól AirPod na wyświetlanie powiadomień o słuchawkach AirPods, np. ich aktualnym statusie podczas połączenia."</string>
 </resources>

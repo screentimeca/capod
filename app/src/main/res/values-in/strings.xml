@@ -38,7 +38,7 @@
     <string name="settings_signal_minimum_label">Minimal kualitas sinyal</string>
     <string name="settings_signal_minimum_description">Kualitas sinyal minimal yang diperlukan perangkat harus dipertimbangkan sebagai milik Anda.</string>
     <string name="settings_autoconnect_label">Sambung otomatis</string>
-    <string name="settings_autoconnect_description">Jika Android tidak terhubung secara otomatis, kami juga dapat menanyakannya. Ini akan mengatur pengaturan modus monitor ke &apos;Selalu&apos;.</string>
+    <string name="settings_autoconnect_description">"Jika Android tidak terhubung secara otomatis, kami juga dapat menanyakannya. Ini akan mengatur pengaturan modus monitor ke 'Selalu'."</string>
     <string name="settings_autoconnect_condition_label">Kondisi koneksi otomatis</string>
     <string name="settings_autoconnect_condition_description">Kapan kami harus mencoba menyambung ke perangkat anda?</string>
     <string name="settings_reaction_label">Reaksi</string>
@@ -98,7 +98,7 @@
     <string name="settings_compat_indirectcallback_summary">Gunakan metode alternatif untuk menerima data BLE dari sistem (siarkan alih-alih panggilan balik).</string>
     <string name="troubleshooter_title">Pemecah masalah</string>
     <string name="troubleshooter_ble_intro_title">Siaran Bluetooth Hemat Energi</string>
-    <string name="troubleshooter_ble_intro_body1">AirPods (dan headphone serupa) menyiarkan informasi status menggunakan teknologi BLE yang disebut &quot;iklan&quot;. Beberapa telepon tidak menerapkan teknologi ini dengan benar. AirPod dapat mencoba memperbaikinya dengan mencoba berbagai opsi kompatibilitas hingga data diterima. Mulai pemutaran musik di headphone Anda dan letakkan di dekat ponsel Anda, lalu mulai prosesnya.</string>
+    <string name="troubleshooter_ble_intro_body1">"AirPods (dan headphone serupa) menyiarkan informasi status menggunakan teknologi BLE yang disebut \"iklan\". Beberapa telepon tidak menerapkan teknologi ini dengan benar. AirPod dapat mencoba memperbaikinya dengan mencoba berbagai opsi kompatibilitas hingga data diterima. Mulai pemutaran musik di headphone Anda dan letakkan di dekat ponsel Anda, lalu mulai prosesnya."</string>
     <string name="troubleshooter_ble_intro_start_action">Mulai pemecahan masalah</string>
     <string name="troubleshooter_ble_process_title">Pemecahan masalah sedang berlangsung</string>
     <string name="troubleshooter_ble_process_subtile">Setiap langkah membutuhkan waktu 5–10 detik</string>

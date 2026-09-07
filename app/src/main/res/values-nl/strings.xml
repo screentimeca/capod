@@ -38,7 +38,7 @@
     <string name="settings_signal_minimum_label">Minimale signaalkwaliteit</string>
     <string name="settings_signal_minimum_description">De minimale signaalkwaliteit die een apparaat nodig heeft om als uw apparaat te worden beschouwd.</string>
     <string name="settings_autoconnect_label">Automatisch verbinden</string>
-    <string name="settings_autoconnect_description">Als Android niet automatisch verbinding maakt, kunnen we dat ook vragen. Hierdoor wordt de instelling van de monitormodus ingesteld op &apos;Altijd&apos;.</string>
+    <string name="settings_autoconnect_description">"Als Android niet automatisch verbinding maakt, kunnen we dat ook vragen. Hierdoor wordt de instelling van de monitormodus ingesteld op 'Altijd'."</string>
     <string name="settings_autoconnect_condition_label">Auto verbindingsvoorwaarde</string>
     <string name="settings_autoconnect_condition_description">Wanneer moeten we proberen verbinding te maken met uw apparaat?</string>
     <string name="settings_reaction_label">Reacties</string>
@@ -98,7 +98,7 @@
     <string name="settings_compat_indirectcallback_summary">Gebruik een alternatieve methode om BLE data van het systeem (broadcast inplaats van callback).</string>
     <string name="troubleshooter_title">Probleemoplossing</string>
     <string name="troubleshooter_ble_intro_title">Bluetooth Low Energy-uitzendingen</string>
-    <string name="troubleshooter_ble_intro_body1">AirPods (en vergelijkbare hoofdtelefoons) zenden statusinformatie uit met behulp van een BLE-technologie die &quot;advertenties&quot; wordt genoemd. Sommige telefoons implementeren deze technologie niet correct. AirPod kan dit proberen op te lossen door verschillende compatibiliteitsopties uit te proberen totdat er gegevens zijn ontvangen. Start het afspelen van muziek op uw hoofdtelefoon en plaats deze dicht bij uw telefoon en start het proces.</string>
+    <string name="troubleshooter_ble_intro_body1">"AirPods (en vergelijkbare hoofdtelefoons) zenden statusinformatie uit met behulp van een BLE-technologie die \"advertenties\" wordt genoemd. Sommige telefoons implementeren deze technologie niet correct. AirPod kan dit proberen op te lossen door verschillende compatibiliteitsopties uit te proberen totdat er gegevens zijn ontvangen. Start het afspelen van muziek op uw hoofdtelefoon en plaats deze dicht bij uw telefoon en start het proces."</string>
     <string name="troubleshooter_ble_intro_start_action">Begin met probleemoplossing</string>
     <string name="troubleshooter_ble_process_title">Probleemoplossing wordt uitgevoerd</string>
     <string name="troubleshooter_ble_process_subtile">Elke stap duurt 5-10 seconden</string>

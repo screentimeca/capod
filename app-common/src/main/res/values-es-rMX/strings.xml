@@ -2,12 +2,12 @@
 <resources>
     <string name="general_grant_permission_action">Conceder permiso</string>
     <string name="permission_bluetooth_connect_label">Conexión Bluetooth</string>
-    <string name="permission_bluetooth_connect_description">Esta aplicacion requiere el permiso &quot;Conexión Bluetooth&quot; para interactuar con los dispositivos vinculados e iniciar las conexiones.</string>
+    <string name="permission_bluetooth_connect_description">"Esta aplicacion requiere el permiso \"Conexión Bluetooth\" para interactuar con los dispositivos vinculados e iniciar las conexiones."</string>
     <string name="permission_bluetooth_scan_label">Escaneo Bluetooth</string>
-    <string name="permission_bluetooth_scan_description">El permiso &quot;Escaneo Bluetooth&quot; permite que esta aplicación descubra y reciba datos de Bluetooth de dispositivos cercanos como tus AirPods.</string>
-    <string name="permission_bluetooth_description">Esta aplicacion requiere el permiso &quot;Bluetooth&quot; para conectarse a los dispositivos vinculados.</string>
+    <string name="permission_bluetooth_scan_description">"El permiso \"Escaneo Bluetooth\" permite que esta aplicación descubra y reciba datos de Bluetooth de dispositivos cercanos como tus AirPods."</string>
+    <string name="permission_bluetooth_description">"Esta aplicacion requiere el permiso \"Bluetooth\" para conectarse a los dispositivos vinculados."</string>
     <string name="permission_access_fine_location_label">Acceso a la ubicación precisa</string>
-    <string name="permission_access_fine_location_description">AirPod utiliza el permiso de &quot;ubicación precisa&quot; para recibir Datos de Bluetooth de bajo consumo. Sus auriculares utilizan la tecnología Datos de Bluetooth de bajo consumo para transmitir su estado. Esta aplicación NO utilizará datos de Bluetooth para determinar su ubicación.</string>
+    <string name="permission_access_fine_location_description">"AirPod utiliza el permiso de \"ubicación precisa\" para recibir Datos de Bluetooth de bajo consumo. Sus auriculares utilizan la tecnología Datos de Bluetooth de bajo consumo para transmitir su estado. Esta aplicación NO utilizará datos de Bluetooth para determinar su ubicación."</string>
     <string name="permission_ignore_battery_optimizations_label">Deshabilitar optimizaciones de batería</string>
     <string name="permission_ignore_battery_optimizations_description">Las optimizaciones de la batería evitan que esta aplicación reciba datos de Bluetooth de manera confiable mientras la aplicación está en segundo plano.</string>
     <string name="pods_dual_left_label">Audífono izquierdo</string>

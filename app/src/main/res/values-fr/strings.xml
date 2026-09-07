@@ -47,7 +47,7 @@
     <string name="settings_category_compatibility_options_title">Options de compatibilité</string>
     <string name="settings_category_compatibility_options_description">Ne rien changer rien si tout fonctionne ;)</string>
     <string name="settings_compat_offloaded_filtering_disabled_title">Désactiver le filtrage matériel</string>
-    <string name="settings_compat_offloaded_filtering_disabled_summary">Ne pas déléguer pas le filtrage des données au système, gardez plutôt toutes les données et filtres dans l&apos;appli.</string>
+    <string name="settings_compat_offloaded_filtering_disabled_summary">"Ne pas déléguer pas le filtrage des données au système, gardez plutôt toutes les données et filtres dans l'appli."</string>
     <string name="settings_compat_offloaded_batching_disabled_title">Désactiver le groupage du matériel</string>
     <string name="settings_compat_offloaded_batching_disabled_summary">Avant de nous les transmettre, ne pas laisser le système regrouper les données BÉB recueillies.</string>
     <string name="settings_maindevice_address_label">L’adresse de votre appareil</string>
@@ -58,7 +58,7 @@
     <string name="settings_onepod_mode_label">Mode à un seul AirPod</string>
     <string name="settings_onepod_mode_description">Il n’est pas nécessaire de porter deux AirPods, en porter un seul suffit à déclencher les réactions.</string>
     <string name="settings_popup_caseopen_label">Afficher une fenêtre pour l’étui</string>
-    <string name="settings_popup_caseopen_description">Afficher une fenêtre surgissante à l’ouverture de l’étui de l&apos;appareil (expérimental).</string>
+    <string name="settings_popup_caseopen_description">"Afficher une fenêtre surgissante à l’ouverture de l’étui de l'appareil (expérimental)."</string>
     <string name="settings_popup_connected_label">Afficher une fenêtre de connection</string>
     <string name="settings_popup_connected_description">Afficher une fenêtre surgissante quand l’appareil se connecte pour la première fois.</string>
     <string name="notification_channel_device_status_label">État de l’appareil</string>
@@ -79,7 +79,7 @@
     <string name="settings_licenses_label">Licences</string>
     <string name="settings_category_other_label">Autre</string>
     <string name="settings_general_label">Paramètres</string>
-    <string name="settings_general_description">Réglage généraux qui affectent l&apos;appli entière.</string>
+    <string name="settings_general_description">"Réglage généraux qui affectent l'appli entière."</string>
     <string name="settings_acknowledgements_label">Remerciements</string>
     <string name="settings_debug_autoreports_label">Relevés de bogue automatiques</string>
     <string name="settings_debug_autoreports_description">Signale automatiquement les problèmes, p. ex., les détails d’un plantage de l’appli, afin que je puisse essayer de les corriger.</string>
@@ -97,7 +97,7 @@
     <string name="settings_compat_indirectcallback_title">Transmission indirecte des données</string>
     <string name="settings_compat_indirectcallback_summary">Utiliser une méthode de remplacement pour recevoir les données BÉB du système (diffusion au lieu de rappel).</string>
     <string name="troubleshooter_title">Dépannage</string>
-    <string name="troubleshooter_ble_intro_title">Diffusions à bas niveau d&apos;énergie de Bluetooth</string>
+    <string name="troubleshooter_ble_intro_title">"Diffusions à bas niveau d'énergie de Bluetooth"</string>
     <string name="troubleshooter_ble_intro_body1">Les AirPods (et autres casques d’écoute semblables) diffusent des renseignements d’état grâce à une technologie BÉB appelée « annonces ». Certains téléphones n’appliquent pas cette technologie correctement. AirPod peut tenter de corriger cela en essayant différentes options de compatibilité jusqu’à ce que les données soient reçues. Faites jouer un fichier son sur votre casque d’écoute, placez-le près de votre téléphone, puis lancer le processus.</string>
     <string name="troubleshooter_ble_intro_start_action">Lancer le dépannage</string>
     <string name="troubleshooter_ble_process_title">Dépannage en cours</string>

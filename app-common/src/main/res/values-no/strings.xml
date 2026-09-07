@@ -7,17 +7,17 @@
     <string name="overview_bluetooth_disabled_label">Bluetooth er deaktivert</string>
     <string name="overview_bluetooth_disabled_description">Bluetooth er deaktivert, aktiver det ;)</string>
     <string name="permission_bluetooth_connect_label">Bluetooth-tilkobling</string>
-    <string name="permission_bluetooth_connect_description">Denne appen må ha &quot;Bluetooth-tilkobling&quot;-tillatelsen for å kunne snakke med sammenkoblede enheter og starte tilkoblinger.</string>
+    <string name="permission_bluetooth_connect_description">"Denne appen må ha \"Bluetooth-tilkobling\"-tillatelsen for å kunne snakke med sammenkoblede enheter og starte tilkoblinger."</string>
     <string name="permission_bluetooth_scan_label">Bluetooth-skanning</string>
-    <string name="permission_bluetooth_scan_description">&quot;Bluetooth-skanning&quot;-tillatelsen lar denne appen oppdage og motta Bluetooth-data fra enheter i nærheten, som for eksempel AirPods.</string>
-    <string name="permission_bluetooth_description">Denne appen må ha &quot;Bluetooth&quot;-tillatelsen for å koble til sammenkoblede Bluetooth-enheter.</string>
+    <string name="permission_bluetooth_scan_description">"\"Bluetooth-skanning\"-tillatelsen lar denne appen oppdage og motta Bluetooth-data fra enheter i nærheten, som for eksempel AirPods."</string>
+    <string name="permission_bluetooth_description">"Denne appen må ha \"Bluetooth\"-tillatelsen for å koble til sammenkoblede Bluetooth-enheter."</string>
     <string name="permission_access_fine_location_label">Forbedret posisjonsnøyaktighet</string>
-    <string name="permission_access_fine_location_description">AirPod bruker tillatelsen &quot;Forbedret posisjonsnøyaktighet&quot; for å motta Bluetooth Low Energy-data. Hodetelefonene dine bruker Bluetooth Low Energy-teknologi for å kringkaste statusen. Denne appen bruker IKKE Bluetooth-data til å se posisjonen din.</string>
+    <string name="permission_access_fine_location_description">"AirPod bruker tillatelsen \"Forbedret posisjonsnøyaktighet\" for å motta Bluetooth Low Energy-data. Hodetelefonene dine bruker Bluetooth Low Energy-teknologi for å kringkaste statusen. Denne appen bruker IKKE Bluetooth-data til å se posisjonen din."</string>
     <string name="permission_ignore_battery_optimizations_label">Deaktiver batterioptimalisering</string>
     <string name="permission_ignore_battery_optimizations_description">Batterioptimalisering gjør at denne appen ikke alltid kan motta Bluetooth-data mens den er i bakgrunnen.</string>
     <string name="permission_required_title">Følgende tillatelse kreves:</string>
     <string name="permission_system_alert_window_label">Systemvarslingsvindu</string>
-    <string name="permission_system_alert_window_description">La AirPod tegne over andre apper for å gjøre &quot;Vis popup&quot;-funksjonen mulig.</string>
+    <string name="permission_system_alert_window_description">"La AirPod tegne over andre apper for å gjøre \"Vis popup\"-funksjonen mulig."</string>
     <string name="settings_scanner_mode_lowpower_label">Lavt strømforbruk</string>
     <string name="settings_scanner_mode_balanced_label">Balansert</string>
     <string name="settings_scanner_mode_lowlatency_label">Lav forsinkelse</string>
@@ -52,5 +52,5 @@
     <string name="last_seen_x">Sist sett: %s</string>
     <string name="first_seen_x">Først sett: %s</string>
     <string name="permission_post_notifications_label">Vis varsler</string>
-    <string name="permission_post_notifications_description">&quot;La AirPod vise varsler om dine AirPods, f.eks. nåværende status under tilkobling.&quot;</string>
+    <string name="permission_post_notifications_description">"La AirPod vise varsler om dine AirPods, f.eks. nåværende status under tilkobling."</string>
 </resources>

@@ -38,7 +38,7 @@
     <string name="settings_signal_minimum_label">איכות אות מינימלית</string>
     <string name="settings_signal_minimum_description">איכות האות המינימלית שמכשיר צריך להתחשב עבורך.</string>
     <string name="settings_autoconnect_label">חיבור אוטומטי</string>
-    <string name="settings_autoconnect_description">אם אנדרואיד לא מתחבר אוטומטית, אנחנו גם יכולים לבקש זאת. פעולה זו תגדיר את הגדרת מצב ניתור ל&apos;תמיד&apos;.</string>
+    <string name="settings_autoconnect_description">"אם אנדרואיד לא מתחבר אוטומטית, אנחנו גם יכולים לבקש זאת. פעולה זו תגדיר את הגדרת מצב ניתור ל'תמיד'."</string>
     <string name="settings_autoconnect_condition_label">מצב חיבור אוטומטי</string>
     <string name="settings_autoconnect_condition_description">מתי עלינו לנסות להתחבר למכשיר שלך?</string>
     <string name="settings_reaction_label">תגובות</string>
@@ -91,12 +91,12 @@
     <string name="help_translate_description">עזרו בתרגום אפליקציה זו לשפה המועדפת עליכם.</string>
     <string name="translators_thanks_title">מתרגמים</string>
     <string name="translators_thanks_description">AL_Cool_T</string>
-    <string name="widget_description">ווידג&apos;ט המציג את מצב האחרון הידוע של המכשיר.</string>
+    <string name="widget_description">"ווידג'ט המציג את מצב האחרון הידוע של המכשיר."</string>
     <string name="settings_compat_indirectcallback_title">העברה עקיפה של הנתונים</string>
     <string name="settings_compat_indirectcallback_summary">השתמש בשיטה חלופית כדי לקבל נתוני BLE מהמערכת (שידור במקום התקשרות חוזרת).</string>
     <string name="troubleshooter_title">פותר בעיות</string>
     <string name="troubleshooter_ble_intro_title">שידורי Bluetooth באנרגיה נמוכה</string>
-    <string name="troubleshooter_ble_intro_body1">AirPods (ואוזניות דומות) משדרות מידע באמצעות טכנולוגיית BLE הנקראת &quot;פרסומות&quot;. טלפונים מסוימים אינם מיישמים את הטכנולוגיה הזו כהלכה. AirPod יכול לנסות לתקן זאת על ידי אפשרויות תאימות שונות עד לקבלת נתונים. התחל את השמעת מוזיקה באוזניות שלך והנח אותן קרוב לטלפון שלך, ולאחר מכן התחל את התהליך.</string>
+    <string name="troubleshooter_ble_intro_body1">"AirPods (ואוזניות דומות) משדרות מידע באמצעות טכנולוגיית BLE הנקראת \"פרסומות\". טלפונים מסוימים אינם מיישמים את הטכנולוגיה הזו כהלכה. AirPod יכול לנסות לתקן זאת על ידי אפשרויות תאימות שונות עד לקבלת נתונים. התחל את השמעת מוזיקה באוזניות שלך והנח אותן קרוב לטלפון שלך, ולאחר מכן התחל את התהליך."</string>
     <string name="troubleshooter_ble_intro_start_action">התחל בפתרון בעיות</string>
     <string name="troubleshooter_ble_process_title">מתבצע פתרון בעיות</string>
     <string name="troubleshooter_ble_process_subtile">כל שלב לוקח 5-10 שניות</string>

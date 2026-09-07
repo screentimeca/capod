@@ -38,7 +38,7 @@
     <string name="settings_signal_minimum_label">Calidad mínima de la señal</string>
     <string name="settings_signal_minimum_description">La calidad mínima de la señal que debe tener un dispositivo para ser considerado tuyo.</string>
     <string name="settings_autoconnect_label">Conectar automáticamente</string>
-    <string name="settings_autoconnect_description">Si Android no se conecta automáticamente, también podemos preguntarlo. Esto establecerá la configuración del modo de monitor en &apos;Siempre&apos;.</string>
+    <string name="settings_autoconnect_description">"Si Android no se conecta automáticamente, también podemos preguntarlo. Esto establecerá la configuración del modo de monitor en 'Siempre'."</string>
     <string name="settings_autoconnect_condition_label">Condición de autoconexión</string>
     <string name="settings_autoconnect_condition_description">¿Cuándo debemos intentar conectarnos a su dispositivo?</string>
     <string name="settings_reaction_label">Reacciones</string>
@@ -98,7 +98,7 @@
     <string name="settings_compat_indirectcallback_summary">Utiliza un método alternativo para recibir los datos BLE del sistema (emisión en lugar de devolución de llamada).</string>
     <string name="troubleshooter_title">Reparador de problemas</string>
     <string name="troubleshooter_ble_intro_title">Transmisiones Bluetooth de bajo consumo</string>
-    <string name="troubleshooter_ble_intro_body1">Los AirPods (y auriculares similares) transmiten información de su estado mediante una tecnología BLE llamada &quot;anuncios&quot;. Algunos teléfonos no implementan esta tecnología correctamente. AirPod puede intentar arreglar esto probando diferentes opciones de compatibilidad hasta que se reciban los datos. Inicia la reproducción de la música en tus auriculares y colócalos cerca de tu teléfono, luego comienza el proceso.</string>
+    <string name="troubleshooter_ble_intro_body1">"Los AirPods (y auriculares similares) transmiten información de su estado mediante una tecnología BLE llamada \"anuncios\". Algunos teléfonos no implementan esta tecnología correctamente. AirPod puede intentar arreglar esto probando diferentes opciones de compatibilidad hasta que se reciban los datos. Inicia la reproducción de la música en tus auriculares y colócalos cerca de tu teléfono, luego comienza el proceso."</string>
     <string name="troubleshooter_ble_intro_start_action">Empezar a resolver los problemas</string>
     <string name="troubleshooter_ble_process_title">Solución de los problemas en curso</string>
     <string name="troubleshooter_ble_process_subtile">Cada paso dura entre 5 y 10 segundos</string>

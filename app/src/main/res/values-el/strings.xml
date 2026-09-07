@@ -38,7 +38,7 @@
     <string name="settings_signal_minimum_label">Ελάχιστη ποιότητα σήματος</string>
     <string name="settings_signal_minimum_description">Η ελάχιστη ποιότητα σήματος που πρέπει να έχει μια συσκευή για να θεωρείται δική σας.</string>
     <string name="settings_autoconnect_label">Αυτόματη σύνδεση</string>
-    <string name="settings_autoconnect_description">Εάν το Android δε συνδεθεί αυτόματα, μπορούμε επίσης να το ζητήσουμε. Αυτό θα θέσει τη ρύθμιση λειτουργίας παρακολούθησης σε &apos;Πάντα&apos;.</string>
+    <string name="settings_autoconnect_description">"Εάν το Android δε συνδεθεί αυτόματα, μπορούμε επίσης να το ζητήσουμε. Αυτό θα θέσει τη ρύθμιση λειτουργίας παρακολούθησης σε 'Πάντα'."</string>
     <string name="settings_autoconnect_condition_label">Συνθήκη αυτόματης σύνδεσης</string>
     <string name="settings_autoconnect_condition_description">Πότε να προσπαθήσουμε να συνδέσουμε τη συσκευή σας;</string>
     <string name="settings_reaction_label">Αντιδράσεις</string>
@@ -98,7 +98,7 @@
     <string name="settings_compat_indirectcallback_summary">Χρησιμοποιήστε εναλλακτική μέθοδο για να λάβετε δεδομένα BLE από το σύστημα (broadcast αντί για callback).</string>
     <string name="troubleshooter_title">Αντιμετώπιση προβλημάτων</string>
     <string name="troubleshooter_ble_intro_title">Εκπομπές Χαμηλής Ενέργειας Bluetooth</string>
-    <string name="troubleshooter_ble_intro_body1">Τα AirPods (και παρόμοια ακουστικά) μεταδίδουν πληροφορίες κατάστασης χρησιμοποιώντας μια τεχνολογία BLE που ονομάζεται &quot;διαφημίσεις&quot;. Ορισμένα τηλέφωνα δεν εφαρμόζουν σωστά αυτήν την τεχνολογία. Το AirPod μπορεί να προσπαθήσει να το διορθώσει δοκιμάζοντας διαφορετικές επιλογές συμβατότητας μέχρι να ληφθούν δεδομένα. Ξεκινήστε την αναπαραγωγή μουσικής στα ακουστικά σας και τοποθετήστε τα κοντά στο τηλέφωνό σας και, στη συνέχεια, ξεκινήστε τη διαδικασία.</string>
+    <string name="troubleshooter_ble_intro_body1">"Τα AirPods (και παρόμοια ακουστικά) μεταδίδουν πληροφορίες κατάστασης χρησιμοποιώντας μια τεχνολογία BLE που ονομάζεται \"διαφημίσεις\". Ορισμένα τηλέφωνα δεν εφαρμόζουν σωστά αυτήν την τεχνολογία. Το AirPod μπορεί να προσπαθήσει να το διορθώσει δοκιμάζοντας διαφορετικές επιλογές συμβατότητας μέχρι να ληφθούν δεδομένα. Ξεκινήστε την αναπαραγωγή μουσικής στα ακουστικά σας και τοποθετήστε τα κοντά στο τηλέφωνό σας και, στη συνέχεια, ξεκινήστε τη διαδικασία."</string>
     <string name="troubleshooter_ble_intro_start_action">Ξεκινήστε την αντιμετώπιση προβλημάτων</string>
     <string name="troubleshooter_ble_process_title">Αντιμετώπιση προβλημάτων σε εξέλιξη</string>
     <string name="troubleshooter_ble_process_subtile">Κάθε βήμα διαρκεί 5-10 δευτερόλεπτα</string>

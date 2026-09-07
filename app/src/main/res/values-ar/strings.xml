@@ -38,7 +38,7 @@
     <string name="settings_signal_minimum_label">الحد الأدنى من جودة الإشارة</string>
     <string name="settings_signal_minimum_description">الحد الأدنى من جودة الإشارة التي يجب أن يَعتبرها الجهاز لك.</string>
     <string name="settings_autoconnect_label">الاتصال التلقائي</string>
-    <string name="settings_autoconnect_description">إذا لم يتصل الأندرويد تلقائيًا. فيمكننا أنة نطلبه أيضًا. سيؤدي هذا إلى ضبط إعداد وضع المراقب إلى &quot;دائما&quot;.</string>
+    <string name="settings_autoconnect_description">"إذا لم يتصل الأندرويد تلقائيًا. فيمكننا أنة نطلبه أيضًا. سيؤدي هذا إلى ضبط إعداد وضع المراقب إلى \"دائما\"."</string>
     <string name="settings_autoconnect_condition_label">حالة الاتصال التلقائي</string>
     <string name="settings_autoconnect_condition_description">متى يجب أن نحاول الاتصال بجهازك؟</string>
     <string name="settings_reaction_label">التفاعل</string>

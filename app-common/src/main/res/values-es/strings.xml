@@ -8,17 +8,17 @@
     <string name="overview_bluetooth_disabled_label">Bluetooth desactivado</string>
     <string name="overview_bluetooth_disabled_description">El Bluetooth está desactivado, actívalo ;)</string>
     <string name="permission_bluetooth_connect_label">Conexión por Bluetooth</string>
-    <string name="permission_bluetooth_connect_description">Esta aplicación requiere el permiso &quot;Conexión por Bluetooth&quot; para interactuar con los dispositivos emparejados e iniciar las conexiones.</string>
+    <string name="permission_bluetooth_connect_description">"Esta aplicación requiere el permiso \"Conexión por Bluetooth\" para interactuar con los dispositivos emparejados e iniciar las conexiones."</string>
     <string name="permission_bluetooth_scan_label">El Bluetooth está escaneando</string>
-    <string name="permission_bluetooth_scan_description">El permiso &quot;Escaneo del Bluetooth&quot; permite que esta aplicación descubra y reciba datos de Bluetooth de dispositivos cercanos, como tus AirPods.</string>
-    <string name="permission_bluetooth_description">Esta aplicación requiere el permiso &quot;Bluetooth&quot; para conectarse a dispositivos bluetooth emparejados.</string>
+    <string name="permission_bluetooth_scan_description">"El permiso \"Escaneo del Bluetooth\" permite que esta aplicación descubra y reciba datos de Bluetooth de dispositivos cercanos, como tus AirPods."</string>
+    <string name="permission_bluetooth_description">"Esta aplicación requiere el permiso \"Bluetooth\" para conectarse a dispositivos bluetooth emparejados."</string>
     <string name="permission_access_fine_location_label">Acceso preciso a tu ubicación</string>
-    <string name="permission_access_fine_location_description">AirPod utiliza el permiso &quot;localización precisa&quot; para recibir datos Bluetooth Low Energy. Tus auriculares utilizan la tecnología Bluetooth Low Energy para transmitir tu estado. Esta aplicación NO utilizará los datos Bluetooth para determinar tu ubicación.</string>
+    <string name="permission_access_fine_location_description">"AirPod utiliza el permiso \"localización precisa\" para recibir datos Bluetooth Low Energy. Tus auriculares utilizan la tecnología Bluetooth Low Energy para transmitir tu estado. Esta aplicación NO utilizará los datos Bluetooth para determinar tu ubicación."</string>
     <string name="permission_ignore_battery_optimizations_label">Desactivar las optimizaciones de la batería</string>
     <string name="permission_ignore_battery_optimizations_description">Las optimizaciones de la batería impiden que esta aplicación reciba datos Bluetooth de forma fiable mientras está en segundo plano.</string>
     <string name="permission_required_title">Se requiere el siguiente permiso:</string>
     <string name="permission_system_alert_window_label">Ventana de alerta del sistema</string>
-    <string name="permission_system_alert_window_description">Permite a AirPod dibujar sobre otras aplicaciones para hacer posible la función &quot;Mostrar una ventana emergente&quot;.</string>
+    <string name="permission_system_alert_window_description">"Permite a AirPod dibujar sobre otras aplicaciones para hacer posible la función \"Mostrar una ventana emergente\"."</string>
     <string name="settings_scanner_mode_lowpower_label">Bajo consumo</string>
     <string name="settings_scanner_mode_balanced_label">Equilibrado</string>
     <string name="settings_scanner_mode_lowlatency_label">Baja latencia</string>
@@ -53,5 +53,5 @@
     <string name="last_seen_x">Visto por última vez: %s</string>
     <string name="first_seen_x">Visto por primera vez: %s</string>
     <string name="permission_post_notifications_label">Mostrar las notificaciones</string>
-    <string name="permission_post_notifications_description">&quot;Permite que AirPod muestre las notificaciones sobre tus AirPods, por ejemplo, su estado actual mientras están conectados.&quot;</string>
+    <string name="permission_post_notifications_description">"Permite que AirPod muestre las notificaciones sobre tus AirPods, por ejemplo, su estado actual mientras están conectados."</string>
 </resources>

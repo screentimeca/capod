@@ -52,5 +52,5 @@
     <string name="last_seen_x">Vazute ultima dată: %s</string>
     <string name="first_seen_x">Prima dată văzute: %s</string>
     <string name="permission_post_notifications_label">Arată notificări</string>
-    <string name="permission_post_notifications_description">&quot;Permiteți ca AirPod să afișeze notificări despre AirPod-urile dvs., de exemplu, starea lor actuală în timp ce sunt conectate.&quot;</string>
+    <string name="permission_post_notifications_description">"Permiteți ca AirPod să afișeze notificări despre AirPod-urile dvs., de exemplu, starea lor actuală în timp ce sunt conectate."</string>
 </resources>

@@ -5,5 +5,5 @@
     <string name="pods_dual_left_label">Vasak klapp</string>
     <string name="pods_dual_right_label">Parem klapp</string>
     <string name="permission_post_notifications_label">Näita teateid</string>
-    <string name="permission_post_notifications_description">&quot;Luba AirPodil näidata AirPodsi teateid, nt praegust olekut ühendatud olles.&quot;</string>
+    <string name="permission_post_notifications_description">"Luba AirPodil näidata AirPodsi teateid, nt praegust olekut ühendatud olles."</string>
 </resources>

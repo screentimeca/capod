@@ -7,17 +7,17 @@
     <string name="overview_bluetooth_disabled_label">Bluetooth is uitgeschakeld</string>
     <string name="overview_bluetooth_disabled_description">Bluetooth is uitgeschakeld, activeer het ;)</string>
     <string name="permission_bluetooth_connect_label">Bluetooth-verbinding</string>
-    <string name="permission_bluetooth_connect_description">Deze app heeft de toestemming &quot;Bluetooth verbinding&quot; nodig om te communiceren met gekoppelde apparaten en verbindingen tot stand te brengen.</string>
+    <string name="permission_bluetooth_connect_description">"Deze app heeft de toestemming \"Bluetooth verbinding\" nodig om te communiceren met gekoppelde apparaten en verbindingen tot stand te brengen."</string>
     <string name="permission_bluetooth_scan_label">Bluetooth scannen</string>
-    <string name="permission_bluetooth_scan_description">Met de machtiging &apos;Bluetooth-scannen&apos; kan deze app Bluetooth-gegevens van apparaten in de buurt, zoals uw AirPods, ontdekken en ontvangen.</string>
-    <string name="permission_bluetooth_description">Deze app heeft de toestemming van &quot;Bluetooth&quot; nodig om verbinding te maken met gekoppelde Bluetooth-apparaten.</string>
+    <string name="permission_bluetooth_scan_description">"Met de machtiging 'Bluetooth-scannen' kan deze app Bluetooth-gegevens van apparaten in de buurt, zoals uw AirPods, ontdekken en ontvangen."</string>
+    <string name="permission_bluetooth_description">"Deze app heeft de toestemming van \"Bluetooth\" nodig om verbinding te maken met gekoppelde Bluetooth-apparaten."</string>
     <string name="permission_access_fine_location_label">Toegang prima locatie</string>
-    <string name="permission_access_fine_location_description">AirPod gebruikt de &quot;prima locatie&quot;-toestemming om Bluetooth Low Energy-gegevens te ontvangen. Uw hoofdtelefoon gebruikt Bluetooth Low Energy-technologie om hun status uit te zenden. Deze app gebruikt GEEN Bluetooth-gegevens om uw locatie te bepalen.</string>
+    <string name="permission_access_fine_location_description">"AirPod gebruikt de \"prima locatie\"-toestemming om Bluetooth Low Energy-gegevens te ontvangen. Uw hoofdtelefoon gebruikt Bluetooth Low Energy-technologie om hun status uit te zenden. Deze app gebruikt GEEN Bluetooth-gegevens om uw locatie te bepalen."</string>
     <string name="permission_ignore_battery_optimizations_label">Batterijoptimalisaties uitschakelen</string>
     <string name="permission_ignore_battery_optimizations_description">Batterij-optimalisaties voorkomen dat deze app op betrouwbare wijze Bluetooth-gegevens ontvangt terwijl de app op de achtergrond actief is.</string>
     <string name="permission_required_title">De volgende toestemming is vereist:</string>
     <string name="permission_system_alert_window_label">Systeemwaarschuwingsvenster</string>
-    <string name="permission_system_alert_window_description">Laat AirPod over andere apps heen tekenen om de functie &quot;Show PopUp&quot; mogelijk te maken.</string>
+    <string name="permission_system_alert_window_description">"Laat AirPod over andere apps heen tekenen om de functie \"Show PopUp\" mogelijk te maken."</string>
     <string name="settings_scanner_mode_lowpower_label">Laag vermogen</string>
     <string name="settings_scanner_mode_balanced_label">Gebalanceerd</string>
     <string name="settings_scanner_mode_lowlatency_label">Lage latentie</string>
@@ -51,5 +51,5 @@
     <string name="last_seen_x">Laatst gezien: %s</string>
     <string name="first_seen_x">Eerst gezien: %s</string>
     <string name="permission_post_notifications_label">Toon meldingen</string>
-    <string name="permission_post_notifications_description">&quot;Sta AirPod toe om meldingen over je AirPods weer te geven, bijv. hun huidige status terwijl ze verbonden zijn.&quot;</string>
+    <string name="permission_post_notifications_description">"Sta AirPod toe om meldingen over je AirPods weer te geven, bijv. hun huidige status terwijl ze verbonden zijn."</string>
 </resources>

@@ -38,7 +38,7 @@
     <string name="settings_signal_minimum_label">Мінімальная якасць сігналу</string>
     <string name="settings_signal_minimum_description">Мінімальная якасць сігналу, неабходная прыладзе, для распазнання яе як вашай.</string>
     <string name="settings_autoconnect_label">Аўтазлучэнне</string>
-    <string name="settings_autoconnect_description">Калі Android не падключаецца аўтаматычна, мы можам даслаць яму запыт. Такім чынам рэжым маніторынгу зменіць свой статус на &apos;Заўсёды&apos;.</string>
+    <string name="settings_autoconnect_description">"Калі Android не падключаецца аўтаматычна, мы можам даслаць яму запыт. Такім чынам рэжым маніторынгу зменіць свой статус на 'Заўсёды'."</string>
     <string name="settings_autoconnect_condition_label">Умова аўтаматычнага падключэння</string>
     <string name="settings_autoconnect_condition_description">Калі неабходна здзейсняць спробу падключэння да вашай прылады?</string>
     <string name="settings_reaction_label">Рэакцыі</string>
@@ -66,7 +66,7 @@
     <string name="debug_debuglog_size_compressed_label">Сціснуты памер</string>
     <string name="debug_notification_channel_label">Апавяшчэнні адладкі</string>
     <string name="settings_support_installid_label">ID інсталяцыі</string>
-    <string name="settings_support_installid_desc">Аўтаматычныя справаздачы пра памылкі з&apos;яўляюцца ананімнымі. Падзяліцеся вашым ID інсталяцыі, калі распрацоўшчыку спатрэбіцца доступ да вашых справаздач пра памылкі.</string>
+    <string name="settings_support_installid_desc">"Аўтаматычныя справаздачы пра памылкі з'яўляюцца ананімнымі. Падзяліцеся вашым ID інсталяцыі, калі распрацоўшчыку спатрэбіцца доступ да вашых справаздач пра памылкі."</string>
     <string name="settings_support_label">Падтрымка</string>
     <string name="settings_support_description">Калі неабходна дапамога.</string>
     <string name="issue_tracker_label">Спіс праблем</string>

@@ -38,7 +38,7 @@
     <string name="settings_signal_minimum_label">Kualiti isyarat minimum</string>
     <string name="settings_signal_minimum_description">Kualiti isyarat minimum yang diperlukan oleh peranti perlu dipertimbangkan sebagai milik anda.</string>
     <string name="settings_autoconnect_label">Auto sambung</string>
-    <string name="settings_autoconnect_description">Jika Android tidak menyambung secara automatik, kita juga boleh bertanyakannya. Ini akan menetapkan tetapan mod pantau kepada &apos;Sentiasa&apos;.</string>
+    <string name="settings_autoconnect_description">"Jika Android tidak menyambung secara automatik, kita juga boleh bertanyakannya. Ini akan menetapkan tetapan mod pantau kepada 'Sentiasa'."</string>
     <string name="settings_autoconnect_condition_label">Kondisi auto sambung</string>
     <string name="settings_autoconnect_condition_description">Bilakah harus kita cuba menyambung ke peranti anda?</string>
     <string name="settings_reaction_label">Reaksi</string>
@@ -99,7 +99,7 @@
     <string name="settings_compat_indirectcallback_summary">Gunakan kaedah alternatif untuk menerima data BLE daripada sistem (siaran dan bukannya panggilan balik).</string>
     <string name="troubleshooter_title">Penyelesai masalah</string>
     <string name="troubleshooter_ble_intro_title">Siaran Bluetooth Tenaga Rendah</string>
-    <string name="troubleshooter_ble_intro_body1">AirPods (dan fon kepala yang serupa) menyiarkan maklumat status menggunakan teknologi BLE yang dipanggil &quot;iklan&quot;. Sesetengah telefon tidak melaksanakan teknologi ini dengan betul. AirPod boleh cuba membetulkannya dengan mencuba pilihan keserasian yang berbeza sehingga data diterima. Mulakan main balik muzik pada fon kepala anda dan letakkannya dekat dengan telefon anda, kemudian mulakan proses.</string>
+    <string name="troubleshooter_ble_intro_body1">"AirPods (dan fon kepala yang serupa) menyiarkan maklumat status menggunakan teknologi BLE yang dipanggil \"iklan\". Sesetengah telefon tidak melaksanakan teknologi ini dengan betul. AirPod boleh cuba membetulkannya dengan mencuba pilihan keserasian yang berbeza sehingga data diterima. Mulakan main balik muzik pada fon kepala anda dan letakkannya dekat dengan telefon anda, kemudian mulakan proses."</string>
     <string name="troubleshooter_ble_intro_start_action">Mulakan penyelesaian masalah</string>
     <string name="troubleshooter_ble_process_title">Menyelesaikan masalah sedang berjalan</string>
     <string name="troubleshooter_ble_process_subtile">Setiap langkah mengambil masa 5–10 saat</string>

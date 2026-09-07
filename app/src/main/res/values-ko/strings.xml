@@ -38,7 +38,7 @@
     <string name="settings_signal_minimum_label">최소 연결 품질</string>
     <string name="settings_signal_minimum_description">기기가 사용자의 것인지 다른 사람의 것인지 판단하는 최소의 연결 품질입니다.</string>
     <string name="settings_autoconnect_label">자동 연결</string>
-    <string name="settings_autoconnect_description">만약 안드로이드에서 자동으로 연결하지 않으면, 앱에서 자동 연결할 수 있습니다. 이 경우 모니터링 모드가 &apos;항상&apos; 으로 설정됩니다.</string>
+    <string name="settings_autoconnect_description">"만약 안드로이드에서 자동으로 연결하지 않으면, 앱에서 자동 연결할 수 있습니다. 이 경우 모니터링 모드가 '항상' 으로 설정됩니다."</string>
     <string name="settings_autoconnect_condition_label">자동 연결 조건</string>
     <string name="settings_autoconnect_condition_description">자동 연결을 시도하는 조건을 설정할 수 있습니다.</string>
     <string name="settings_reaction_label">반응</string>

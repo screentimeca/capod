@@ -27,7 +27,7 @@
     <string name="settings_compat_indirectcallback_summary">Süsteemis vähem energiat tarbiva Bluetoothi andmete saamine muul viisil (edasta tagasi kutsumise asemel).</string>
     <string name="troubleshooter_title">Abistaja</string>
     <string name="troubleshooter_ble_intro_title">Madalama energiatarbimisega Bluetoothi edastused</string>
-    <string name="troubleshooter_ble_intro_body1">AirPodsid (ja sarnased kõrvakapid) edastavad oleku teavet madalama energiakuluga Bluetoothiga, mida nimetatakse &quot;reklaamideks&quot;. Mõned telefonid ei kasuta seda tehnoloogiat õigesti. AirPod võib siin aidata, üritades andmeid saada erinevate ühilduvusvalikute kaudu. Esitage muusikat kõrvaklappides ja asetage need telefoni lähedale, seejärel edastage andmeid.</string>
+    <string name="troubleshooter_ble_intro_body1">"AirPodsid (ja sarnased kõrvakapid) edastavad oleku teavet madalama energiakuluga Bluetoothiga, mida nimetatakse \"reklaamideks\". Mõned telefonid ei kasuta seda tehnoloogiat õigesti. AirPod võib siin aidata, üritades andmeid saada erinevate ühilduvusvalikute kaudu. Esitage muusikat kõrvaklappides ja asetage need telefoni lähedale, seejärel edastage andmeid."</string>
     <string name="troubleshooter_ble_intro_start_action">Lahendage probleeme</string>
     <string name="troubleshooter_ble_process_title">Lahendamine</string>
     <string name="troubleshooter_ble_process_subtile">Iga etapp kulutab 5-10 sekundit</string>

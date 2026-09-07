@@ -8,7 +8,7 @@
     <string name="overview_bluetooth_disabled_label">A Bluetooth kikapcsolva</string>
     <string name="overview_bluetooth_disabled_description">Bluetooth kikapcsolva, engedélyezd ;)</string>
     <string name="permission_bluetooth_connect_label">Bluetooth_kapcsolat</string>
-    <string name="permission_bluetooth_connect_description">Ehhez az alkalmazáshoz a &quot;Bluetooth kapcsolat&quot; engedély szükséges a párosított eszközökkel való interakcióhoz és a kapcsolatok kezdeményezéséhez.</string>
+    <string name="permission_bluetooth_connect_description">"Ehhez az alkalmazáshoz a \"Bluetooth kapcsolat\" engedély szükséges a párosított eszközökkel való interakcióhoz és a kapcsolatok kezdeményezéséhez."</string>
     <string name="permission_bluetooth_scan_label">Bluetooth_keresés</string>
     <string name="permission_bluetooth_scan_description">A „Bluetooth-keresés” engedély lehetővé teszi az alkalmazás számára, hogy Bluetooth-adatokat keressen és fogadjon a közeli eszközökről, például az Ön AirPodjairól.</string>
     <string name="permission_bluetooth_description">Ehhez az alkalmazáshoz „Bluetooth” engedély szükséges a párosított Bluetooth-eszközökhöz való csatlakozáshoz.</string>

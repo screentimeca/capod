@@ -7,7 +7,7 @@
     <string name="general_upgrade_action">Güncelle</string>
     <string name="general_check_action">Kontrol et</string>
     <string name="general_close_action">Kapat</string>
-    <string name="upgrade_capod_label">AirPod&apos;u Güncelle</string>
+    <string name="upgrade_capod_label">"AirPod'u Güncelle"</string>
     <string name="upgrade_capod_description">Otomatik oynatma/duraklatma, otomatik bağlanma, pencereler ve ana ekran widget’ını açın.</string>
     <string name="upgrade_pro_headline">AirPods’unuzdan daha fazlasını alın</string>
     <string name="upgrade_pro_body">Kulaklıklarınızın istediğiniz gibi çalışması için otomasyonları ve ekstraları açın.</string>
@@ -38,7 +38,7 @@
     <string name="settings_signal_minimum_label">Minimum sinyal kalitesi</string>
     <string name="settings_signal_minimum_description">Bir aygıtın size ait olduğunun anlaşılması için sahip olması gereken minimum sinyal kalitesi.</string>
     <string name="settings_autoconnect_label">Otomatik bağlan</string>
-    <string name="settings_autoconnect_description">Android otomatik olarak bağlanmazsa, bizde sorabiliriz. Monitör modu ayarı &apos;Her Zaman&apos; olarak ayarlanacaktır.</string>
+    <string name="settings_autoconnect_description">"Android otomatik olarak bağlanmazsa, bizde sorabiliriz. Monitör modu ayarı 'Her Zaman' olarak ayarlanacaktır."</string>
     <string name="settings_autoconnect_condition_label">Otomatik bağlantı şartı</string>
     <string name="settings_autoconnect_condition_description">Aygıtınıza ne zaman bağlanmayı denemeliyiz?</string>
     <string name="settings_reaction_label">Tepkiler</string>
@@ -97,7 +97,7 @@
     <string name="settings_compat_indirectcallback_summary">Sistemden BLE verilerini almak için alternatif bir yöntem kullanır (geri arama yerine yayın yapar).</string>
     <string name="troubleshooter_title">Sorun giderici</string>
     <string name="troubleshooter_ble_intro_title">Bluetooth Düşük Enerji Yayınları</string>
-    <string name="troubleshooter_ble_intro_body1">AirPod&apos;lar (ve benzeri kulaklıklar), durum bilgilerini &quot;reklamlar&quot; adı verilen bir BLE teknolojisi kullanarak yayınlar. Bazı telefonlar bu teknolojiyi doğru uygulamamaktadır. AirPod, veriler alınana kadar farklı uyumluluk seçeneklerini deneyerek bunu düzeltmeye çalışabilir. Kulaklığınızda müzik çalmaya başlayın ve kulaklıkları telefonunuzun yakınına yerleştirin, ardından işleme başlayın.</string>
+    <string name="troubleshooter_ble_intro_body1">"AirPod'lar (ve benzeri kulaklıklar), durum bilgilerini \"reklamlar\" adı verilen bir BLE teknolojisi kullanarak yayınlar. Bazı telefonlar bu teknolojiyi doğru uygulamamaktadır. AirPod, veriler alınana kadar farklı uyumluluk seçeneklerini deneyerek bunu düzeltmeye çalışabilir. Kulaklığınızda müzik çalmaya başlayın ve kulaklıkları telefonunuzun yakınına yerleştirin, ardından işleme başlayın."</string>
     <string name="troubleshooter_ble_intro_start_action">Sorun gidericiyi başlat</string>
     <string name="troubleshooter_ble_process_title">Sorun giderme devam ediyor</string>
     <string name="troubleshooter_ble_process_subtile">Her adım 5-10 saniye sürer</string>
@@ -109,9 +109,9 @@
     <string name="troubleshooter_ble_result_failure_phone_headphones">Telefonunuz BLE verilerini aldı, ancak veriler desteklenen herhangi bir aygıttan gelmiyor. Kulaklığınız açık mı? AirPod kulaklığınızı destekliyor mu?</string>
     <string name="troubleshooter_ble_result_failure_action">Tekrar deneyin</string>
     <string name="troubleshoot_action">Sorun giderme</string>
-    <string name="onboarding_body1">Bu uygulama Android&apos;e AirPod&apos;a özgü özellikler için destek ekler.</string>
+    <string name="onboarding_body1">"Bu uygulama Android'e AirPod'a özgü özellikler için destek ekler."</string>
     <string name="onboarding_body2">Tüm Android cihazlar ekstra AirPod özelliklerini tam olarak desteklemez. İşletim sisteminiz doğru çalışan bir Bluetooth-Düşük Enerji uygulaması gerektirir.</string>
-    <string name="onboarding_body3">AirPod&apos;da reklam yoktur ve verilerinizi toplamaz.</string>
-    <string name="onboarding_body4">Ekstra özellikler kazanmak ve geliştirmeyi desteklemek için AirPod Pro&apos;ya yükseltebilirsiniz.</string>
+    <string name="onboarding_body3">"AirPod'da reklam yoktur ve verilerinizi toplamaz."</string>
+    <string name="onboarding_body4">"Ekstra özellikler kazanmak ve geliştirmeyi desteklemek için AirPod Pro'ya yükseltebilirsiniz."</string>
     <string name="general_continue_action">Devam et</string>
 </resources>

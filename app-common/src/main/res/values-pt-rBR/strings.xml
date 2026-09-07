@@ -8,17 +8,17 @@
     <string name="overview_bluetooth_disabled_label">Bluetooth está desativado</string>
     <string name="overview_bluetooth_disabled_description">O Bluetooth está desabilitado, habilite-o ;)</string>
     <string name="permission_bluetooth_connect_label">Conectar bluetooth</string>
-    <string name="permission_bluetooth_connect_description">Este aplicativo requer a permissão &quot;Conexão Bluetooth&quot; para interagir com dispositivos emparelhados e iniciar conexões.</string>
+    <string name="permission_bluetooth_connect_description">"Este aplicativo requer a permissão \"Conexão Bluetooth\" para interagir com dispositivos emparelhados e iniciar conexões."</string>
     <string name="permission_bluetooth_scan_label">Escaneando bluetooth</string>
-    <string name="permission_bluetooth_scan_description">A permissão &quot;Escaneamento de Bluetooth&quot; permite que este aplicativo descubra e receba dados de Bluetooth de dispositivos próximos, como seus AirPods.</string>
-    <string name="permission_bluetooth_description">Este aplicativo requer a permissão &quot;Bluetooth&quot; para se conectar a dispositivos bluetooth emparelhados.</string>
+    <string name="permission_bluetooth_scan_description">"A permissão \"Escaneamento de Bluetooth\" permite que este aplicativo descubra e receba dados de Bluetooth de dispositivos próximos, como seus AirPods."</string>
+    <string name="permission_bluetooth_description">"Este aplicativo requer a permissão \"Bluetooth\" para se conectar a dispositivos bluetooth emparelhados."</string>
     <string name="permission_access_fine_location_label">Acesse a boa localização</string>
-    <string name="permission_access_fine_location_description">O AirPod usa a permissão &quot;Boa localização&quot; para receber dados de Bluetooth Low Energy. Seus fones de ouvido usam a tecnologia Bluetooth Low Energy para transmitir seu status. Este aplicativo NÃO usará dados Bluetooth para determinar sua localização.</string>
+    <string name="permission_access_fine_location_description">"O AirPod usa a permissão \"Boa localização\" para receber dados de Bluetooth Low Energy. Seus fones de ouvido usam a tecnologia Bluetooth Low Energy para transmitir seu status. Este aplicativo NÃO usará dados Bluetooth para determinar sua localização."</string>
     <string name="permission_ignore_battery_optimizations_label">Desativar otimizações de bateria</string>
     <string name="permission_ignore_battery_optimizations_description">As otimizações de bateria impedem que este aplicativo receba dados Bluetooth de forma confiável enquanto o aplicativo está em segundo plano.</string>
     <string name="permission_required_title">A seguinte permissão é necessária:</string>
     <string name="permission_system_alert_window_label">Janela de alerta do sistema</string>
-    <string name="permission_system_alert_window_description">Permita que o AirPod se sobreponha a outros aplicativos para possibilitar o recurso &quot;Mostrar PopUp&quot;.</string>
+    <string name="permission_system_alert_window_description">"Permita que o AirPod se sobreponha a outros aplicativos para possibilitar o recurso \"Mostrar PopUp\"."</string>
     <string name="settings_scanner_mode_lowpower_label">Baixa potência</string>
     <string name="settings_scanner_mode_balanced_label">Balanceado</string>
     <string name="settings_scanner_mode_lowlatency_label">Baixa latência</string>
@@ -53,5 +53,5 @@
     <string name="last_seen_x">Visto pela última vez: %s</string>
     <string name="first_seen_x">Visto pela primeira vez: %s</string>
     <string name="permission_post_notifications_label">Mostrar notificações</string>
-    <string name="permission_post_notifications_description">&quot;Permita que o AirPod mostre notificações sobre seus AirPods, por exemplo. seu status atual enquanto conectado.&quot;</string>
+    <string name="permission_post_notifications_description">"Permita que o AirPod mostre notificações sobre seus AirPods, por exemplo. seu status atual enquanto conectado."</string>
 </resources>

@@ -37,10 +37,10 @@
     <string name="settings_debug_description">Додаткові налаштування для допомоги у розвʼязанні проблем з додатком.</string>
     <string name="settings_signal_minimum_label">Мінімальна якість сигналу</string>
     <string name="settings_signal_minimum_description">Мінімальний рівень сигналу, щоб вважалося що пристрій ваш.</string>
-    <string name="settings_autoconnect_label">Автопід&apos;єднання</string>
-    <string name="settings_autoconnect_description">Якщо Android не підʼєднує навушники автоматично, додаток може попросити зробити це. Ця опція встановить &quot;Режим відстеження&quot; в стан &quot;Завжди&quot;.</string>
-    <string name="settings_autoconnect_condition_label">Умова автопід&apos;єднання</string>
-    <string name="settings_autoconnect_condition_description">Коли слід здійснювати спробу під&apos;єднання до Вашого пристрою?</string>
+    <string name="settings_autoconnect_label">"Автопід'єднання"</string>
+    <string name="settings_autoconnect_description">"Якщо Android не підʼєднує навушники автоматично, додаток може попросити зробити це. Ця опція встановить \"Режим відстеження\" в стан \"Завжди\"."</string>
+    <string name="settings_autoconnect_condition_label">"Умова автопід'єднання"</string>
+    <string name="settings_autoconnect_condition_description">"Коли слід здійснювати спробу під'єднання до Вашого пристрою?"</string>
     <string name="settings_reaction_label">Реакції</string>
     <string name="settings_reaction_description">Реагування на події та дії.</string>
     <string name="settings_category_yourdevice_label">Ваш пристрій</string>
@@ -51,7 +51,7 @@
     <string name="settings_compat_offloaded_batching_disabled_title">Вимкнути апаратне пакетування</string>
     <string name="settings_compat_offloaded_batching_disabled_summary">Не дозволяти системі групувати зібрані дані BLE, перш ніж пересилати їх нам.</string>
     <string name="settings_maindevice_address_label">Адреса Вашого пристрою</string>
-    <string name="settings_maindevice_address_description">Адреса Вашого приєднаного пристрою. Програма використовує її для визначення, коли його під&apos;єднано до Вашого телефону.</string>
+    <string name="settings_maindevice_address_description">"Адреса Вашого приєднаного пристрою. Програма використовує її для визначення, коли його під'єднано до Вашого телефону."</string>
     <string name="settings_maindevice_address_none">Немає</string>
     <string name="settings_maindevice_model_label">Модель Вашого пристрою</string>
     <string name="settings_maindevice_model_description">Модель вашого пристрою. Це допомагає розпізнати ваш пристрій коли він не підʼєднаний до вашого телефону.</string>
@@ -98,7 +98,7 @@
     <string name="settings_compat_indirectcallback_summary">Використовувати альтернативний спосіб отримання даних BLE від системи (трансляція замість зворотного виклику).</string>
     <string name="troubleshooter_title">Засіб усунення несправностей</string>
     <string name="troubleshooter_ble_intro_title">Трансляція Bluetooth Low Energy</string>
-    <string name="troubleshooter_ble_intro_body1">AirPods (і подібні навушники) транслюють інформацію про їх стан, використовуючи BLE технологію, яка називається &quot;рекламування&quot;. Деякі смартфони не реалізовують цю технологію коректно. AirPod може спробувати усунути цю проблему, спробувавши різні опції сумісності, доки не отримає необхідні дані від пристрою. Увімкніть відтворення музики на ваших навушниках, покладіть їх поруч із смартфоном і розпочніть процес.</string>
+    <string name="troubleshooter_ble_intro_body1">"AirPods (і подібні навушники) транслюють інформацію про їх стан, використовуючи BLE технологію, яка називається \"рекламування\". Деякі смартфони не реалізовують цю технологію коректно. AirPod може спробувати усунути цю проблему, спробувавши різні опції сумісності, доки не отримає необхідні дані від пристрою. Увімкніть відтворення музики на ваших навушниках, покладіть їх поруч із смартфоном і розпочніть процес."</string>
     <string name="troubleshooter_ble_intro_start_action">Почати виправлення неполадок</string>
     <string name="troubleshooter_ble_process_title">Триває виправлення неполадок</string>
     <string name="troubleshooter_ble_process_subtile">Кожен крок займає 5–10 секунд</string>

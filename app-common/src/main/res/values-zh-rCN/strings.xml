@@ -54,5 +54,5 @@
     <string name="last_seen_x">上次出现：%s</string>
     <string name="first_seen_x">首次出现：%s</string>
     <string name="permission_post_notifications_label">显示通知</string>
-    <string name="permission_post_notifications_description">&quot;允许 AirPod 显示有关您 AirPods 的通知，例如其连接时的当前状态&quot;</string>
+    <string name="permission_post_notifications_description">"允许 AirPod 显示有关您 AirPods 的通知，例如其连接时的当前状态"</string>
 </resources>

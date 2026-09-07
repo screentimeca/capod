@@ -38,7 +38,7 @@
     <string name="settings_signal_minimum_label">Минимальное качество сигнала</string>
     <string name="settings_signal_minimum_description">Минимальное качество сигнала, необходимое устройству, чтобы оно опознавалось как Ваше.</string>
     <string name="settings_autoconnect_label">Автоподключение</string>
-    <string name="settings_autoconnect_description">Если Android не подключается автоматически, мы можем послать ему запрос. Это установит режим мониторинга на &apos;Всегда&apos;.</string>
+    <string name="settings_autoconnect_description">"Если Android не подключается автоматически, мы можем послать ему запрос. Это установит режим мониторинга на 'Всегда'."</string>
     <string name="settings_autoconnect_condition_label">Условия автоподключения</string>
     <string name="settings_autoconnect_condition_description">Когда мы должны пытаться подключить Ваше устройство?</string>
     <string name="settings_reaction_label">Реакции</string>

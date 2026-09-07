@@ -24,7 +24,7 @@
     <string name="settings_monitor_mode_label">Modo de monitorização</string>
     <string name="settings_monitor_mode_description">Sob quais circunstâncias esta aplicação monitora dados Bluetooth.</string>
     <string name="settings_scanner_mode_label">Modo de scanner</string>
-    <string name="settings_scanner_mode_description">O scanner de dados &apos;Bluetooth Low Energy&apos; deve priorizar desempenho ou economizar energia?</string>
+    <string name="settings_scanner_mode_description">"O scanner de dados 'Bluetooth Low Energy' deve priorizar desempenho ou economizar energia?"</string>
     <string name="settings_autopause_label">Pausa automática</string>
     <string name="settings_autopause_description">Pause o áudio ao remover o dispositivo do ouvido.</string>
     <string name="settings_showall_label">Mostrar todos os dispositivos</string>
@@ -38,7 +38,7 @@
     <string name="settings_signal_minimum_label">Qualidade de sinal mínima</string>
     <string name="settings_signal_minimum_description">A qualidade de sinal mínima para o dispositivo ser considerado seu.</string>
     <string name="settings_autoconnect_label">AutoConectar</string>
-    <string name="settings_autoconnect_description">Se o Android não conectar automaticamente, nós podemos pedir também. Isto irá alterar o modo de monitorização para &apos;Sempre&apos;.</string>
+    <string name="settings_autoconnect_description">"Se o Android não conectar automaticamente, nós podemos pedir também. Isto irá alterar o modo de monitorização para 'Sempre'."</string>
     <string name="settings_autoconnect_condition_label">Condição para AutoConectar</string>
     <string name="settings_autoconnect_condition_description">Quando é que devemos tentar conectar ao seu dispositivo?</string>
     <string name="settings_reaction_label">Reações</string>
@@ -96,8 +96,8 @@
     <string name="settings_compat_indirectcallback_title">Entrega de dados indireta</string>
     <string name="settings_compat_indirectcallback_summary">Utilizar um método alternativo de receber dados BLE do sistema (transmissão em vez de retorno de chamada).</string>
     <string name="troubleshooter_title">Solucionador de problemas</string>
-    <string name="troubleshooter_ble_intro_title">Transmissões de &apos;Bluetooth Low Energy&apos;</string>
-    <string name="troubleshooter_ble_intro_body1">AirPods (e auscultadores semelhantes) transmitem informações de estado utilizando uma tecnologia BLE chamada &quot;anúncios&quot;. Alguns telefones não implementam essa tecnologia corretamente. O AirPod pode tentar corrigir isso ao tentar diferentes opções de compatibilidade até que os dados sejam recebidos. Inicie a reprodução de música nos seus headphones e coloque-os perto do telefone e inicie o processo.</string>
+    <string name="troubleshooter_ble_intro_title">"Transmissões de 'Bluetooth Low Energy'"</string>
+    <string name="troubleshooter_ble_intro_body1">"AirPods (e auscultadores semelhantes) transmitem informações de estado utilizando uma tecnologia BLE chamada \"anúncios\". Alguns telefones não implementam essa tecnologia corretamente. O AirPod pode tentar corrigir isso ao tentar diferentes opções de compatibilidade até que os dados sejam recebidos. Inicie a reprodução de música nos seus headphones e coloque-os perto do telefone e inicie o processo."</string>
     <string name="troubleshooter_ble_intro_start_action">Iniciar resolução de problemas</string>
     <string name="troubleshooter_ble_process_title">Resolução de problemas em progresso</string>
     <string name="troubleshooter_ble_process_subtile">Cada passo demora 5 a 10 segundos</string>

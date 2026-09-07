@@ -38,7 +38,7 @@
     <string name="settings_signal_minimum_label">Qualidade mínima do sinal</string>
     <string name="settings_signal_minimum_description">A qualidade mínima de sinal que um dispositivo precisa ter para ser considerado seu.</string>
     <string name="settings_autoconnect_label">Conexão automática</string>
-    <string name="settings_autoconnect_description">Se o Android não se conectar automaticamente, podemos perguntar também. Isso definirá a configuração do modo de monitor para &apos;Sempre&apos;.</string>
+    <string name="settings_autoconnect_description">"Se o Android não se conectar automaticamente, podemos perguntar também. Isso definirá a configuração do modo de monitor para 'Sempre'."</string>
     <string name="settings_autoconnect_condition_label">Condição de conexão automática</string>
     <string name="settings_autoconnect_condition_description">Quando devemos tentar nos conectar ao seu dispositivo?</string>
     <string name="settings_reaction_label">Reações</string>
@@ -98,7 +98,7 @@
     <string name="settings_compat_indirectcallback_summary">Use um método alternativo para receber dados BLE do sistema (transmissão em vez de retorno de chamada).</string>
     <string name="troubleshooter_title">Solucionador de problemas</string>
     <string name="troubleshooter_ble_intro_title">Transmissões Bluetooth de baixa energia</string>
-    <string name="troubleshooter_ble_intro_body1">AirPods (e fones de ouvido semelhantes) transmitem informações de status usando uma tecnologia BLE chamada &quot;anúncios&quot;. Alguns telefones não implementam essa tecnologia corretamente. O AirPod pode tentar corrigir isso tentando diferentes opções de compatibilidade até que os dados sejam recebidos. Inicie a reprodução de música em seus fones de ouvido e coloque-os perto do telefone e inicie o processo.</string>
+    <string name="troubleshooter_ble_intro_body1">"AirPods (e fones de ouvido semelhantes) transmitem informações de status usando uma tecnologia BLE chamada \"anúncios\". Alguns telefones não implementam essa tecnologia corretamente. O AirPod pode tentar corrigir isso tentando diferentes opções de compatibilidade até que os dados sejam recebidos. Inicie a reprodução de música em seus fones de ouvido e coloque-os perto do telefone e inicie o processo."</string>
     <string name="troubleshooter_ble_intro_start_action">Iniciar solução de problemas</string>
     <string name="troubleshooter_ble_process_title">Solução de problemas em andamento</string>
     <string name="troubleshooter_ble_process_subtile">Cada passo leva de 5 a 10 segundos</string>

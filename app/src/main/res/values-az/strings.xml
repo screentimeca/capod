@@ -34,7 +34,7 @@
     <string name="settings_signal_minimum_label">Minimum siqnal keyfiyyəti</string>
     <string name="settings_signal_minimum_description">Bir cihazın sahib olması lazım olan minimum siqnal keyfiyyəti sizə aid olaraq qəbul edilməlidir.</string>
     <string name="settings_autoconnect_label">Avto-bağlanma</string>
-    <string name="settings_autoconnect_description">Android, avtomatik olaraq bağlantı qurmasa, biz də soruşa bilərik. Bu, müşahidə rejimini &quot;Həmişə&quot; olaraq tənzimləyəcək.</string>
+    <string name="settings_autoconnect_description">"Android, avtomatik olaraq bağlantı qurmasa, biz də soruşa bilərik. Bu, müşahidə rejimini \"Həmişə\" olaraq tənzimləyəcək."</string>
     <string name="settings_autoconnect_condition_label">Avto-bağlanma şərti</string>
     <string name="settings_autoconnect_condition_description">Cihazınızla nə vaxt bağlantı qurmağa çalışacağıq?</string>
     <string name="settings_reaction_label">Reaksiyalar</string>

@@ -38,7 +38,7 @@
     <string name="settings_signal_minimum_label">Minimalna jakość sygnału</string>
     <string name="settings_signal_minimum_description">Minimalna jakość sygnału, wymagana od urządzenia, aby zostało uznanym za Twoje.</string>
     <string name="settings_autoconnect_label">Automatyczne połączenie</string>
-    <string name="settings_autoconnect_description">Jeśli Android nie połączy się automatycznie z urządzeniem, możemy go o to poprosić. Ustawi to tryb monitorowania na &quot;Zawsze&quot;.</string>
+    <string name="settings_autoconnect_description">"Jeśli Android nie połączy się automatycznie z urządzeniem, możemy go o to poprosić. Ustawi to tryb monitorowania na \"Zawsze\"."</string>
     <string name="settings_autoconnect_condition_label">Warunek automatycznego połączenia</string>
     <string name="settings_autoconnect_condition_description">Kiedy należy połączyć się z twoim urządzeniem?</string>
     <string name="settings_reaction_label">Reakcje</string>
@@ -55,8 +55,8 @@
     <string name="settings_maindevice_address_none">Brak</string>
     <string name="settings_maindevice_model_label">Model twojego urządzenia</string>
     <string name="settings_maindevice_model_description">Model twojego głównego urządzenia. Pomaga aplikacji rozpoznać twoje urządzenie, gdy nie jest połączone z telefonem.</string>
-    <string name="settings_onepod_mode_label">Tryb jednego pod&apos;a</string>
-    <string name="settings_onepod_mode_description">Noszenie obu pod&apos;ów nie jest wymagane. Wystarczy jeden, aby aktywować reakcje.</string>
+    <string name="settings_onepod_mode_label">"Tryb jednego pod'a"</string>
+    <string name="settings_onepod_mode_description">"Noszenie obu pod'ów nie jest wymagane. Wystarczy jeden, aby aktywować reakcje."</string>
     <string name="settings_popup_caseopen_label">Wyświetl okienko obudowy</string>
     <string name="settings_popup_caseopen_description">Wyświetla informację, gdy obudowa urządzenia jest otwarta (eksperymentalnie).</string>
     <string name="settings_popup_connected_label">Wyświetl okienko połączenia</string>

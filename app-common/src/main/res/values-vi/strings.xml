@@ -8,17 +8,17 @@
     <string name="overview_bluetooth_disabled_label">Bluetooth bị tắt</string>
     <string name="overview_bluetooth_disabled_description">Bluetooth bị tắt, hãy bật nó lên ;)</string>
     <string name="permission_bluetooth_connect_label">Kết nối Bluetooth</string>
-    <string name="permission_bluetooth_connect_description">Ứng dụng này yêu cầu quyền &quot;Kết nối Bluetooth&quot; để tương tác với các thiết bị được ghép nối và bắt đầu kết nối.</string>
+    <string name="permission_bluetooth_connect_description">"Ứng dụng này yêu cầu quyền \"Kết nối Bluetooth\" để tương tác với các thiết bị được ghép nối và bắt đầu kết nối."</string>
     <string name="permission_bluetooth_scan_label">Quét qua Bluetooth</string>
-    <string name="permission_bluetooth_scan_description">Quyền &quot;quét qua Bluetooth&quot; cho phép ứng dụng này khám phá và nhận dữ liệu Bluetooth từ các thiết bị lân cận, chẳng hạn như AirPods của bạn.</string>
-    <string name="permission_bluetooth_description">Ứng dụng này yêu cầu quyền &quot;Bluetooth&quot; để kết nối với các thiết bị Bluetooth được ghép nối.</string>
+    <string name="permission_bluetooth_scan_description">"Quyền \"quét qua Bluetooth\" cho phép ứng dụng này khám phá và nhận dữ liệu Bluetooth từ các thiết bị lân cận, chẳng hạn như AirPods của bạn."</string>
+    <string name="permission_bluetooth_description">"Ứng dụng này yêu cầu quyền \"Bluetooth\" để kết nối với các thiết bị Bluetooth được ghép nối."</string>
     <string name="permission_access_fine_location_label">Truy cập vị trí chính xác</string>
-    <string name="permission_access_fine_location_description">AirPod sử dụng quyền &quot;vị trí chính xác&quot; để nhận dữ liệu Bluetooth Năng Lượng Thấp. Tai nghe của bạn sử dụng công nghệ Bluetooth Năng Lượng Thấp để phát trạng thái của chúng. Ứng dụng này sẽ KHÔNG sử dụng dữ liệu Bluetooth để xác định vị trí của bạn.</string>
+    <string name="permission_access_fine_location_description">"AirPod sử dụng quyền \"vị trí chính xác\" để nhận dữ liệu Bluetooth Năng Lượng Thấp. Tai nghe của bạn sử dụng công nghệ Bluetooth Năng Lượng Thấp để phát trạng thái của chúng. Ứng dụng này sẽ KHÔNG sử dụng dữ liệu Bluetooth để xác định vị trí của bạn."</string>
     <string name="permission_ignore_battery_optimizations_label">Tắt tối ưu hóa pin</string>
     <string name="permission_ignore_battery_optimizations_description">Tối ưu hóa pin ngăn ứng dụng này nhận dữ liệu Bluetooth một cách chính xác khi ứng dụng ở chế độ nền.</string>
     <string name="permission_required_title">Quyền sau đây là bắt buộc:</string>
     <string name="permission_system_alert_window_label">Cửa sổ cảnh báo hệ thống</string>
-    <string name="permission_system_alert_window_description">Cho phép AirPod vẽ lên các ứng dụng khác để làm cho tính năng &quot;Show PopUp&quot; khả thi.</string>
+    <string name="permission_system_alert_window_description">"Cho phép AirPod vẽ lên các ứng dụng khác để làm cho tính năng \"Show PopUp\" khả thi."</string>
     <string name="settings_scanner_mode_lowpower_label">Năng lượng thấp</string>
     <string name="settings_scanner_mode_balanced_label">Cân bằng</string>
     <string name="settings_scanner_mode_lowlatency_label">Độ trễ thấp</string>
@@ -52,5 +52,5 @@
     <string name="last_seen_x">Nhìn thấy lần cuối: %s</string>
     <string name="first_seen_x">Nhìn thấy lần đầu: %s</string>
     <string name="permission_post_notifications_label">Hiển thị thông báo</string>
-    <string name="permission_post_notifications_description">&quot;Cho phép AirPod hiển thị thông báo về AirPods của bạn, ví dụ: tình trạng hiện tại của họ trong khi kết nối.&quot;</string>
+    <string name="permission_post_notifications_description">"Cho phép AirPod hiển thị thông báo về AirPods của bạn, ví dụ: tình trạng hiện tại của họ trong khi kết nối."</string>
 </resources>
