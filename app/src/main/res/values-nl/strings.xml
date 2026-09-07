@@ -43,6 +43,11 @@
     <string name="settings_autoconnect_condition_description">Wanneer moeten we proberen verbinding te maken met uw apparaat?</string>
     <string name="settings_reaction_label">Reacties</string>
     <string name="settings_reaction_description">Reageren op gebeurtenissen en gedragingen.</string>
+    <string name="settings_share_label">Delen</string>
+    <string name="settings_share_description">Stuur de Play Store-link naar een vriend.</string>
+    <string name="settings_share_text">Probeer AirPod voor Android — batterijstatus, automatisch afspelen en pauzeren en meer voor je AirPods.\n%s</string>
+    <string name="settings_rate_label">Beoordeel ons</string>
+    <string name="settings_rate_description">Beoordeel AirPod in Google Play.</string>
     <string name="settings_category_yourdevice_label">Uw apparaat</string>
     <string name="settings_category_compatibility_options_title">Compatibiliteitsopties</string>
     <string name="settings_category_compatibility_options_description">Niet aankomen als alles werkt ;-)</string>

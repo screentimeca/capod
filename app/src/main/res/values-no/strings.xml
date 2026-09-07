@@ -43,6 +43,11 @@
     <string name="settings_autoconnect_condition_description">Når skal vi prøve å koble til enheten din?</string>
     <string name="settings_reaction_label">Reaksjoner</string>
     <string name="settings_reaction_description">Reager på hendelser og oppførsel.</string>
+    <string name="settings_share_label">Del</string>
+    <string name="settings_share_description">Send Play Store-lenken til en venn.</string>
+    <string name="settings_share_text">Prøv AirPod for Android — batteristatus, automatisk avspilling og pause og mer for AirPods-ene dine.\n%s</string>
+    <string name="settings_rate_label">Vurder oss</string>
+    <string name="settings_rate_description">Vurder AirPod på Google Play.</string>
     <string name="settings_category_yourdevice_label">Enheten din</string>
     <string name="settings_category_compatibility_options_title">Kompatibilitets-alternativer</string>
     <string name="settings_category_compatibility_options_description">Ikke rør hvis alt virker ;)</string>

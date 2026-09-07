@@ -43,6 +43,11 @@
     <string name="settings_autoconnect_condition_description">Πότε να προσπαθήσουμε να συνδέσουμε τη συσκευή σας;</string>
     <string name="settings_reaction_label">Αντιδράσεις</string>
     <string name="settings_reaction_description">Αντίδραση σε συμβάντα και συμπεριφορές.</string>
+    <string name="settings_share_label">Κοινοποίηση</string>
+    <string name="settings_share_description">Στείλτε τον σύνδεσμο του Play Store σε έναν φίλο.</string>
+    <string name="settings_share_text">Δοκιμάστε το AirPod για Android — κατάσταση μπαταρίας, αυτόματη αναπαραγωγή και παύση και περισσότερα για τα AirPods σας.\n%s</string>
+    <string name="settings_rate_label">Αξιολογήστε μας</string>
+    <string name="settings_rate_description">Αξιολογήστε το AirPod στο Google Play.</string>
     <string name="settings_category_yourdevice_label">Η συσκευή σας</string>
     <string name="settings_category_compatibility_options_title">Ρυθμίσεις συμβατότητας</string>
     <string name="settings_category_compatibility_options_description">Μην αγγίζεις άμα όλα δουλεύουν ;)</string>

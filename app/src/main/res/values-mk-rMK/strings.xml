@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Прикажи скокачки прозорец кога ќе ја отвориш кутијата.</string>
     <string name="upgrade_benefit_widget_title">Виџет на почетниот екран</string>
     <string name="upgrade_benefit_widget_body">Проверете батерија и статус без да ја отворите апликацијата.</string>
+    <string name="settings_share_label">Сподели</string>
+    <string name="settings_share_description">Испратете ја врската од Play Store на пријател.</string>
+    <string name="settings_share_text">Пробајте AirPod за Android — статус на батеријата, автоматско пуштање и пауза и повеќе за вашите AirPods.\n%s</string>
+    <string name="settings_rate_label">Оценете нè</string>
+    <string name="settings_rate_description">Оценете го AirPod на Google Play.</string>
 </resources>

@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Visa en popup när du öppnar fodralet.</string>
     <string name="upgrade_benefit_widget_title">Widget på hemskärmen</string>
     <string name="upgrade_benefit_widget_body">Kolla batteri och status utan att öppna appen.</string>
+    <string name="settings_share_label">Dela</string>
+    <string name="settings_share_description">Skicka Play Butik-länken till en vän.</string>
+    <string name="settings_share_text">Prova AirPod för Android — batteristatus, automatisk uppspelning och paus och mer för dina AirPods.\n%s</string>
+    <string name="settings_rate_label">Betygsätt oss</string>
+    <string name="settings_rate_description">Betygsätt AirPod på Google Play.</string>
 </resources>

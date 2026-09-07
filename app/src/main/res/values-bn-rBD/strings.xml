@@ -18,4 +18,9 @@
     <string name="upgrade_benefit_widget_body">অ্যাপ না খুলেই ব্যাটারি ও স্ট্যাটাস দেখুন।</string>
     <string name="debug_debuglog_size_label">আকার</string>
     <string name="settings_general_label">সেটিংস</string>
+    <string name="settings_share_label">শেয়ার করুন</string>
+    <string name="settings_share_description">Play Store লিংকটি বন্ধুকে পাঠান।</string>
+    <string name="settings_share_text">অ্যান্ড্রয়েডের জন্য AirPod দেখুন — ব্যাটারির অবস্থা, স্বয়ংক্রিয় প্লে ও পজ এবং আপনার AirPods-এর আরও সুবিধা।\n%s</string>
+    <string name="settings_rate_label">আমাদের রেট দিন</string>
+    <string name="settings_rate_description">Google Play-তে AirPod-কে রেট দিন।</string>
 </resources>

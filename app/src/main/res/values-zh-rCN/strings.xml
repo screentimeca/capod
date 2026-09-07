@@ -43,6 +43,11 @@
     <string name="settings_autoconnect_condition_description">何时连接到您的设备？</string>
     <string name="settings_reaction_label">动作</string>
     <string name="settings_reaction_description">响应事件和行为的动作。</string>
+    <string name="settings_share_label">分享</string>
+    <string name="settings_share_description">把 Play 商店链接发给朋友。</string>
+    <string name="settings_share_text">试试 Android 版 AirPod — 查看电量、自动播放和暂停，还有更多 AirPods 功能。\n%s</string>
+    <string name="settings_rate_label">给我们评分</string>
+    <string name="settings_rate_description">在 Google Play 上为 AirPod 评分。</string>
     <string name="settings_category_yourdevice_label">您的设备</string>
     <string name="settings_category_compatibility_options_title">兼容性选项</string>
     <string name="settings_category_compatibility_options_description">如果一切正常，请不要修改 ;)</string>

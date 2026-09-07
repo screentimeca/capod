@@ -43,6 +43,11 @@
     <string name="settings_autoconnect_condition_description">Când ar trebui să încercăm să ne conectăm la dispozitivul dvs.?</string>
     <string name="settings_reaction_label">Reacții</string>
     <string name="settings_reaction_description">Reacționați la evenimente și comportamente.</string>
+    <string name="settings_share_label">Distribuie</string>
+    <string name="settings_share_description">Trimite linkul Play Store unui prieten.</string>
+    <string name="settings_share_text">Încearcă AirPod pentru Android — starea bateriei, redare și pauză automate și altele pentru AirPods.\n%s</string>
+    <string name="settings_rate_label">Evaluează-ne</string>
+    <string name="settings_rate_description">Evaluează AirPod pe Google Play.</string>
     <string name="settings_category_yourdevice_label">Dispozitivul tău</string>
     <string name="settings_category_compatibility_options_title">Opțiuni de compatibilitate</string>
     <string name="settings_category_compatibility_options_description">Nu atingeți dacă totul funcționează ;)</string>

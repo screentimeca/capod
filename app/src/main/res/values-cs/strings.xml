@@ -43,6 +43,11 @@
     <string name="settings_autoconnect_condition_description">Kdy se máme pokusit připojit k vašemu zařízení?</string>
     <string name="settings_reaction_label">Reakce</string>
     <string name="settings_reaction_description">Reakce na události a chování.</string>
+    <string name="settings_share_label">Sdílet</string>
+    <string name="settings_share_description">Pošlete odkaz na Play Store kamarádovi.</string>
+    <string name="settings_share_text">Vyzkoušejte AirPod pro Android — stav baterie, automatické přehrávání a pauza a další funkce pro vaše AirPods.\n%s</string>
+    <string name="settings_rate_label">Ohodnoťte nás</string>
+    <string name="settings_rate_description">Ohodnoťte AirPod na Google Play.</string>
     <string name="settings_category_yourdevice_label">Vaše zařízení</string>
     <string name="settings_category_compatibility_options_title">Možnosti kompatibility</string>
     <string name="settings_category_compatibility_options_description">Nedotýkejte se, pokud vše funguje ;)</string>

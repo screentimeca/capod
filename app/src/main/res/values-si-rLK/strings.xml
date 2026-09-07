@@ -38,4 +38,9 @@
     <string name="settings_licenses_label">බලපත්‍ර</string>
     <string name="settings_general_label">සැකසුම්</string>
     <string name="help_translate_label">පරිවර්තනය</string>
+    <string name="settings_share_label">බෙදාගන්න</string>
+    <string name="settings_share_description">Play Store සබැඳිය මිතුරෙකුට යවන්න.</string>
+    <string name="settings_share_text">Android සඳහා AirPod උත්සාහ කරන්න — බැටරි තත්ත්වය, ස්වයංක්‍රීය ධාවනය සහ විරාමය සහ ඔබේ AirPods සඳහා තවත්.\n%s</string>
+    <string name="settings_rate_label">අපට ශ්‍රේණිගත කරන්න</string>
+    <string name="settings_rate_description">Google Play හි AirPod ශ්‍රේණිගත කරන්න.</string>
 </resources>

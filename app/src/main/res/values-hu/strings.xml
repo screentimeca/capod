@@ -40,6 +40,11 @@
     <string name="settings_autoconnect_condition_description">Mikor próbáljunk meg csatlakozni az eszközéhez?</string>
     <string name="settings_reaction_label">Reakciók</string>
     <string name="settings_reaction_description">Reagáljon az eseményekre és viselkedésekre.</string>
+    <string name="settings_share_label">Megosztás</string>
+    <string name="settings_share_description">Küldje el a Play Áruház linkjét egy barátjának.</string>
+    <string name="settings_share_text">Próbálja ki az AirPodot Androidra — akkumulátorállapot, automatikus lejátszás és szünet, és még több az AirPodshoz.\n%s</string>
+    <string name="settings_rate_label">Értékeljen minket</string>
+    <string name="settings_rate_description">Értékelje az AirPodot a Google Playen.</string>
     <string name="settings_category_yourdevice_label">A Te eszközöd</string>
     <string name="settings_category_compatibility_options_title">Kompatibilitási opciók</string>
     <string name="settings_category_compatibility_options_description">Ehhez a cucchoz ne nyúlj ha minden jól műkődik ;)</string>

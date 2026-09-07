@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Prikaži pojavno okno, ko odpreš etui.</string>
     <string name="upgrade_benefit_widget_title">Pripomoček začetnega zaslona</string>
     <string name="upgrade_benefit_widget_body">Preverite baterijo in stanje brez odpiranja aplikacije.</string>
+    <string name="settings_share_label">Deli</string>
+    <string name="settings_share_description">Pošljite povezavo do Trgovine Play prijatelju.</string>
+    <string name="settings_share_text">Preizkusite AirPod za Android — stanje baterije, samodejno predvajanje in premor ter več za vaše AirPode.\n%s</string>
+    <string name="settings_rate_label">Ocenite nas</string>
+    <string name="settings_rate_description">Ocenite AirPod v Googlu Play.</string>
 </resources>

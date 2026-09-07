@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Dema qutiyê vekî popupek nîşan bide.</string>
     <string name="upgrade_benefit_widget_title">Widgeta ekrana sereke</string>
     <string name="upgrade_benefit_widget_body">Bêyî vekirina sepanê pîl û rewşê kontrol bikin.</string>
+    <string name="settings_share_label">Parve bike</string>
+    <string name="settings_share_description">Lînka Play Store ji hevalekî re bişîne.</string>
+    <string name="settings_share_text">AirPod ji bo Androidê biceribîne — rewşa bataryayê, lîstin û rawestandina bixweber û zêdetir ji bo AirPodsên te.\n%s</string>
+    <string name="settings_rate_label">Me binirxîne</string>
+    <string name="settings_rate_description">AirPodê li Google Play binirxîne.</string>
 </resources>

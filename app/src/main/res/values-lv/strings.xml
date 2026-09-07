@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Rādīt uznirstošo logu, atverot futlāri.</string>
     <string name="upgrade_benefit_widget_title">Sākuma ekrāna logrīks</string>
     <string name="upgrade_benefit_widget_body">Pārbaudiet bateriju un statusu, neatverot lietotni.</string>
+    <string name="settings_share_label">Kopīgot</string>
+    <string name="settings_share_description">Nosūtiet Play Store saiti draugam.</string>
+    <string name="settings_share_text">Izmēģiniet AirPod Android ierīcēm — akumulatora statuss, automātiska atskaņošana un pauze un vairāk jūsu AirPods.\n%s</string>
+    <string name="settings_rate_label">Novērtējiet mūs</string>
+    <string name="settings_rate_description">Novērtējiet AirPod Google Play.</string>
 </resources>

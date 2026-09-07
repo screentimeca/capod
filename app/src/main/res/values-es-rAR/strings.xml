@@ -18,4 +18,9 @@
     <string name="onboarding_body3">AirPod no contiene anuncios y no recopila tus datos.</string>
     <string name="onboarding_body4">Puedes actualizar a AirPod Pro para obtener funciones adicionales y apoyar el desarrollo.</string>
     <string name="general_continue_action">Sigue</string>
+    <string name="settings_share_label">Compartir</string>
+    <string name="settings_share_description">Enviá el enlace de Play Store a un amigo.</string>
+    <string name="settings_share_text">Probá AirPod para Android: estado de la batería, reproducción y pausa automáticas y más para tus AirPods.\n%s</string>
+    <string name="settings_rate_label">Calificanos</string>
+    <string name="settings_rate_description">Calificá AirPod en Google Play.</string>
 </resources>

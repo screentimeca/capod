@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Sýna sprettiglugga þegar þú opnar hulstrið.</string>
     <string name="upgrade_benefit_widget_title">Græja á heimasíðu</string>
     <string name="upgrade_benefit_widget_body">Skoðaðu rafhlöðu og stöðu án þess að opna appið.</string>
+    <string name="settings_share_label">Deila</string>
+    <string name="settings_share_description">Sendu Play Store-tengilinn til vinar.</string>
+    <string name="settings_share_text">Prófaðu AirPod fyrir Android — rafhlöðustaða, sjálfvirk spilun og pása og meira fyrir AirPods.\n%s</string>
+    <string name="settings_rate_label">Gefðu okkur einkunn</string>
+    <string name="settings_rate_description">Gefðu AirPod einkunn á Google Play.</string>
 </resources>

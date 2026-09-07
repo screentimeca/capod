@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Bonisa i-popup lapho uvula ikesi.</string>
     <string name="upgrade_benefit_widget_title">Iwijethi yesikrini sasekhaya</string>
     <string name="upgrade_benefit_widget_body">Bheka ibhethri nesimo ngaphandle kokuvula uhlelo.</string>
+    <string name="settings_share_label">Yabelana</string>
+    <string name="settings_share_description">Thumela isixhumanisi se-Play Store kumngane.</string>
+    <string name="settings_share_text">Zama i-AirPod ye-Android — isimo sebhethri, ukudlala nokumisa okuzenzakalelayo, nokunye kuma-AirPods akho.\n%s</string>
+    <string name="settings_rate_label">Silinganisele</string>
+    <string name="settings_rate_description">Linganisela i-AirPod ku-Google Play.</string>
 </resources>

@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">കേസ് തുറക്കുമ്പോൾ ഒരു പോപ്പപ്പ് കാണിക്കുക.</string>
     <string name="upgrade_benefit_widget_title">ഹോം സ്‌ക്രീൻ വിജറ്റ്</string>
     <string name="upgrade_benefit_widget_body">ആപ്പ് തുറക്കാതെ ബാറ്ററിയും സ്റ്റാറ്റസും നോക്കുക.</string>
+    <string name="settings_share_label">പങ്കിടുക</string>
+    <string name="settings_share_description">Play Store ലിങ്ക് ഒരു സുഹൃത്തിന് അയയ്ക്കുക.</string>
+    <string name="settings_share_text">ആൻഡ്രോയിഡിനുള്ള AirPod പരീക്ഷിക്കുക — ബാറ്ററി നില, യാന്ത്രിക പ്ലേയും പോസും, നിങ്ങളുടെ AirPods-നുള്ള കൂടുതൽ സവിശേഷതകൾ.\n%s</string>
+    <string name="settings_rate_label">ഞങ്ങളെ റേറ്റ് ചെയ്യുക</string>
+    <string name="settings_rate_description">Google Play-യിൽ AirPod റേറ്റ് ചെയ്യുക.</string>
 </resources>

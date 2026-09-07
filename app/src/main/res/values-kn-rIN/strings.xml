@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">ಕೇಸ್ ತೆರೆದಾಗ ಪಾಪ್‌ಅಪ್ ತೋರಿಸಿ.</string>
     <string name="upgrade_benefit_widget_title">ಹೋಮ್ ಸ್ಕ್ರೀನ್ ವಿಜೆಟ್</string>
     <string name="upgrade_benefit_widget_body">ಅಪ್ಲಿಕೇಶನ್ ತೆರೆಯದೆ ಬ್ಯಾಟರಿ ಮತ್ತು ಸ್ಥಿತಿ ನೋಡಿ.</string>
+    <string name="settings_share_label">ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="settings_share_description">Play Store ಲಿಂಕ್ ಅನ್ನು ಸ್ನೇಹಿತರಿಗೆ ಕಳುಹಿಸಿ.</string>
+    <string name="settings_share_text">ಆಂಡ್ರಾಯ್ಡ್‌ಗಾಗಿ AirPod ನೋಡಿ — ಬ್ಯಾಟರಿ ಸ್ಥಿತಿ, ಸ್ವಯಂ ಪ್ಲೇ ಮತ್ತು ವಿರಾಮ ಮತ್ತು ನಿಮ್ಮ AirPodsಗೆ ಇನ್ನಷ್ಟು.\n%s</string>
+    <string name="settings_rate_label">ನಮಗೆ ರೇಟಿಂಗ್ ನೀಡಿ</string>
+    <string name="settings_rate_description">Google Play ನಲ್ಲಿ AirPod ಗೆ ರೇಟಿಂಗ್ ನೀಡಿ.</string>
 </resources>

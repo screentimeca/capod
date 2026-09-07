@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">აჩვენე ამომხტარი ფანჯარა ქეისის გახსნისას.</string>
     <string name="upgrade_benefit_widget_title">მთავარი ეკრანის ვიჯეტი</string>
     <string name="upgrade_benefit_widget_body">შეამოწმეთ ბატარეა და სტატუსი აპის გახსნის გარეშე.</string>
+    <string name="settings_share_label">გაზიარება</string>
+    <string name="settings_share_description">გაუგზავნეთ Play Store-ის ბმული მეგობარს.</string>
+    <string name="settings_share_text">სცადეთ AirPod Android-ისთვის — ბატარეის მდგომარეობა, ავტომატური დაკვრა და პაუზა და სხვა თქვენი AirPods-ისთვის.\n%s</string>
+    <string name="settings_rate_label">შეგვაფასეთ</string>
+    <string name="settings_rate_description">შეაფასეთ AirPod Google Play-ში.</string>
 </resources>

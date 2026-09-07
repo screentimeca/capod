@@ -43,6 +43,11 @@
     <string name="settings_autoconnect_condition_description">接続をいつ試みるのかを選択します。</string>
     <string name="settings_reaction_label">アクション</string>
     <string name="settings_reaction_description">イベントや行動に対して機能が動作します</string>
+    <string name="settings_share_label">共有</string>
+    <string name="settings_share_description">Play ストアのリンクを友達に送ります。</string>
+    <string name="settings_share_text">Android向けAirPodをチェック — バッテリー残量、自動再生と一時停止など、AirPods向けの機能が揃っています。\n%s</string>
+    <string name="settings_rate_label">評価する</string>
+    <string name="settings_rate_description">Google PlayでAirPodを評価してください。</string>
     <string name="settings_category_yourdevice_label">あなたのデバイス</string>
     <string name="settings_category_compatibility_options_title">互換性のオプション</string>
     <string name="settings_category_compatibility_options_description">正常に動く場合は触らないでください。 ;)</string>

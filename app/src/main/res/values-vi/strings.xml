@@ -43,6 +43,11 @@
     <string name="settings_autoconnect_condition_description">Khi nào chúng ta nên cố gắng kết nối với thiết bị của bạn?</string>
     <string name="settings_reaction_label">Phản ứng</string>
     <string name="settings_reaction_description">Phản ứng với các sự kiện và hành vi.</string>
+    <string name="settings_share_label">Chia sẻ</string>
+    <string name="settings_share_description">Gửi liên kết Play Store cho bạn bè.</string>
+    <string name="settings_share_text">Hãy thử AirPod cho Android — trạng thái pin, tự động phát và tạm dừng, cùng nhiều tính năng khác cho AirPods.\n%s</string>
+    <string name="settings_rate_label">Đánh giá chúng tôi</string>
+    <string name="settings_rate_description">Đánh giá AirPod trên Google Play.</string>
     <string name="settings_category_yourdevice_label">Thiết bị của bạn</string>
     <string name="settings_maindevice_address_label">Địa chỉ thiết bị của bạn</string>
     <string name="settings_maindevice_address_description">Địa chỉ của thiết bị được ghép nối của bạn. Ứng dụng sử dụng điều này để xác định thời điểm nó được kết nối với điện thoại của bạn.</string>

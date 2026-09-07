@@ -24,4 +24,9 @@
     <string name="debug_debuglog_size_label">Tamaño</string>
     <string name="debug_debuglog_size_compressed_label">Tamaño comprimido</string>
     <string name="debug_notification_channel_label">Depurar notificaciones</string>
+    <string name="settings_share_label">Compartir</string>
+    <string name="settings_share_description">Envía el enlace de Play Store a un amigo.</string>
+    <string name="settings_share_text">Prueba AirPod para Android: estado de la batería, reproducción y pausa automáticas y más para tus AirPods.\n%s</string>
+    <string name="settings_rate_label">Califícanos</string>
+    <string name="settings_rate_description">Califica AirPod en Google Play.</string>
 </resources>

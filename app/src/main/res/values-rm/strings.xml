@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Mussar in pop-up cura che ti avras la scatla.</string>
     <string name="upgrade_benefit_widget_title">Widget da la visura principala</string>
     <string name="upgrade_benefit_widget_body">Controllescha bateria e status senza avrir l’app.</string>
+    <string name="settings_share_label">Cundivider</string>
+    <string name="settings_share_description">Tramettai il link da Play Store ad in ami.</string>
+    <string name="settings_share_text">Empruvai AirPod per Android — status da la bateria, reproducziun e pausa automatica e dapli per voss AirPods.\n%s</string>
+    <string name="settings_rate_label">Valitai nus</string>
+    <string name="settings_rate_description">Valitai AirPod sin Google Play.</string>
 </resources>

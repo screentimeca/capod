@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">కేస్ తెరిచినప్పుడు పాపప్ చూపించు.</string>
     <string name="upgrade_benefit_widget_title">హోమ్ స్క్రీన్ విజెట్</string>
     <string name="upgrade_benefit_widget_body">యాప్ తెరవకుండా బ్యాటరీ మరియు స్థితిని చూడండి.</string>
+    <string name="settings_share_label">షేర్ చేయండి</string>
+    <string name="settings_share_description">Play Store లింక్‌ను స్నేహితుడికి పంపండి.</string>
+    <string name="settings_share_text">Android కోసం AirPod చూడండి — బ్యాటరీ స్థితి, ఆటో ప్లే మరియు పాజ్ మరియు మీ AirPods కోసం మరిన్ని ఫీచర్లు.\n%s</string>
+    <string name="settings_rate_label">మాకు రేటింగ్ ఇవ్వండి</string>
+    <string name="settings_rate_description">Google Playలో AirPodకి రేటింగ్ ఇవ్వండి.</string>
 </resources>

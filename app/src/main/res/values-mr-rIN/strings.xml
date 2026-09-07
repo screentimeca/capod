@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">केस उघडल्यावर पॉपअप दाखवा.</string>
     <string name="upgrade_benefit_widget_title">होम स्क्रीन विजेट</string>
     <string name="upgrade_benefit_widget_body">अॅप न उघडता बॅटरी आणि स्थिती पहा.</string>
+    <string name="settings_share_label">शेअर करा</string>
+    <string name="settings_share_description">Play Store लिंक मित्राला पाठवा.</string>
+    <string name="settings_share_text">Android साठी AirPod पाहा — बॅटरी स्थिती, ऑटो प्ले आणि पॉझ आणि तुमच्या AirPodsसाठी अधिक.\n%s</string>
+    <string name="settings_rate_label">आम्हाला रेट करा</string>
+    <string name="settings_rate_description">Google Play वर AirPod रेट करा.</string>
 </resources>

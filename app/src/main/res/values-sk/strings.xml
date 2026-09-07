@@ -43,6 +43,11 @@
     <string name="settings_autoconnect_condition_description">Kedy by sme sa mali pokúsiť pripojiť k vášmu zariadeniu?</string>
     <string name="settings_reaction_label">Reakcie</string>
     <string name="settings_reaction_description">Reakcia na udalosti a správanie.</string>
+    <string name="settings_share_label">Zdieľať</string>
+    <string name="settings_share_description">Pošlite odkaz na Play Store kamarátovi.</string>
+    <string name="settings_share_text">Vyskúšajte AirPod pre Android — stav batérie, automatické prehrávanie a pauza a ďalšie funkcie pre vaše AirPods.\n%s</string>
+    <string name="settings_rate_label">Ohodnoťte nás</string>
+    <string name="settings_rate_description">Ohodnoťte AirPod v Google Play.</string>
     <string name="settings_category_yourdevice_label">Vaše zariadenie</string>
     <string name="settings_category_compatibility_options_title">Možnosti kompatibility</string>
     <string name="settings_category_compatibility_options_description">Nedotýkajte sa, ak všetko funguje ;)</string>

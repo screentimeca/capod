@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">ສະແດງປັອບອັບເມື່ອທ່ານເປີດກ່ອງ.</string>
     <string name="upgrade_benefit_widget_title">ວິດເຈັດໜ້າຈໍຫຼັກ</string>
     <string name="upgrade_benefit_widget_body">ເບິ່ງແບັດເຕີຣີ ແລະສະຖານະໂດຍບໍ່ຕ້ອງເປີດແອັບ.</string>
+    <string name="settings_share_label">ແບ່ງປັນ</string>
+    <string name="settings_share_description">ສົ່ງລິ້ງ Play Store ໃຫ້ເພື່ອນ.</string>
+    <string name="settings_share_text">ລອງ AirPod ສຳລັບ Android — ສະຖານະແບັດເຕີຣີ ຫຼິ້ນ ແລະ ຢຸດອັດຕະໂນມັດ ແລະ ອື່ນໆສຳລັບ AirPods ຂອງທ່ານ.\n%s</string>
+    <string name="settings_rate_label">ໃຫ້ຄະແນນພວກເຮົາ</string>
+    <string name="settings_rate_description">ໃຫ້ຄະແນນ AirPod ໃນ Google Play.</string>
 </resources>

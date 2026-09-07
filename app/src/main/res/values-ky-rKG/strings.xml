@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Кутуну ачканда калкыма терезе көрсөт.</string>
     <string name="upgrade_benefit_widget_title">Башкы экран виджети</string>
     <string name="upgrade_benefit_widget_body">Колдонмону ачпастан батарея менен абалды текшериңиз.</string>
+    <string name="settings_share_label">Бөлүшүү</string>
+    <string name="settings_share_description">Play Store шилтемесин досуңузга жөнөтүңүз.</string>
+    <string name="settings_share_text">Android үчүн AirPod колдонуп көрүңүз — батарея абалы, авто ойнотуу жана пауза жана AirPods үчүн дагы көп нерсе.\n%s</string>
+    <string name="settings_rate_label">Бизди баалаңыз</string>
+    <string name="settings_rate_description">"AirPod'ту Google Play'де баалаңыз."</string>
 </resources>

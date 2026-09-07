@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Хайрцгийг нээхэд поп-ап харуул.</string>
     <string name="upgrade_benefit_widget_title">Нүүр дэлгэцийн виджет</string>
     <string name="upgrade_benefit_widget_body">Аппыг нээхгүйгээр батерей болон төлөвийг шалгана уу.</string>
+    <string name="settings_share_label">Хуваалцах</string>
+    <string name="settings_share_description">Play Store холбоосыг найздаа илгээнэ үү.</string>
+    <string name="settings_share_text">Android-д зориулсан AirPod-г туршаарай — батарейн төлөв, автоматаар тоглуулах, түр зогсоох болон AirPods-д зориулсан бусад боломж.\n%s</string>
+    <string name="settings_rate_label">Биднийг үнэлнэ үү</string>
+    <string name="settings_rate_description">Google Play дээр AirPod-г үнэлнэ үү.</string>
 </resources>

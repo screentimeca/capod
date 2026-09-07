@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Rodyti iškylantįjį langą atidarius dėklą.</string>
     <string name="upgrade_benefit_widget_title">Pradžios ekrano valdiklis</string>
     <string name="upgrade_benefit_widget_body">Tikrinkite bateriją ir būseną neatidarę programos.</string>
+    <string name="settings_share_label">Bendrinti</string>
+    <string name="settings_share_description">Nusiųskite „Play Store“ nuorodą draugui.</string>
+    <string name="settings_share_text">Išbandykite „AirPod“ „Android“ sistemai — baterijos būsena, automatinis paleidimas ir pauzė bei daugiau jūsų „AirPods“.\n%s</string>
+    <string name="settings_rate_label">Įvertinkite mus</string>
+    <string name="settings_rate_description">Įvertinkite „AirPod“ „Google Play“.</string>
 </resources>

@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Näytä ponnahdusikkuna, kun avaat kotelon.</string>
     <string name="upgrade_benefit_widget_title">Aloitusnäytön widget</string>
     <string name="upgrade_benefit_widget_body">Tarkista akku ja tila avaamatta sovellusta.</string>
+    <string name="settings_share_label">Jaa</string>
+    <string name="settings_share_description">Lähetä Play Kaupan linkki kaverille.</string>
+    <string name="settings_share_text">Kokeile AirPod-sovellusta Androidille — akun tila, automaattinen toisto ja tauko sekä muuta AirPodeillesi.\n%s</string>
+    <string name="settings_rate_label">Arvostele meidät</string>
+    <string name="settings_rate_description">Arvostele AirPod Google Playssa.</string>
 </resources>

@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">បង្ហាញប៉ុបអាប់ពេលអ្នកបើកប្រអប់។</string>
     <string name="upgrade_benefit_widget_title">វីដជិតអេក្រង់ដើម</string>
     <string name="upgrade_benefit_widget_body">ពិនិត្យថ្ម និងស្ថានភាពដោយមិនបើកកម្មវិធី។</string>
+    <string name="settings_share_label">ចែករំលែក</string>
+    <string name="settings_share_description">ផ្ញើតំណ Play Store ទៅមិត្ត។</string>
+    <string name="settings_share_text">សាកល្បង AirPod សម្រាប់ Android — ស្ថានភាពថ្ម លេងនិងផ្អាកស្វ័យប្រវត្តិ និងច្រើនទៀតសម្រាប់ AirPods របស់អ្នក។\n%s</string>
+    <string name="settings_rate_label">វាយតម្លៃយើង</string>
+    <string name="settings_rate_description">វាយតម្លៃ AirPod នៅលើ Google Play។</string>
 </resources>

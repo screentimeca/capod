@@ -21,4 +21,9 @@
     <string name="debug_debuglog_size_label">Sukat</string>
     <string name="settings_licenses_label">Lisensiya</string>
     <string name="settings_category_other_label">Iba</string>
+    <string name="settings_share_label">Ibahagi</string>
+    <string name="settings_share_description">Ipadala ang link ng Play Store sa isang kaibigan.</string>
+    <string name="settings_share_text">Tingnan ang AirPod para sa Android — status ng baterya, auto play at pause, at higit pa para sa iyong AirPods.\n%s</string>
+    <string name="settings_rate_label">I-rate kami</string>
+    <string name="settings_rate_description">I-rate ang AirPod sa Google Play.</string>
 </resources>

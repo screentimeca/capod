@@ -43,6 +43,11 @@
     <string name="settings_autoconnect_condition_description">"Quan hem d'intentar connectar-nos al vostre dispositiu?"</string>
     <string name="settings_reaction_label">Reaccions</string>
     <string name="settings_reaction_description">Reacció davant esdeveniments i comportaments.</string>
+    <string name="settings_share_label">Comparteix</string>
+    <string name="settings_share_description">"Envia l'enllaç de Play Store a un amic."</string>
+    <string name="settings_share_text">Prova AirPod per a Android: estat de la bateria, reproducció i pausa automàtiques i més per als teus AirPods.\n%s</string>
+    <string name="settings_rate_label">"Puntua'ns"</string>
+    <string name="settings_rate_description">Puntua AirPod a Google Play.</string>
     <string name="settings_category_yourdevice_label">El vostre dispositiu</string>
     <string name="settings_category_compatibility_options_title">Opcions de compatibilitat</string>
     <string name="settings_category_compatibility_options_description">No ho toqueu si tot funciona ;)</string>

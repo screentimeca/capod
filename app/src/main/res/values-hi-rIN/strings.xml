@@ -19,4 +19,9 @@
     <string name="upgrade_benefit_widget_body">ऐप खोले बिना बैटरी और स्थिति देखें।</string>
     <string name="notification_channel_device_status_label">उपकरण की स्थिति</string>
     <string name="settings_support_installid_desc">स्वचालित त्रुटि रिपोर्ट गुमनाम हैं।  यदि डेवलपर को आपकी त्रुटि रिपोर्ट ढूंढ़ने की आवश्यकता हो, तो अपना इंस्टॉल आईडी साझा करें.</string>
+    <string name="settings_share_label">साझा करें</string>
+    <string name="settings_share_description">Play Store लिंक किसी मित्र को भेजें।</string>
+    <string name="settings_share_text">Android के लिए AirPod आज़माएँ — बैटरी स्थिति, ऑटो प्ले और पॉज़, और आपके AirPods के लिए और भी सुविधाएँ।\n%s</string>
+    <string name="settings_rate_label">हमें रेट करें</string>
+    <string name="settings_rate_description">Google Play पर AirPod को रेट करें।</string>
 </resources>

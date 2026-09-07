@@ -43,6 +43,11 @@
     <string name="settings_autoconnect_condition_description">מתי עלינו לנסות להתחבר למכשיר שלך?</string>
     <string name="settings_reaction_label">תגובות</string>
     <string name="settings_reaction_description">להגיב לאירועים והתנהגויות.</string>
+    <string name="settings_share_label">שתף</string>
+    <string name="settings_share_description">שלח את קישור חנות Play לחבר.</string>
+    <string name="settings_share_text">נסו את AirPod ל-Android — מצב סוללה, ניגון והשהיה אוטומטיים ועוד עבור ה-AirPods שלכם.\n%s</string>
+    <string name="settings_rate_label">דרגו אותנו</string>
+    <string name="settings_rate_description">דרגו את AirPod ב-Google Play.</string>
     <string name="settings_category_yourdevice_label">המכשיר שלך</string>
     <string name="settings_category_compatibility_options_title">מצב תאימות</string>
     <string name="settings_category_compatibility_options_description">אל תיגע אם הכל עובד ;)</string>

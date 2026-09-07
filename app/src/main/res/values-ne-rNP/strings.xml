@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">केस खोल्दा पपअप देखाउनुहोस्।</string>
     <string name="upgrade_benefit_widget_title">होम स्क्रिन विजेट</string>
     <string name="upgrade_benefit_widget_body">एप नखोली ब्याट्री र स्थिति हेर्नुहोस्।</string>
+    <string name="settings_share_label">साझेदारी गर्नुहोस्</string>
+    <string name="settings_share_description">Play Store लिंक साथीलाई पठाउनुहोस्।</string>
+    <string name="settings_share_text">एन्ड्रोइडका लागि AirPod हेर्नुहोस् — ब्याट्री स्थिति, स्वतः प्ले र पज, र तपाईंका AirPods का लागि थप सुविधाहरू।\n%s</string>
+    <string name="settings_rate_label">हामीलाई रेट गर्नुहोस्</string>
+    <string name="settings_rate_description">Google Play मा AirPod लाई रेट गर्नुहोस्।</string>
 </resources>

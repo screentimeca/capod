@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Прикажи искачући прозор када отвориш футролу.</string>
     <string name="upgrade_benefit_widget_title">Виџет почетног екрана</string>
     <string name="upgrade_benefit_widget_body">Проверите батерију и статус без отварања апликације.</string>
+    <string name="settings_share_label">Подели</string>
+    <string name="settings_share_description">Пошаљите Play Store везу пријатељу.</string>
+    <string name="settings_share_text">Испробајте AirPod за Android — статус батерије, аутоматска репродукција и пауза и још за ваше AirPods.\n%s</string>
+    <string name="settings_rate_label">Оцените нас</string>
+    <string name="settings_rate_description">Оцените AirPod на Google Play-у.</string>
 </resources>

@@ -43,6 +43,11 @@
     <string name="settings_autoconnect_condition_description">Aygıtınıza ne zaman bağlanmayı denemeliyiz?</string>
     <string name="settings_reaction_label">Tepkiler</string>
     <string name="settings_reaction_description">Olaylar ve etkileşimlere verilen tepkiler.</string>
+    <string name="settings_share_label">Paylaş</string>
+    <string name="settings_share_description">Play Store bağlantısını bir arkadaşa gönderin.</string>
+    <string name="settings_share_text">Android için AirPod uygulamasına göz atın — pil durumu, otomatik oynatma ve duraklatma ve AirPods için daha fazlası.\n%s</string>
+    <string name="settings_rate_label">Bizi değerlendirin</string>
+    <string name="settings_rate_description">"AirPod uygulamasını Google Play'de değerlendirin."</string>
     <string name="settings_category_yourdevice_label">Aygıtınız</string>
     <string name="settings_category_compatibility_options_title">Uyumluluk seçenekleri</string>
     <string name="settings_category_compatibility_options_description">Her şey çalışıyorsa lütfen dokunmayın ;)</string>

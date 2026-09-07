@@ -39,6 +39,11 @@
     <string name="settings_autoconnect_condition_description">Cihazınızla nə vaxt bağlantı qurmağa çalışacağıq?</string>
     <string name="settings_reaction_label">Reaksiyalar</string>
     <string name="settings_reaction_description">Tədbirlərə və davranışlara reaksiya verin.</string>
+    <string name="settings_share_label">Paylaş</string>
+    <string name="settings_share_description">Play Store keçidini dostunuza göndərin.</string>
+    <string name="settings_share_text">Android üçün AirPod-a baxın — batareya statusu, avtomatik oxutma və fasilə və AirPods üçün daha çoxu.\n%s</string>
+    <string name="settings_rate_label">Bizi qiymətləndirin</string>
+    <string name="settings_rate_description">AirPod-u Google Play-də qiymətləndirin.</string>
     <string name="settings_category_yourdevice_label">Cihazınız</string>
     <string name="settings_maindevice_address_label">Cihaz ünvanınız</string>
     <string name="settings_maindevice_address_description">Cütləşdirilmiş cihazınızın ünvanı. Tətbiq, telefonunuzla nə vaxt bağlantı qurulacağını müəyyənləşdirmək üçün bunu istifadə edir.</string>

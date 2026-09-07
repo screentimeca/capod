@@ -43,6 +43,11 @@
     <string name="settings_autoconnect_condition_description">"Коли слід здійснювати спробу під'єднання до Вашого пристрою?"</string>
     <string name="settings_reaction_label">Реакції</string>
     <string name="settings_reaction_description">Реагування на події та дії.</string>
+    <string name="settings_share_label">Поділитися</string>
+    <string name="settings_share_description">Надішліть посилання на Play Store другу.</string>
+    <string name="settings_share_text">Спробуйте AirPod для Android — заряд батареї, автовідтворення й пауза та інші функції для ваших AirPods.\n%s</string>
+    <string name="settings_rate_label">Оцініть нас</string>
+    <string name="settings_rate_description">Оцініть AirPod у Google Play.</string>
     <string name="settings_category_yourdevice_label">Ваш пристрій</string>
     <string name="settings_category_compatibility_options_title">Опції сумісності</string>
     <string name="settings_category_compatibility_options_description">Не чіпай, якщо все працює ;)</string>

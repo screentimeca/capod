@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Mustra unu pop-up cando aberis sa cascia.</string>
     <string name="upgrade_benefit_widget_title">Widget de s’ischeda printzipale</string>
     <string name="upgrade_benefit_widget_body">Controlla bateria e istadu chene abèrrere s’aplicatzione.</string>
+    <string name="settings_share_label">Cumpartzi</string>
+    <string name="settings_share_description">"Imbia su ligàmene de Play Store a un'amigu."</string>
+    <string name="settings_share_text">Prova AirPod pro Android — istadu de sa bateria, riproduidura e pàusa automàticas e àteru pro is AirPods tuos.\n%s</string>
+    <string name="settings_rate_label">Valuta·nos</string>
+    <string name="settings_rate_description">Valuta AirPod in Google Play.</string>
 </resources>

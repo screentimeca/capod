@@ -43,6 +43,11 @@
     <string name="settings_autoconnect_condition_description">자동 연결을 시도하는 조건을 설정할 수 있습니다.</string>
     <string name="settings_reaction_label">반응</string>
     <string name="settings_reaction_description">이벤트나 자극에 반응합니다.</string>
+    <string name="settings_share_label">공유</string>
+    <string name="settings_share_description">Play 스토어 링크를 친구에게 보내세요.</string>
+    <string name="settings_share_text">Android용 AirPod를 확인해 보세요. 배터리 상태, 자동 재생/일시중지 등 AirPods 기능을 제공합니다.\n%s</string>
+    <string name="settings_rate_label">평가하기</string>
+    <string name="settings_rate_description">Google Play에서 AirPod를 평가해 주세요.</string>
     <string name="settings_category_yourdevice_label">내 기기</string>
     <string name="settings_maindevice_address_label">내 기기 주소</string>
     <string name="settings_maindevice_address_description">연결된 기기의 주소입니다. 앱에서 기기가 연결되어 있는지 확인할 때 사용합니다.</string>

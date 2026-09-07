@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Erakutsi leiho gainerakor bat kutxa irekitzean.</string>
     <string name="upgrade_benefit_widget_title">Hasierako pantailako widgeta</string>
     <string name="upgrade_benefit_widget_body">Egiaztatu bateria eta egoera aplikazioa ireki gabe.</string>
+    <string name="settings_share_label">Partekatu</string>
+    <string name="settings_share_description">Bidali Play Store esteka lagun bati.</string>
+    <string name="settings_share_text">Probatu AirPod Androiderako — bateriaren egoera, reprodukzio eta pausa automatikoak eta gehiago zure AirPods-entzat.\n%s</string>
+    <string name="settings_rate_label">Baloratu gaitzazu</string>
+    <string name="settings_rate_description">Baloratu AirPod Google Play-n.</string>
 </resources>

@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Vis et pop op-vindue, når du åbner etuiet.</string>
     <string name="upgrade_benefit_widget_title">Widget på startskærmen</string>
     <string name="upgrade_benefit_widget_body">Tjek batteri og status uden at åbne appen.</string>
+    <string name="settings_share_label">Del</string>
+    <string name="settings_share_description">Send Play Store-linket til en ven.</string>
+    <string name="settings_share_text">Prøv AirPod til Android — batteristatus, automatisk afspilning og pause og mere til dine AirPods.\n%s</string>
+    <string name="settings_rate_label">Bedøm os</string>
+    <string name="settings_rate_description">Bedøm AirPod på Google Play.</string>
 </resources>

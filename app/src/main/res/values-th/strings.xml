@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">แสดงป๊อปอัปเมื่อคุณเปิดเคส</string>
     <string name="upgrade_benefit_widget_title">วิดเจ็ตหน้าจอหลัก</string>
     <string name="upgrade_benefit_widget_body">ดูแบตเตอรี่และสถานะโดยไม่ต้องเปิดแอป</string>
+    <string name="settings_share_label">แชร์</string>
+    <string name="settings_share_description">ส่งลิงก์ Play Store ให้เพื่อน</string>
+    <string name="settings_share_text">ลอง AirPod สำหรับ Android — สถานะแบตเตอรี่ เล่นและหยุดอัตโนมัติ และอื่นๆ สำหรับ AirPods ของคุณ\n%s</string>
+    <string name="settings_rate_label">ให้คะแนนเรา</string>
+    <string name="settings_rate_description">ให้คะแนน AirPod บน Google Play</string>
 </resources>

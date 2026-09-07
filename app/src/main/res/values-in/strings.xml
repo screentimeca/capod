@@ -43,6 +43,11 @@
     <string name="settings_autoconnect_condition_description">Kapan kami harus mencoba menyambung ke perangkat anda?</string>
     <string name="settings_reaction_label">Reaksi</string>
     <string name="settings_reaction_description">Bereaksi terhadap peristiwa dan perilaku.</string>
+    <string name="settings_share_label">Bagikan</string>
+    <string name="settings_share_description">Kirim tautan Play Store ke teman.</string>
+    <string name="settings_share_text">Coba AirPod untuk Android — status baterai, putar dan jeda otomatis, dan lainnya untuk AirPods Anda.\n%s</string>
+    <string name="settings_rate_label">Beri kami penilaian</string>
+    <string name="settings_rate_description">Nilai AirPod di Google Play.</string>
     <string name="settings_category_yourdevice_label">Perangkat anda</string>
     <string name="settings_category_compatibility_options_title">Opsi kompatibilitas</string>
     <string name="settings_category_compatibility_options_description">Jangan sentuh jika semuanya berfungsi ;)</string>

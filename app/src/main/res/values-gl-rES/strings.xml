@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Mostra unha ventá emerxente ao abrir o estoxo.</string>
     <string name="upgrade_benefit_widget_title">Widget da pantalla de inicio</string>
     <string name="upgrade_benefit_widget_body">Consulta a batería e o estado sen abrir a app.</string>
+    <string name="settings_share_label">Compartir</string>
+    <string name="settings_share_description">Envía a ligazón de Play Store a un amigo.</string>
+    <string name="settings_share_text">Proba AirPod para Android: estado da batería, reprodución e pausa automáticas e máis para os teus AirPods.\n%s</string>
+    <string name="settings_rate_label">Valóranos</string>
+    <string name="settings_rate_description">Valora AirPod en Google Play.</string>
 </resources>

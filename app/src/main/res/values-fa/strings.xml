@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">هنگام باز کردن جعبه یک پنجره بازشو نشان بده.</string>
     <string name="upgrade_benefit_widget_title">ویجت صفحه اصلی</string>
     <string name="upgrade_benefit_widget_body">باتری و وضعیت را بدون باز کردن برنامه ببینید.</string>
+    <string name="settings_share_label">اشتراک‌گذاری</string>
+    <string name="settings_share_description">لینک فروشگاه Play را برای دوستتان بفرستید.</string>
+    <string name="settings_share_text">AirPod برای اندروید را ببینید — وضعیت باتری، پخش و مکث خودکار و امکانات بیشتر برای AirPods.\n%s</string>
+    <string name="settings_rate_label">به ما امتیاز دهید</string>
+    <string name="settings_rate_description">به AirPod در Google Play امتیاز دهید.</string>
 </resources>

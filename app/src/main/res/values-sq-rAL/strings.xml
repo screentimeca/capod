@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Shfaq një dritare kërcyese kur hapni kutinë.</string>
     <string name="upgrade_benefit_widget_title">Widget i ekranit kryesor</string>
     <string name="upgrade_benefit_widget_body">Kontrolloni baterinë dhe gjendjen pa hapur aplikacionin.</string>
+    <string name="settings_share_label">Ndaj</string>
+    <string name="settings_share_description">Dërgoji lidhjen e Play Store një miku.</string>
+    <string name="settings_share_text">Provo AirPod për Android — gjendja e baterisë, luajtje dhe pauzë automatike dhe më shumë për AirPods-et e tua.\n%s</string>
+    <string name="settings_rate_label">Na vlerëso</string>
+    <string name="settings_rate_description">Vlerëso AirPod në Google Play.</string>
 </resources>

@@ -44,4 +44,9 @@
     <string name="onboarding_body3">AirPodis pole reklaame ja see ei kogu andmeid.</string>
     <string name="onboarding_body4">Lisavõimaluste saamiseks ja arendamise toetamiseks soetage AirPod Pro.</string>
     <string name="general_continue_action">Jätka</string>
+    <string name="settings_share_label">Jaga</string>
+    <string name="settings_share_description">"Saada Play Store'i link sõbrale."</string>
+    <string name="settings_share_text">Proovi Androidi jaoks mõeldud rakendust AirPod — aku olek, automaatne esitamine ja peatamine ning muud AirPodsidele.\n%s</string>
+    <string name="settings_rate_label">Hinda meid</string>
+    <string name="settings_rate_description">Hinda AirPodi Google Plays.</string>
 </resources>

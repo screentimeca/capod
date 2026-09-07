@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">கேஸைத் திறக்கும்போது பாப்அப் காட்டு.</string>
     <string name="upgrade_benefit_widget_title">முகப்புத் திரை விட்ஜெட்</string>
     <string name="upgrade_benefit_widget_body">ஆப்பைத் திறக்காமல் பேட்டரி மற்றும் நிலையைப் பாருங்கள்.</string>
+    <string name="settings_share_label">பகிர்</string>
+    <string name="settings_share_description">Play Store இணைப்பை நண்பருக்கு அனுப்புங்கள்.</string>
+    <string name="settings_share_text">Android-க்கான AirPod-ஐ பாருங்கள் — பேட்டரி நிலை, தானியங்கு இயக்கம் மற்றும் இடைநிறுத்தம், உங்கள் AirPods-க்கான மேலும் அம்சங்கள்.\n%s</string>
+    <string name="settings_rate_label">எங்களை மதிப்பிடுங்கள்</string>
+    <string name="settings_rate_description">Google Play-இல் AirPod-ஐ மதிப்பிடுங்கள்.</string>
 </resources>

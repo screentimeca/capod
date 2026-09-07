@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">အံဖွင့်သည့်အခါ ပေါ့ပ်အပ် ပြပါ။</string>
     <string name="upgrade_benefit_widget_title">ပင်မ မျက်နှာပြင် ဝစ်ဂျက်</string>
     <string name="upgrade_benefit_widget_body">အက်ပ်မဖွင့်ဘဲ ဘက်ထရီနှင့် အခြေအနေ စစ်ပါ။</string>
+    <string name="settings_share_label">မျှဝေရန်</string>
+    <string name="settings_share_description">Play Store လင့်ခ်ကို သူငယ်ချင်းထံ ပို့ပါ။</string>
+    <string name="settings_share_text">Android အတွက် AirPod ကို စမ်းကြည့်ပါ — ဘက်ထရီအခြေအနေ၊ အလိုအလျောက် ဖွင့်/ခဏရပ်နှင့် AirPods အတွက် နောက်ထပ်အင်္ဂါရပ်များ။\n%s</string>
+    <string name="settings_rate_label">ကျွန်ုပ်တို့ကို အဆင့်သတ်မှတ်ပါ</string>
+    <string name="settings_rate_description">Google Play တွင် AirPod ကို အဆင့်သတ်မှတ်ပါ။</string>
 </resources>

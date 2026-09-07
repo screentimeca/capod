@@ -43,6 +43,11 @@
     <string name="settings_autoconnect_condition_description">متى يجب أن نحاول الاتصال بجهازك؟</string>
     <string name="settings_reaction_label">التفاعل</string>
     <string name="settings_reaction_description">التفاعل مع الأحداث والسلوكيات.</string>
+    <string name="settings_share_label">مشاركة</string>
+    <string name="settings_share_description">أرسل رابط متجر Play إلى صديق.</string>
+    <string name="settings_share_text">جرّب AirPod لأندرويد — حالة البطارية والتشغيل والإيقاف التلقائي والمزيد لسماعات AirPods.\n%s</string>
+    <string name="settings_rate_label">قيّمنا</string>
+    <string name="settings_rate_description">قيّم AirPod على Google Play.</string>
     <string name="settings_category_yourdevice_label">جهازك</string>
     <string name="settings_maindevice_address_label">عنوان جهازك</string>
     <string name="settings_maindevice_address_description">عنوان جهازك المقترن. يستخدم التطبيق هذا لتحديد متى يكون متصلا بهاتفك.</string>

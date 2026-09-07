@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Ցույց տուր ելնող պատուհան, երբ բացում ես պատյանը։</string>
     <string name="upgrade_benefit_widget_title">Գլխավոր էկրանի վիդջեթ</string>
     <string name="upgrade_benefit_widget_body">Ստուգեք մարտկոցը և կարգավիճակը՝ հավելվածը չբացելով։</string>
+    <string name="settings_share_label">Կիսվել</string>
+    <string name="settings_share_description">Ուղարկեք Play Store-ի հղումը ընկերոջը։</string>
+    <string name="settings_share_text">Փորձեք AirPod-ը Android-ի համար — մարտկոցի վիճակ, ավտոմատ նվագարկում և դադար և ավելին ձեր AirPods-ի համար։\n%s</string>
+    <string name="settings_rate_label">Գնահատեք մեզ</string>
+    <string name="settings_rate_description">Գնահատեք AirPod-ը Google Play-ում։</string>
 </resources>

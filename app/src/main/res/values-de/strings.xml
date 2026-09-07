@@ -42,6 +42,11 @@
     <string name="settings_autoconnect_condition_description">Wann sollten wir versuchen, eine Verbindung zu Ihrem Gerät herzustellen?</string>
     <string name="settings_reaction_label">Reaktionen</string>
     <string name="settings_reaction_description">Reagieren Sie auf Ereignisse und Verhaltensweisen.</string>
+    <string name="settings_share_label">Teilen</string>
+    <string name="settings_share_description">Sende den Play-Store-Link an einen Freund.</string>
+    <string name="settings_share_text">Probiere AirPod für Android — Akkustatus, automatisches Abspielen und Pausieren und mehr für deine AirPods.\n%s</string>
+    <string name="settings_rate_label">Bewerte uns</string>
+    <string name="settings_rate_description">Bewerte AirPod im Google Play Store.</string>
     <string name="settings_category_yourdevice_label">Ihr Gerät</string>
     <string name="settings_category_compatibility_options_title">Kompatibilitätsoptionen</string>
     <string name="settings_category_compatibility_options_description">Nicht anfassen, wenn alles funktioniert ;)</string>

@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">መያዣውን ስትከፍት ብቅ-ባይ አሳይ።</string>
     <string name="upgrade_benefit_widget_title">የመነሻ ስክሪን ዊጄት</string>
     <string name="upgrade_benefit_widget_body">መተግበሪያውን ሳትከፍት ባትሪ እና ሁኔታ ይመልከቱ።</string>
+    <string name="settings_share_label">አጋራ</string>
+    <string name="settings_share_description">የ Play Store አገናኝ ለጓደኛ ይላኩ።</string>
+    <string name="settings_share_text">ለአንድሮይድ AirPod ይሞክሩ — የባትሪ ሁኔታ፣ ራስ-ሰር መጫወት እና ማቆም እና ለ AirPods የበለጠ።\n%s</string>
+    <string name="settings_rate_label">ደረጃ ይስጡን</string>
+    <string name="settings_rate_description">AirPodን በ Google Play ላይ ደረጃ ይስጡ።</string>
 </resources>

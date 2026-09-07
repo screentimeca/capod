@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">کیس کھولنے پر پاپ اپ دکھائیں۔</string>
     <string name="upgrade_benefit_widget_title">ہوم اسکرین وجیٹ</string>
     <string name="upgrade_benefit_widget_body">ایپ کھولے بغیر بیٹری اور اسٹیٹس دیکھیں۔</string>
+    <string name="settings_share_label">شیئر کریں</string>
+    <string name="settings_share_description">Play Store کا لنک دوست کو بھیجیں۔</string>
+    <string name="settings_share_text">اینڈرائیڈ کے لیے AirPod آزمائیں — بیٹری کی صورتحال، خودکار پلے اور پاز، اور آپ کے AirPods کے لیے مزید۔\n%s</string>
+    <string name="settings_rate_label">ہمیں ریٹ کریں</string>
+    <string name="settings_rate_description">Google Play پر AirPod کو ریٹ کریں۔</string>
 </resources>

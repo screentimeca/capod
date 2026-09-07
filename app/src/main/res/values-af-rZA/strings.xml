@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Wys ’n opspringer wanneer jy die dosie oopmaak.</string>
     <string name="upgrade_benefit_widget_title">Tuisskerm-widget</string>
     <string name="upgrade_benefit_widget_body">Kyk battery en status sonder om die app oop te maak.</string>
+    <string name="settings_share_label">Deel</string>
+    <string name="settings_share_description">"Stuur die Play Winkel-skakel aan 'n vriend."</string>
+    <string name="settings_share_text">Probeer AirPod vir Android — batterystatus, outomatiese speel en pouse, en meer vir jou AirPods.\n%s</string>
+    <string name="settings_rate_label">Gradeer ons</string>
+    <string name="settings_rate_description">Gradeer AirPod op Google Play.</string>
 </resources>

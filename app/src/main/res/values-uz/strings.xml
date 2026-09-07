@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Qutini ochganda qalqib chiquvchi oyna ko‘rsat.</string>
     <string name="upgrade_benefit_widget_title">Bosh ekran vidjeti</string>
     <string name="upgrade_benefit_widget_body">Ilovani ochmasdan batareya va holatni tekshiring.</string>
+    <string name="settings_share_label">Ulashish</string>
+    <string name="settings_share_description">Play Store havolasini do‘stingizga yuboring.</string>
+    <string name="settings_share_text">Android uchun AirPod-ni sinab ko‘ring — batareya holati, avtomatik ijro va pauza hamda AirPods uchun yana ko‘proq.\n%s</string>
+    <string name="settings_rate_label">Bizni baholang</string>
+    <string name="settings_rate_description">AirPod-ni Google Play’da baholang.</string>
 </resources>

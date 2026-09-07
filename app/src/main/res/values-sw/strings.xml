@@ -13,4 +13,9 @@
     <string name="upgrade_benefit_popups_body">Onyesha dirisha ibukizi unapofungua kesi.</string>
     <string name="upgrade_benefit_widget_title">Wijeti ya skrini kuu</string>
     <string name="upgrade_benefit_widget_body">Angalia betri na hali bila kufungua programu.</string>
+    <string name="settings_share_label">Shiriki</string>
+    <string name="settings_share_description">Tuma kiungo cha Play Store kwa rafiki.</string>
+    <string name="settings_share_text">Angalia AirPod kwa Android — hali ya betri, kucheza na kusitisha kiotomatiki, na zaidi kwa AirPods zako.\n%s</string>
+    <string name="settings_rate_label">Tukadirie</string>
+    <string name="settings_rate_description">Kadiria AirPod kwenye Google Play.</string>
 </resources>
