@@ -138,5 +138,5 @@ dependencies {
     addTesting()
 
     implementation("androidx.wear:wear:1.4.0")
-    implementation("androidx.wear.tiles:tiles-material:1.1.0")
+    implementation("androidx.wear.tiles:tiles-material:1.6.2")
 }

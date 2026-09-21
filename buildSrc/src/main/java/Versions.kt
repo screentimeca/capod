@@ -9,7 +9,7 @@ object Versions {
     }
 
     object Dagger {
-        const val core = "2.57.2"
+        const val core = "2.60.1"
     }
 
     object Moshi {
@@ -20,7 +20,7 @@ object Versions {
         const val core = ""
 
         object Navigation {
-            const val core = "2.7.3"
+            const val core = "2.10.1"
         }
 
         object Testing {
