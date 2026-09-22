@@ -13,11 +13,17 @@ object Versions {
     }
 
     object Moshi {
-        const val core = "1.14.0"
+        // 1.15+ is required for KSP2 codegen support.
+        const val core = "1.15.2"
     }
 
     object AndroidX {
         const val core = ""
+
+        object Hilt {
+            // 1.2+ is required for KSP support.
+            const val core = "1.2.0"
+        }
 
         object Navigation {
             const val core = "2.10.1"

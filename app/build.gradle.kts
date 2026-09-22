@@ -1,7 +1,9 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
+    // KSP needs KGP, so AGP's built-in Kotlin is off (android.builtInKotlin=false).
     id("com.android.application")
-    id("kotlin-android")
-    id("kotlin-kapt")
+    kotlin("android")
     id("com.google.devtools.ksp")
     id("kotlin-parcelize")
 }
@@ -41,11 +43,6 @@ android {
         create("foss") {
             dimension = "version"
             signingConfig = signingConfigs["releaseFoss"]
-            // The info block is encrypted and can only be read by google
-            dependenciesInfo {
-                includeInApk = false
-                includeInBundle = false
-            }
         }
         create("gplay") {
             dimension = "version"
@@ -86,19 +83,6 @@ android {
         }
     }
 
-    buildOutputs.all {
-        val variantOutputImpl = this as com.android.build.gradle.internal.api.BaseVariantOutputImpl
-        val variantName: String = variantOutputImpl.name
-
-        if (listOf("release", "beta").any { variantName.toLowerCase().contains(it) }) {
-            val outputFileName = ProjectConfig.packageName +
-                    "-v${defaultConfig.versionName}-${defaultConfig.versionCode}" +
-                    "-${variantName.toUpperCase()}.apk"
-
-            variantOutputImpl.outputFileName = outputFileName
-        }
-    }
-
     buildFeatures {
         viewBinding = true
     }
@@ -109,17 +93,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
-    kotlinOptions {
-        jvmTarget = "17"
-        freeCompilerArgs = freeCompilerArgs + listOf(
-            "-opt-in=kotlin.ExperimentalStdlibApi",
-            "-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi",
-            "-opt-in=kotlinx.coroutines.FlowPreview",
-            "-opt-in=kotlin.time.ExperimentalTime",
-            "-opt-in=kotlin.RequiresOptIn"
-        )
-    }
-
 //    testOptions {
 //        unitTests {
 //            isIncludeAndroidResources = true
@@ -128,6 +101,29 @@ android {
 //            useJUnitPlatform()
 //        }
 //    }
+}
+
+androidComponents {
+    // The dependency info block is encrypted and can only be read by Google, so keep it out of FOSS builds.
+    // Since AGP 9 this is no longer configurable per product flavor in the DSL.
+    beforeVariants(selector().withFlavor("version" to "foss")) { variantBuilder ->
+        variantBuilder.dependenciesInfo.includeInApk = false
+        variantBuilder.dependenciesInfo.includeInBundle = false
+    }
+}
+
+// AGP 9 dropped the android.kotlinOptions DSL, these live on the Kotlin extension now.
+kotlin {
+    compilerOptions {
+        jvmTarget.set(JvmTarget.JVM_17)
+        freeCompilerArgs.addAll(
+            "-opt-in=kotlin.ExperimentalStdlibApi",
+            "-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi",
+            "-opt-in=kotlinx.coroutines.FlowPreview",
+            "-opt-in=kotlin.time.ExperimentalTime",
+            "-opt-in=kotlin.RequiresOptIn",
+        )
+    }
 }
 
 dependencies {

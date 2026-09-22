@@ -1,7 +1,9 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
+    // KSP needs KGP, so AGP's built-in Kotlin is off (android.builtInKotlin=false).
     id("com.android.library")
-    id("kotlin-android")
-    id("kotlin-kapt")
+    kotlin("android")
     id("com.google.devtools.ksp")
     id("kotlin-parcelize")
 }
@@ -13,7 +15,6 @@ android {
 
     defaultConfig {
         minSdk = ProjectConfig.minSdk
-        targetSdk = ProjectConfig.targetSdk
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
@@ -33,16 +34,6 @@ android {
         isCoreLibraryDesugaringEnabled = true
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
-    }
-
-    kotlinOptions {
-        jvmTarget = "17"
-        freeCompilerArgs = freeCompilerArgs + listOf(
-            "-opt-in=kotlin.ExperimentalStdlibApi",
-            "-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi",
-            "-opt-in=kotlin.time.ExperimentalTime",
-            "-opt-in=kotlin.ExperimentalUnsignedTypes",
-        )
     }
 
     flavorDimensions.add("version")
@@ -82,6 +73,19 @@ android {
 //            useJUnitPlatform()
 //        }
 //    }
+}
+
+// AGP 9 dropped the android.kotlinOptions DSL, these live on the Kotlin extension now.
+kotlin {
+    compilerOptions {
+        jvmTarget.set(JvmTarget.JVM_17)
+        freeCompilerArgs.addAll(
+            "-opt-in=kotlin.ExperimentalStdlibApi",
+            "-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi",
+            "-opt-in=kotlin.time.ExperimentalTime",
+            "-opt-in=kotlin.ExperimentalUnsignedTypes",
+        )
+    }
 }
 
 dependencies {
