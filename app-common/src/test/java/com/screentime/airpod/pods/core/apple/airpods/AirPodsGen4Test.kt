@@ -7,21 +7,23 @@ import com.screentime.airpod.pods.core.apple.HasAppleColor
 import io.kotest.matchers.shouldBe
 import kotlinx.coroutines.test.runTest
 import org.junit.jupiter.api.Test
+import com.screentime.airpod.common.uShort
+import com.screentime.airpod.common.uByte
 
 class AirPodsGen4Test : BaseAirPodsTest() {
 
     @Test
     fun `AirPods Gen4 via log from #225`() = runTest {
         create<AirPodsGen4>("07 19 01 19 20 2B 33 8F 11 00 04 59 D4 57 20 0F 1C 13 38 B2 00 74 E9 DD 70 D7 A5") {
-            rawPrefix shouldBe 0x01.toUByte()
-            rawDeviceModel shouldBe 0x1920.toUShort()
-            rawStatus shouldBe 0x2B.toUByte()
-            rawPodsBattery shouldBe 0x33.toUByte()
-            rawFlags shouldBe 0x8.toUShort()
-            rawCaseBattery shouldBe 0xF.toUShort()
-            rawCaseLidState shouldBe 0x11.toUByte()
-            rawDeviceColor shouldBe 0x00.toUByte()
-            rawSuffix shouldBe 0x04.toUByte()
+            rawPrefix shouldBe uByte(0x01)
+            rawDeviceModel shouldBe uShort(0x1920)
+            rawStatus shouldBe uByte(0x2B)
+            rawPodsBattery shouldBe uByte(0x33)
+            rawFlags shouldBe uShort(0x8)
+            rawCaseBattery shouldBe uShort(0xF)
+            rawCaseLidState shouldBe uByte(0x11)
+            rawDeviceColor shouldBe uByte(0x00)
+            rawSuffix shouldBe uByte(0x04)
 
             batteryLeftPodPercent shouldBe 0.3f
             batteryRightPodPercent shouldBe 0.3f

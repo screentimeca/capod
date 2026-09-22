@@ -15,6 +15,7 @@ import com.screentime.airpod.pods.core.apple.DualApplePods
 import com.screentime.airpod.pods.core.apple.protocol.ProximityPairing
 import java.time.Instant
 import javax.inject.Inject
+import com.screentime.airpod.common.uShort
 
 /**
  * AirPods Pro2 clone
@@ -162,7 +163,7 @@ data class FakeAirPodsPro2 constructor(
     }
 
     companion object {
-        private val DEVICE_CODE = 0x1420.toUShort()
+        private val DEVICE_CODE = uShort(0x1420)
         private val TAG = logTag("PodDevice", "Apple", "Fake", "AirPods", "Pro2")
     }
 }

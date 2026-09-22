@@ -4,6 +4,8 @@ import com.screentime.airpod.pods.core.apple.airpods.HasStateDetectionAirPods
 import io.kotest.matchers.shouldBe
 import kotlinx.coroutines.test.runTest
 import org.junit.jupiter.api.Test
+import com.screentime.airpod.common.uShort
+import com.screentime.airpod.common.uByte
 
 class DualApplePodsTest : BaseAirPodsTest() {
 
@@ -11,15 +13,15 @@ class DualApplePodsTest : BaseAirPodsTest() {
     fun `test bit mapping`() = runTest {
         create<DualApplePods>("07 19 01 0E 20 54 AA B5 31 00 00 E0 0C A7 8A 60 4B D3 7D F4 60 4F 2C 73 E9 A7 F4") {
 
-            rawPrefix shouldBe 0x01.toUByte()
-            rawDeviceModel shouldBe 0x0e20.toUShort()
-            rawStatus shouldBe 0x54.toUByte()
-            rawPodsBattery shouldBe 0xAA.toUByte()
-            rawFlags shouldBe 0xB.toUShort()
-            rawCaseBattery shouldBe 0x5.toUShort()
-            rawCaseLidState shouldBe 0x31.toUByte()
-            rawDeviceColor shouldBe 0x00.toUByte()
-            rawSuffix shouldBe 0x00.toUByte()
+            rawPrefix shouldBe uByte(0x01)
+            rawDeviceModel shouldBe uShort(0x0e20)
+            rawStatus shouldBe uByte(0x54)
+            rawPodsBattery shouldBe uByte(0xAA)
+            rawFlags shouldBe uShort(0xB)
+            rawCaseBattery shouldBe uShort(0x5)
+            rawCaseLidState shouldBe uByte(0x31)
+            rawDeviceColor shouldBe uByte(0x00)
+            rawSuffix shouldBe uByte(0x00)
         }
     }
 

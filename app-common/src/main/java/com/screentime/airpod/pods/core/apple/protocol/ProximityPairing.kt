@@ -57,8 +57,10 @@ object ProximityPairing {
     }
 
     private const val CONTINUITY_PROTOCOL_MESSAGE_LENGTH = 27
-    internal val CONTINUITY_PROTOCOL_MESSAGE_TYPE_PROXIMITY_PAIRING = 0x07.toUByte()
+    // Use unsigned literals: Kotlin 2.2's IR const evaluator crashes on Int.toUByte()/toUShort().
+    internal val CONTINUITY_PROTOCOL_MESSAGE_TYPE_PROXIMITY_PAIRING: UByte = 0x07u
 
     // This is the default message length among official Apple devices, clones may have different length
     internal const val PAIRING_MESSAGE_LENGTH = 25
+    internal val PAIRING_MESSAGE_LENGTH_UBYTE: UByte = 25u
 }

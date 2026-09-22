@@ -12,6 +12,7 @@ import com.screentime.airpod.pods.core.apple.ApplePodsFactory
 import com.screentime.airpod.pods.core.apple.protocol.ProximityPairing
 import java.time.Instant
 import javax.inject.Inject
+import com.screentime.airpod.common.uShort
 
 /**
  * Similar data structure but a lot of placeholder values or hardcoded values
@@ -144,7 +145,7 @@ data class FakeAirPodsGen2 constructor(
     }
 
     companion object {
-        private val DEVICE_CODE = 0x0F20.toUShort()
+        private val DEVICE_CODE = uShort(0x0F20)
         private val TAG = logTag("PodDevice", "Apple", "Fake", "AirPods", "Gen2")
     }
 }

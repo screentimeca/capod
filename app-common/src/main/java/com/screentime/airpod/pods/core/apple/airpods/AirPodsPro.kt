@@ -12,6 +12,7 @@ import com.screentime.airpod.pods.core.apple.DualApplePodsFactory
 import com.screentime.airpod.pods.core.apple.protocol.ProximityPairing
 import java.time.Instant
 import javax.inject.Inject
+import com.screentime.airpod.common.uShort
 
 data class AirPodsPro(
     override val identifier: PodDevice.Id = PodDevice.Id(),
@@ -83,7 +84,7 @@ data class AirPodsPro(
     }
 
     companion object {
-        private val DEVICE_CODE = 0x0e20.toUShort()
+        private val DEVICE_CODE = uShort(0x0e20)
         private val TAG = logTag("PodDevice", "Apple", "AirPods", "Pro")
     }
 }

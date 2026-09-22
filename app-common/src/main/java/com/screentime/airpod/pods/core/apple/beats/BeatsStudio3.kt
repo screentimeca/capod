@@ -9,6 +9,7 @@ import com.screentime.airpod.pods.core.apple.SingleApplePodsFactory
 import com.screentime.airpod.pods.core.apple.protocol.ProximityPairing
 import java.time.Instant
 import javax.inject.Inject
+import com.screentime.airpod.common.uByte
 
 data class BeatsStudio3(
     override val identifier: PodDevice.Id = PodDevice.Id(),
@@ -50,7 +51,7 @@ data class BeatsStudio3(
     }
 
     companion object {
-        private val DEVICE_CODE_DIRTY = 9.toUByte()
+        private val DEVICE_CODE_DIRTY = uByte(9)
         private val TAG = logTag("PodDevice", "Beats", "Studio", "3")
     }
 }

@@ -12,6 +12,7 @@ import com.screentime.airpod.pods.core.apple.ApplePodsFactory
 import com.screentime.airpod.pods.core.apple.protocol.ProximityPairing
 import java.time.Instant
 import javax.inject.Inject
+import com.screentime.airpod.common.uShort
 
 /**
  * AirPods Gen3 clone
@@ -147,7 +148,7 @@ data class FakeAirPodsGen3 constructor(
     }
 
     companion object {
-        private val DEVICE_CODE = 0x1320.toUShort()
+        private val DEVICE_CODE = uShort(0x1320)
         private val TAG = logTag("PodDevice", "Apple", "Fake", "AirPods", "Gen3")
     }
 }

@@ -6,6 +6,8 @@ import com.screentime.airpod.pods.core.apple.HasAppleColor
 import io.kotest.matchers.shouldBe
 import kotlinx.coroutines.test.runTest
 import org.junit.jupiter.api.Test
+import com.screentime.airpod.common.uShort
+import com.screentime.airpod.common.uByte
 
 class AirPodsPro2Test : BaseAirPodsTest() {
 
@@ -16,15 +18,15 @@ class AirPodsPro2Test : BaseAirPodsTest() {
     fun `test AirPods Pro 2 - unknown setup from #31`() = runTest {
         create<AirPodsPro2>("07 19 01 14 20 55 88 F9 51 00 04 20 50 03 CA D5 C9 AC 0F FA 84 78 94 5A 4D DF F5") {
 
-            rawPrefix shouldBe 0x01.toUByte()
-            rawDeviceModel shouldBe 0x1420.toUShort()
-            rawStatus shouldBe 0x55.toUByte()
-            rawPodsBattery shouldBe 0x88.toUByte()
-            rawFlags shouldBe 0xF.toUShort()
-            rawCaseBattery shouldBe 0x9.toUShort()
-            rawCaseLidState shouldBe 0x51.toUByte()
-            rawDeviceColor shouldBe 0x0.toUByte()
-            rawSuffix shouldBe 0x04.toUByte()
+            rawPrefix shouldBe uByte(0x01)
+            rawDeviceModel shouldBe uShort(0x1420)
+            rawStatus shouldBe uByte(0x55)
+            rawPodsBattery shouldBe uByte(0x88)
+            rawFlags shouldBe uShort(0xF)
+            rawCaseBattery shouldBe uShort(0x9)
+            rawCaseLidState shouldBe uByte(0x51)
+            rawDeviceColor shouldBe uByte(0x0)
+            rawSuffix shouldBe uByte(0x04)
 
             isLeftPodMicrophone shouldBe true
             isRightPodMicrophone shouldBe false
@@ -53,15 +55,15 @@ class AirPodsPro2Test : BaseAirPodsTest() {
     fun `test AirPods Pro 2 - unknown setup from reddit user`() = runTest {
         create<AirPodsPro2>("07 19 01 14 20 2B 9A 8F 01 00 04 0F 26 1A C4 2B FA 2F B9 B6 08 CD 60 CB DF 75 AB") {
 
-            rawPrefix shouldBe 0x01.toUByte()
-            rawDeviceModel shouldBe 0x1420.toUShort()
-            rawStatus shouldBe 0x2B.toUByte()
-            rawPodsBattery shouldBe 0x9A.toUByte()
-            rawFlags shouldBe 0x8.toUShort()
-            rawCaseBattery shouldBe 0xF.toUShort()
-            rawCaseLidState shouldBe 0x01.toUByte()
-            rawDeviceColor shouldBe 0x0.toUByte()
-            rawSuffix shouldBe 0x04.toUByte()
+            rawPrefix shouldBe uByte(0x01)
+            rawDeviceModel shouldBe uShort(0x1420)
+            rawStatus shouldBe uByte(0x2B)
+            rawPodsBattery shouldBe uByte(0x9A)
+            rawFlags shouldBe uShort(0x8)
+            rawCaseBattery shouldBe uShort(0xF)
+            rawCaseLidState shouldBe uByte(0x01)
+            rawDeviceColor shouldBe uByte(0x0)
+            rawSuffix shouldBe uByte(0x04)
 
             isLeftPodMicrophone shouldBe true
             isRightPodMicrophone shouldBe false

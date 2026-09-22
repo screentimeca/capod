@@ -5,6 +5,8 @@ import com.screentime.airpod.pods.core.apple.BaseAirPodsTest
 import io.kotest.matchers.shouldBe
 import kotlinx.coroutines.test.runTest
 import org.junit.jupiter.api.Test
+import com.screentime.airpod.common.uShort
+import com.screentime.airpod.common.uByte
 
 class BeatsFlexText : BaseAirPodsTest() {
 
@@ -12,15 +14,15 @@ class BeatsFlexText : BaseAirPodsTest() {
     @Test
     fun `default BeatsFlex`() = runTest {
         create<BeatsFlex>("07 19 01 10 20 0A F4 8F 00 01 00 C4 71 9F 9C EF A2 E3 BA 66 FE 1D 45 9F C9 2F A0") {
-            rawPrefix shouldBe 0x01.toUByte()
-            rawDeviceModel shouldBe 0x1020.toUShort()
-            rawStatus shouldBe 0x0A.toUByte()
-            rawPodsBattery shouldBe 0xF4.toUByte()
-            rawFlags shouldBe 0x8.toUShort()
-            rawCaseBattery shouldBe 0xF.toUShort()
-            rawCaseLidState shouldBe 0x00.toUByte()
-            rawDeviceColor shouldBe 0x01.toUByte()
-            rawSuffix shouldBe 0x00.toUByte()
+            rawPrefix shouldBe uByte(0x01)
+            rawDeviceModel shouldBe uShort(0x1020)
+            rawStatus shouldBe uByte(0x0A)
+            rawPodsBattery shouldBe uByte(0xF4)
+            rawFlags shouldBe uShort(0x8)
+            rawCaseBattery shouldBe uShort(0xF)
+            rawCaseLidState shouldBe uByte(0x00)
+            rawDeviceColor shouldBe uByte(0x01)
+            rawSuffix shouldBe uByte(0x00)
 
             batteryHeadsetPercent shouldBe 0.4f
 

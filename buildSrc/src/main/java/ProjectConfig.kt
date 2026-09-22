@@ -1,5 +1,5 @@
+import com.android.build.api.dsl.LibraryExtension
 import com.android.build.api.dsl.Packaging
-import com.android.build.gradle.LibraryExtension
 import org.gradle.api.JavaVersion
 import java.io.File
 import java.io.FileInputStream

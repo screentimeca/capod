@@ -6,6 +6,8 @@ import com.screentime.airpod.pods.core.apple.HasAppleColor
 import io.kotest.matchers.shouldBe
 import kotlinx.coroutines.test.runTest
 import org.junit.jupiter.api.Test
+import com.screentime.airpod.common.uShort
+import com.screentime.airpod.common.uByte
 
 class AirPodsProTest : BaseAirPodsTest() {
 
@@ -13,15 +15,15 @@ class AirPodsProTest : BaseAirPodsTest() {
     fun `test AirPods Pro - default changed and in case`() = runTest {
         create<AirPodsPro>("07 19 01 0E 20 54 AA B5 31 00 00 E0 0C A7 8A 60 4B D3 7D F4 60 4F 2C 73 E9 A7 F4") {
 
-            rawPrefix shouldBe 0x01.toUByte()
-            rawDeviceModel shouldBe 0x0e20.toUShort()
-            rawStatus shouldBe 0x54.toUByte()
-            rawPodsBattery shouldBe 0xAA.toUByte()
-            rawFlags shouldBe 0xB.toUShort()
-            rawCaseBattery shouldBe 0x5.toUShort()
-            rawCaseLidState shouldBe 0x31.toUByte()
-            rawDeviceColor shouldBe 0x00.toUByte()
-            rawSuffix shouldBe 0x00.toUByte()
+            rawPrefix shouldBe uByte(0x01)
+            rawDeviceModel shouldBe uShort(0x0e20)
+            rawStatus shouldBe uByte(0x54)
+            rawPodsBattery shouldBe uByte(0xAA)
+            rawFlags shouldBe uShort(0xB)
+            rawCaseBattery shouldBe uShort(0x5)
+            rawCaseLidState shouldBe uByte(0x31)
+            rawDeviceColor shouldBe uByte(0x00)
+            rawSuffix shouldBe uByte(0x00)
 
             isLeftPodMicrophone shouldBe true
             isRightPodMicrophone shouldBe false
@@ -177,7 +179,7 @@ class AirPodsProTest : BaseAirPodsTest() {
     @Test
     fun `left pod has no data`() = runTest {
         create<AirPodsPro>("07 19 01 0E 20 0B F9 8F 03 00 05 5B 59 67 4C F7 F3 EF 01 BA F4 92 1B 26 E4 90 40") {
-            rawPodsBattery shouldBe 0xF9.toUByte()
+            rawPodsBattery shouldBe uByte(0xF9)
 
             batteryLeftPodPercent shouldBe null
             batteryRightPodPercent shouldBe 0.9f

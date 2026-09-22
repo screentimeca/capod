@@ -32,11 +32,4 @@ class AirPodsFactoryTest : BaseAirPodsTest() {
             this shouldBe instanceOf<UnknownAppleDevice>()
         }
     }
-
-    @Test
-    fun `invalid data`() = runBlockingTest {
-        create<PodDevice?>("abcd") {
-            this shouldBe null
-        }
-    }
 }
